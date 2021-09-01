@@ -1,0 +1,9 @@
+﻿{
+ "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:sweet_berries"
+    },
+		"result": "minecraft:red_dye",
+		"experience": 0.2,
+		"cookingtime": 200
+}

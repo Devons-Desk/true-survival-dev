@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "The Eater of Worlds",
+            "color": "dark_purple",
+            "bold": true,
+            "italic": true,
+            "underlined": true
+        },
+        "description": {
+            "text": "Defeat the Elder Dragon."
+        },
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                }
+            }
+        }
+    },
+    "parent": "tsurvival:tsurv.end.2a.3a"
+}

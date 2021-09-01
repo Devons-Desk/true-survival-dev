@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:nether_wart",Count:1b,tag:{tsurv.detector:1b}}}] at @s run function tsurvival:hardermobs/silverfish/summon

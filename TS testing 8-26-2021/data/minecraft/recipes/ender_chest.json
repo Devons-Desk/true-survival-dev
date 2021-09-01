@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "OEO",
+        "ODO",
+		"OEO"
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:obsidian"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        },
+		"D": {
+            "item": "minecraft:ender_eye"
+        }
+	},
+    "result": {
+		"item": "minecraft:ender_chest",
+		"count": 1
+	}
+}

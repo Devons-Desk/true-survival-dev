@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    {"required": false, "id": "farmersdelight:test"},
+    "minecraft:enchanted_golden_apple",
+    "minecraft:glow_berries",
+    "minecraft:pumpkin_pie",
+    "minecraft:sweet_berries",
+    "minecraft:golden_apple",
+    "minecraft:apple",
+    "minecraft:melon_slice",
+    "minecraft:cookie",
+    "minecraft:chorus_fruit"
+  ]
+}

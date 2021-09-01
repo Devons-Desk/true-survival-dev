@@ -1,0 +1,8 @@
+{
+    "replace":true,
+    "values":[
+        "minecraft:phantom",
+		"minecraft:ghast",
+		"minecraft:vex"	
+    ]
+}

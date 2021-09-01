@@ -1,0 +1,128 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bundle",
+            "functions": [
+              {
+                "function": "minecraft:set_contents",
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": [
+                  {
+                    "text": "Bastion Bundle",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bundle",
+            "functions": [
+              {
+                "function": "minecraft:set_contents",
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shield"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": [
+                  {
+                    "text": "Bastion Bundle",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bundle",
+            "functions": [
+              {
+                "function": "minecraft:set_contents",
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gilded_blackstone",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": [
+                  {
+                    "text": "Bastion Bundle",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bundle",
+            "functions": [
+              {
+                "function": "minecraft:set_contents",
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lantern",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 32
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": [
+                  {
+                    "text": "Bastion Bundle",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

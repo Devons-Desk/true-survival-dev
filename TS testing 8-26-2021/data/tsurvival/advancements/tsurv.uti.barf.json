@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "barfing"
+        },
+        "description": {
+            "text": "Husks apply uh oh effects"
+        },
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "bite": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:husk"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tsurvival:hardermobs/husk"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    {"required": false, "id": "farmersdelight:test"},
+    "minecraft:beetroot_soup",
+    "minecraft:suspicious_stew",
+    "minecraft:mushroom_stew",
+    "minecraft:baked_potato",
+    "minecraft:dried_kelp",
+    "minecraft:rabbit_stew",
+    "minecraft:golden_carrot",
+    "minecraft:carrot",
+    "minecraft:potato"
+  ]
+}

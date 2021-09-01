@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P",
+    "L"
+  ],
+  "key": {
+    "L": {
+      "tag": "tsurvival:lights"
+    },
+    "P": [
+      {
+        "item": "minecraft:pumpkin"
+      },
+      {
+        "item": "minecraft:carved_pumpkin"
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:jack_o_lantern",
+    "count": 1
+  }
+}

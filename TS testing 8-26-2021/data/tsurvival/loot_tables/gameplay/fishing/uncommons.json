@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Stained Brush\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Its bristles cling together,\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"bound by its own history.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Prime\",\"color\":\"dark_green\"}']},CustomModelData:5101111,tsurv.trophy:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magenta_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Enderic Eye\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Don\\'t stare into the abyss.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The abyss hits back.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Hinge\",\"color\":\"dark_green\"}']},CustomModelData:5101110,tsurv.trophy:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Ruby Geode\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"A gem rarer than emerald...\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"A gem lost to time.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- notbadkid\",\"color\":\"dark_green\"}']},CustomModelData:5101101,tsurv.trophy:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "position": {
+                  "y": {
+                    "min": -64,
+                    "max": 0
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Certificate of Skill\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Congratulations! You are\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"the first player to hit 1000\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"natural deaths per day!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- BearForceUno\",\"color\":\"dark_green\"}']},CustomModelData:5101105,tsurv.trophy:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

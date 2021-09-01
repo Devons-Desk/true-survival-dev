@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Zero Interest Banking",
+            "color": "dark_green",
+            "italic": true
+        },
+        "description": {
+            "text": "Place an ender chest crafted from two emerald blocks. "
+        },
+        "icon": {
+            "item": "minecraft:ender_chest"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enderchest": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:ender_chest"
+            }
+        }
+    },
+    "parent": "tsurvival:tsurv.end.2a.3a"
+}

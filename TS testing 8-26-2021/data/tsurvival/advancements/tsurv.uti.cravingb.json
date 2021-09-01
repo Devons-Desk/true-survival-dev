@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:air"
+      },
+      "title": {
+        "text": "cravings baked"
+      },
+      "description": {
+        "text": "detecting for player eating craven baked goods."
+      },
+      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "fishingtrophies": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"tsurv.cravingb\"]}"
+          },
+          "item": {
+            "tag": "tsurvival:cravings/baked"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tsurvival:sleep/cravings/effects/baked"
+    }
+  }
+  

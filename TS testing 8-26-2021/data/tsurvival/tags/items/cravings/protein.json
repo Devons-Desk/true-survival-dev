@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {"required": false, "id": "farmersdelight:test"},
+    "minecraft:cooked_beef",
+    "minecraft:cooked_cod",
+    "minecraft:cooked_salmon",
+    "minecraft:cooked_porkchop",
+    "minecraft:cooked_chicken",
+    "minecraft:rabbit_stew",
+    "minecraft:cooked_rabbit"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "feet": {
+          "items": ["minecraft:chainmail_boots"]
+        },
+        "legs": {
+          "items": ["minecraft:chainmail_leggings"]
+        },
+        "chest": {
+          "items": ["minecraft:chainmail_chestplate"]
+        },
+        "head": {
+          "items": ["minecraft:chainmail_helmet"]
+        }
+      }
+    }
+  }
+  

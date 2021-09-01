@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "craft horn"
+        },
+        "description": {
+            "text": "special effects from crafting"
+        },
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "lumberjack": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{Tags:[\"global.ignore\",\"tsurv.crafter\"]}"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:nautilus_shell"
+                    ],
+                    "nbt": "{tsurv.horn:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tsurvival:crafter/craft_horn"
+    }
+}

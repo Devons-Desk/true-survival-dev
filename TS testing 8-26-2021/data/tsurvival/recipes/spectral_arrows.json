@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "AAA",
+        "AGA",
+		"AAA"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:glow_ink_sac"
+        },
+        "A": {
+            "item": "minecraft:arrow"
+        }
+	},
+    "result": {
+		"item": "minecraft:spectral_arrow",
+		"count": 8
+	}
+}

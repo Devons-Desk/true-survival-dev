@@ -1,0 +1,2 @@
+execute as @e[type=#tsurvival:tsurv.converters,tag=!tsurv.converting] at @s if data entity @s CustomName if predicate tsurvival:tsurv.weakcheck run function tsurvival:illager_conversion/conversion
+schedule function tsurvival:illager_conversion/detection 10t

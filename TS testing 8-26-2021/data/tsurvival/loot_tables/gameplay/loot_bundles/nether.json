@@ -1,0 +1,86 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bundle",
+            "functions": [
+              {
+                "function": "minecraft:set_contents",
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:compass"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lodestone"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bundle",
+            "functions": [
+              {
+                "function": "minecraft:set_contents",
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shield"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bundle",
+            "functions": [
+              {
+                "function": "minecraft:set_contents",
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:soul_campfire",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 8
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bundle",
+            "functions": [
+              {
+                "function": "minecraft:set_contents",
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:soul_torch",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 64
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

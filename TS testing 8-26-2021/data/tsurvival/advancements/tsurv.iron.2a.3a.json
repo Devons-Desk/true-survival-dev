@@ -1,0 +1,76 @@
+{
+    "display": {
+        "title": {
+            "text": "The Chain Veil",
+            "italic": true
+        },
+        "description": {
+            "text": "Craft a piece of chainmail armor from chains."
+        },
+        "icon": {
+            "item": "minecraft:chainmail_helmet"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "chainhelm": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:chainmail_helmet"
+                        ]
+                    }
+                ]
+            }
+        },
+        "chainshirt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:chainmail_chestplate"
+                        ]
+                    }
+                ]
+            }
+        },
+        "chainpants": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:chainmail_leggings"
+                        ]
+                    }
+                ]
+            }
+        },
+        "chainshoes": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:chainmail_boots"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "chainhelm",
+            "chainshirt",
+            "chainpants",
+            "chainshoes"
+        ]
+    ],
+    "parent": "tsurvival:tsurv.iron.1a.2a"
+}

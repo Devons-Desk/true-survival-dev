@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Grass is gas!",
+            "italic": true
+        },
+        "description": {
+            "text": "Acquire a piece of kindling. Use it to make more torches."
+        },
+        "icon": {
+            "item": "minecraft:grass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "grass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:grass"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "tsurvival:tsurv.iron.2a.3b"
+}

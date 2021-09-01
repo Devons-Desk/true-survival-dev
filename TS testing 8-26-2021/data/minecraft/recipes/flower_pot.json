@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "B B",
+		" B "
+    ],
+    "key": {
+        "B": {
+            "tag": "tsurvival:bricks"
+        }
+	},
+    "result": {
+		"item": "minecraft:flower_pot",
+		"count": 1
+	}
+}

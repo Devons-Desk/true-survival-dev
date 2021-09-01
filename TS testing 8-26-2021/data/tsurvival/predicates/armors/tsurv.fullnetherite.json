@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "feet": {
+          "items": ["minecraft:netherite_boots"]
+        },
+        "legs": {
+          "items": ["minecraft:netherite_leggings"]
+        },
+        "chest": {
+          "items": ["minecraft:netherite_chestplate"]
+        },
+        "head": {
+          "items": ["minecraft:netherite_helmet"]
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    {"required": false, "id": "farmersdelight:test"},
+    "minecraft:bread",
+    "minecraft:cake",
+    "minecraft:pumpkin_pie",
+    "minecraft:cookie"
+  ]
+}

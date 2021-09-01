@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "items": [
+            "minecraft:nautilus_shell"
+          ],
+          "count": 1,
+          "nbt": "{tsurv.horn:1b}"
+        }
+      }
+    }
+  }
+  

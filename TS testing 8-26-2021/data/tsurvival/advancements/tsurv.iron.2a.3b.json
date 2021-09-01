@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Shear Luck",
+            "italic": true
+        },
+        "description": {
+            "text": "Craft a pair of shears."
+        },
+        "icon": {
+            "item": "minecraft:shears"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "shears": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:shears"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "tsurvival:tsurv.iron.1a.2a"
+}

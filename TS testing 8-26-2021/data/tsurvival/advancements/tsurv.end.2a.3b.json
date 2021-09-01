@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "You're enchanting!",
+            "color": "dark_green",
+            "italic": true
+        },
+        "description": {
+            "text": "Craft an enchantment table using an emerald block."
+        },
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:enchanting_table"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "tsurvival:tsurv.end.1a.2a"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:dark_oak_sapling"
+  },
+  "result": "minecraft:dead_bush",
+  "experience": 0.35,
+  "cookingtime": 100
+}

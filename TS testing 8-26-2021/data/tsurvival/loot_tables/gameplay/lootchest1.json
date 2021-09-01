@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20
+            }
+          ]
+        },
+		{
+		"type": "minecraft:item",
+		"name": "minecraft:nautilus_shell",
+		"functions": [
+			{
+			  "function": "minecraft:set_nbt",
+			  "tag": "{display:{Name:'{\"text\":\"War Horn\",\"color\":\"aqua\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Put into offhand to sound the horn.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101002,tsurv.horn:1b}"
+			  }
+			]
+		},
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6,
+				"type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6,
+				"type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

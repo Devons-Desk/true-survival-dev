@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Apple of Origination\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"11\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"18\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"11 \",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- TimeDragon\",\"color\":\"dark_green\"}']},CustomModelData:5101108,tsurv.trophy:1b,Enchantments:[{}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Faded Scroll\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Thanks for playing!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"~True Survival~\",\"color\":\"dark_green\"}']},CustomModelData:5101106,tsurv.trophy:1b,title:\"Triumph\",author:\"Devon's Desk\",generation:0,pages:['{\"text\":\"Lords may take by miles. \\\\nKings may take by horizons. \\\\nBut they are no more. \\\\nInches will do just fine.\"}']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Ancient Gear\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"The race of industry\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"has been brought to a crawl.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Galdeveer\",\"color\":\"dark_green\"}']},CustomModelData:5101102,tsurv.trophy:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "feature": "stronghold"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+    "display": {
+        "title": {
+            "text": "deepspiders"
+        },
+        "description": {
+            "text": "spiders in the deep use cobweb attacks"
+        },
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "bite": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "source_entity": {
+                        "type": "minecraft:spider",
+                        "location": {
+                            "position": {
+                                "y": {
+                                    "min": -64,
+                                    "max": 0
+                                }
+                                
+                            }
+                            
+                        },
+                        "effects": {
+                            "minecraft:speed": {
+                                "amplifier": {
+                                    "min": 0,
+                                    "max": 1
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tsurvival:hardermobs/deepmobs/spiders/detection"
+    }
+}

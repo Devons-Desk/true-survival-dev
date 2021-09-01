@@ -1,0 +1,1 @@
+data merge entity @e[type=wither,limit=1,nbt={NoAI:1b}] {NoAI:0b}

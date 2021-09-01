@@ -1,0 +1,1 @@
+execute as @e[type=polar_bear,limit=1,tag=!tsurv.freed,distance=..3] at @s run function tsurvival:fishtraps/free_bear

@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Local Artisans",
+            "color": "dark_green",
+            "italic": true
+        },
+        "description": {
+            "text": "Trade with a wandering trader.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:bread"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "wtrade": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": 
+                    {
+                        "type": "minecraft:wandering_trader",
+                        "nbt": "{Tags:[\"global.ignore\",\"tsurv.trader\"]}"
+                    }
+            }
+        }
+    },
+    "parent": "tsurvival:tsurv.end.1a.2a"
+}

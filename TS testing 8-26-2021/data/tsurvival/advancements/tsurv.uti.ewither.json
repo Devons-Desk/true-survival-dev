@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "witherescape"
+        },
+        "description": {
+            "text": "Allows withers to escape bedrock"
+        },
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "endchant": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tsurvival:hardermobs/wither/escape"
+    }
+}

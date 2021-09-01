@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "feeding potatoes"
+        },
+        "description": {
+            "text": "trigger the pigpoop functions with potatoes"
+        },
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "endchant": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "tag": "tsurvival:pigfood"
+                },
+                "entity": {
+                    "type": "minecraft:pig"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tsurvival:pigs/detection"
+    }
+}

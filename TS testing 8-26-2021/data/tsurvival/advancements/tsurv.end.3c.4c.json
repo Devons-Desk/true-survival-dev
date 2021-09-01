@@ -1,0 +1,47 @@
+{
+    "display": {
+        "title": {
+            "text": "The Curator",
+            "color": "dark_green",
+            "bold": false
+        },
+        "description": {
+            "text": "Collect every unique nomad's item.",
+            "color": "green",
+            "italic": false
+        },
+        "icon": {
+            "item": "minecraft:iron_pickaxe",
+            "nbt" : "{CustomModelData:5101004}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "nomaditems": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:iron_pickaxe"],
+                        "nbt": "{tsurv.fortune:1b}"
+                    },
+                    {
+                        "items": ["minecraft:iron_pickaxe"],
+                        "nbt": "{tsurv.silk:1b}"
+                    },
+                    {
+                        "items": ["minecraft:iron_boots"],
+                        "nbt": "{tsurv.boots:1b}"
+                    },
+                    {
+                        "items": ["minecraft:suspicious_stew"],
+                        "nbt": "{tsurv.brew:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "tsurvival:tsurv.end.2a.3c"
+}

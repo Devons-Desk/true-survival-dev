@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SBS",
+		"SSS"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:spider_eye"
+        },
+        "B": {
+            "item": "minecraft:water_bucket"
+        }
+	},
+    "result": {
+		"item": "minecraft:slime_ball",
+		"count": 1
+	}
+}

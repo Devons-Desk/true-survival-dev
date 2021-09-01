@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Welcome to True Survival!",
+            "color": "dark_red",
+            "bold": true
+        },
+        "description": {
+            "text": "A Devon's Desk Original"
+        },
+        "icon": {
+            "item": "minecraft:soul_campfire"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "Welcome": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+	"loot": [
+            "tsurvival:advancements/starter_kit"
+        ],
+        "experience": 7,
+        "function": "tsurvival:advancement_rewards/root" 
+    }
+}

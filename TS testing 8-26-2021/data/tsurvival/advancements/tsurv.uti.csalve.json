@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "craft salve"
+        },
+        "description": {
+            "text": "special effects from crafting"
+        },
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "lumberjack": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{Tags:[\"global.ignore\",\"tsurv.crafter\"]}"
+                },
+                "item": {
+                    "item": [
+                        "minecraft:beetroot_soup"
+                    ],
+                    "nbt": "{tsurv.salve:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tsurvival:crafter/craft_salve"
+    }
+}

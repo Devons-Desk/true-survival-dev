@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:air"
+      },
+      "title": {
+        "text": "craving veggie"
+      },
+      "description": {
+        "text": "detecting for player eating craven veggie."
+      },
+      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "fishingtrophies": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "player": {
+            "nbt": "{Tags:[\"tsurv.cravingv\"]}"
+          },
+          "item": {
+            "tag": "tsurvival:cravings/veggies"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tsurvival:sleep/cravings/effects/veggie"
+    }
+  }
+  

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Imported Woods",
+            "color": "aqua",
+            "italic": true
+        },
+        "description": {
+            "text": "Purchase wood from a lumberjack villager."
+        },
+        "icon": {
+            "item": "minecraft:barrel"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "lumberjack": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "villager": {
+                    "nbt": "{Tags:[\"global.ignore\",\"tsurv.lumberjack\"]}"
+                }
+            }
+        }
+    },
+    "parent": "tsurvival:tsurv.tree.1a.2a"
+}

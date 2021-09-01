@@ -1,0 +1,47 @@
+{
+    "display": {
+        "title": {
+            "text": "Experienced Angler",
+            "color": "gold",
+            "bold": false
+        },
+        "description": {
+            "text": "Collect all four uncommon fishing trophies.",
+            "color": "green",
+            "italic": false
+        },
+        "icon": {
+            "item": "minecraft:magenta_dye",
+            "nbt" : "{CustomModelData:5101110}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "commons": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:red_dye"],
+                        "nbt": "{tsurv.trophy:1b}"
+                    },
+                    {
+                        "items": ["minecraft:magenta_dye"],
+                        "nbt": "{tsurv.trophy:1b}"
+                    },
+                    {
+                        "items": ["minecraft:clay_ball"],
+                        "nbt": "{tsurv.trophy:1b}"
+                    },
+                    {
+                        "items": ["minecraft:paper"],
+                        "nbt": "{tsurv.trophy:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "tsurvival:tsurv.fish.1a.2a"
+}

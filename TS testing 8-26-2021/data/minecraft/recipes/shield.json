@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "WLW",
+        "LIL",
+		"WLW"
+    ],
+    "key": {
+        "W": {
+            "tag": "minecraft:planks"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        },
+		"I": {
+            "item": "minecraft:iron_block"
+        }
+	},
+    "result": {
+		"item": "minecraft:shield",
+		"count": 1
+	}
+}

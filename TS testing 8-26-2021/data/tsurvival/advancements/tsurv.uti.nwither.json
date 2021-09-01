@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "witherhit"
+        },
+        "description": {
+            "text": "Detection for wither hits"
+        },
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "necrowither": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:wither"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tsurvival:necrowither/detection"
+    }
+}

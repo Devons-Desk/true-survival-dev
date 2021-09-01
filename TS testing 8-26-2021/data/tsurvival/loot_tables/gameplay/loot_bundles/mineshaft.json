@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Items:[{id:\"minecraft:beetroot_soup\",Count:1b,tag:{display:{Name:'{\"text\":\"Healing Salve\",\"color\":\"aqua\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Put into offhand to heal.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101001,tsurv.salve:1b}}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Items:[{id:\"minecraft:shield\",Count:1b}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Items:[{id:\"minecraft:copper_block\",Count:10b}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Items:[{id:\"minecraft:torch\",Count:64b}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "zombiebite"
+        },
+        "description": {
+            "text": "Applies zombie bite effect"
+        },
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "bite": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "#tsurvival:ts_biters"
+                    },
+                    "blocked": false
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tsurvival:hardermobs/biters"
+    }
+}

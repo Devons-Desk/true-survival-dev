@@ -1,0 +1,43 @@
+{
+    "display": {
+        "title": {
+            "text": "deeptorch"
+        },
+        "description": {
+            "text": "deepmobs attack player torches"
+        },
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "bite": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "#tsurvival:tsurv.deepmobs"
+                    },
+                    "blocked": false
+                },
+                "player": {
+                    "location": {
+                        "position": {
+                            "y":{
+                                "min": -64,
+                                "max": 0
+                                }
+                            }
+                        }
+                    }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tsurvival:hardermobs/deepmobs/torches/detection"
+    }
+}

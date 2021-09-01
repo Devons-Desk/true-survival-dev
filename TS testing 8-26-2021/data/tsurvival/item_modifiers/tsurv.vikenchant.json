@@ -1,0 +1,32 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "Viking Axe",
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "The axe's lip hides a sharp tongue.",
+        "color": "gray",
+        "italic": true
+      }
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:sharpness",
+      "minecraft:looting"
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:unbreaking"
+    ]
+  }
+]
