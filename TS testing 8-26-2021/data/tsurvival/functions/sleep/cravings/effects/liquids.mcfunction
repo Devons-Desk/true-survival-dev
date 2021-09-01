@@ -1,5 +1,4 @@
-effect give @s minecraft:absorption 420 0 true
-effect give @s minecraft:strength 420 0 true
+experience add @s 40 points
 tag @s remove tsurv.cravingl
 kill @e[tag=tsurv.cravingicon,sort=nearest,limit=1]
 advancement revoke @s only tsurvival:tsurv.uti.cravingl
