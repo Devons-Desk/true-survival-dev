@@ -1,4 +1,4 @@
-summon snowball ~ ~1 ~ {NoGravity:1b,Tags:["tsurv.cravingicon"],Item:{id:"minecraft:rotten_flesh",Count:1b,tag:{CustomModelData:5101018}}}
+summon snowball ~ ~1 ~ {NoGravity:1b,Tags:["tsurv.cravingicon","tsurv.trashicon"],Item:{id:"minecraft:rotten_flesh",Count:1b,tag:{CustomModelData:5101018}}}
 tag @s add tsurv.cravingt
 tag @s remove tsurv.cravingf
 tag @s remove tsurv.cravingl

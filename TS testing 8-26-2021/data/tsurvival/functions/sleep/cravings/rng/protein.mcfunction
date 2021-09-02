@@ -1,4 +1,4 @@
-summon snowball ~ ~1 ~ {NoGravity:1b,Tags:["tsurv.cravingicon"],Item:{id:"minecraft:cooked_chicken",Count:1b,tag:{CustomModelData:5101015}}}
+summon snowball ~ ~1 ~ {NoGravity:1b,Tags:["tsurv.cravingicon","tsurv.proteinicon"],Item:{id:"minecraft:cooked_chicken",Count:1b,tag:{CustomModelData:5101015}}}
 tag @s add tsurv.cravingp
 tag @s remove tsurv.cravingf
 tag @s remove tsurv.cravingl

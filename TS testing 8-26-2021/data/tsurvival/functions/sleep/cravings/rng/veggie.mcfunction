@@ -1,4 +1,4 @@
-summon snowball ~ ~1 ~ {NoGravity:1b,Tags:["tsurv.cravingicon"],Item:{id:"minecraft:carrot",Count:1b,tag:{CustomModelData:5101014}}}
+summon snowball ~ ~1 ~ {NoGravity:1b,Tags:["tsurv.cravingicon","tsurv.veggieicon"],Item:{id:"minecraft:carrot",Count:1b,tag:{CustomModelData:5101014}}}
 tag @s add tsurv.cravingv
 tag @s remove tsurv.cravingf
 tag @s remove tsurv.cravingl
