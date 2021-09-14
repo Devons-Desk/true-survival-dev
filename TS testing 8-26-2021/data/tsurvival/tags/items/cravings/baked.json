@@ -24,6 +24,7 @@
     {"required": false, "id": "farmersdelight:roast_chicken"},
     {"required": false, "id": "farmersdelight:honey_glazed_ham"},
     {"required": false, "id": "farmersdelight:dog_food"},
+    {"required": false, "id": "farmersdelight:sweet_roll"},
     "minecraft:bread",
     "minecraft:cake",
     "minecraft:pumpkin_pie",

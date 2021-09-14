@@ -28,6 +28,8 @@
     {"required": false, "id": "farmersdelight:ratatouille"},
     {"required": false, "id": "farmersdelight:grilled_salmon"},
     {"required": false, "id": "farmersdelight:honey_glazed_ham"},
+    {"required": false, "id": "farmersdelight:chocolate_glazed_berries"},
+    {"required": false, "id": "farmersdelight:honeyed_apple"},
     "minecraft:enchanted_golden_apple",
     "minecraft:glow_berries",
     "minecraft:pumpkin_pie",
