@@ -49,6 +49,16 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
+                "tag": "{tsurv.gold:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_button",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
                 "tag": "{tsurv.veggie:1b}"
               }
             ]
