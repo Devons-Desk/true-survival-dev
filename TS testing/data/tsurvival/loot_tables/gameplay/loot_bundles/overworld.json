@@ -15,14 +15,14 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101025,Items:[{id:\"minecraft:dragon_breath\",Count:16b}]}"
+              "tag": "{CustomModelData:5101025,Items:[{id:\"minecraft:jukebox\",Count:1b}]}"
             },
             {
               "function": "minecraft:set_name",
               "name": [
                 {
                   "text": "Overworld Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]
@@ -47,7 +47,7 @@
               "name": [
                 {
                   "text": "Overworld Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]
@@ -65,14 +65,14 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101025,Items:[{id:\"minecraft:end_stone\",Count:16b},{id:\"minecraft:chorus_flower\",Count:16b}]}"
+              "tag": "{CustomModelData:5101025,Items:[{id:\"minecraft:campfire\",Count:3b},]}"
             },
             {
               "function": "minecraft:set_name",
               "name": [
                 {
                   "text": "Overworld Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]
@@ -90,14 +90,14 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101025,Items:[{id:\"minecraft:end_rod\",Count:48b}]}"
+              "tag": "{CustomModelData:5101025,Items:[{id:\"minecraft:torch\",Count:64b}]}"
             },
             {
               "function": "minecraft:set_name",
               "name": [
                 {
                   "text": "Overworld Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]

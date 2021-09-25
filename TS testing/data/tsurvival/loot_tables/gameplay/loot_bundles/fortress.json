@@ -15,14 +15,14 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101021,Items:[{id:\"minecraft:dragon_breath\",Count:16b}]}"
+              "tag": "{CustomModelData:5101021,Items:[{id:\"minecraft:beetroot_soup\",Count:1b,tag:{display:{Name:'{\"text\":\"Healing Salve\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Put into offhand to heal.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101001,tsurv.salve:1b}}]}"
             },
             {
               "function": "minecraft:set_name",
               "name": [
                 {
                   "text": "Fortress Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]
@@ -47,7 +47,7 @@
               "name": [
                 {
                   "text": "Fortress Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]
@@ -65,14 +65,14 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101021,Items:[{id:\"minecraft:end_stone\",Count:16b},{id:\"minecraft:chorus_flower\",Count:16b}]}"
+              "tag": "{CustomModelData:5101021,Items:[{id:\"minecraft:potion\",Count:1b,tag:{Potion:\"minecraft:long_fire_resistance\"}}]}"
             },
             {
               "function": "minecraft:set_name",
               "name": [
                 {
                   "text": "Fortress Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]
@@ -90,14 +90,14 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101021,Items:[{id:\"minecraft:end_rod\",Count:48b}]}"
+              "tag": "{CustomModelData:5101021,Items:[{id:\"minecraft:soul_lantern\",Count:32b}]}"
             },
             {
               "function": "minecraft:set_name",
               "name": [
                 {
                   "text": "Fortress Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]

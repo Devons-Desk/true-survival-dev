@@ -15,14 +15,14 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101022,Items:[{id:\"minecraft:dragon_breath\",Count:16b}]}"
+              "tag": "{CustomModelData:5101022,Items:[{id:\"minecraft:nautilus_shell\",Count:1b,tag:{display:{Name:'{\"text\":\"War Horn\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Put into offhand to sound the horn.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101002,tsurv.horn:1b}}]}"
             },
             {
               "function": "minecraft:set_name",
               "name": [
                 {
                   "text": "Mansion Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]
@@ -47,7 +47,7 @@
               "name": [
                 {
                   "text": "Mansion Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]
@@ -65,14 +65,14 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101022,Items:[{id:\"minecraft:end_stone\",Count:16b},{id:\"minecraft:chorus_flower\",Count:16b}]}"
+              "tag": "{CustomModelData:5101022,Items:[{id:\"minecraft:emerald\",Count:18b}]}"
             },
             {
               "function": "minecraft:set_name",
               "name": [
                 {
                   "text": "Mansion Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]
@@ -90,14 +90,14 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101022,Items:[{id:\"minecraft:end_rod\",Count:48b}]}"
+              "tag": "{CustomModelData:5101022,Items:[{id:\"minecraft:redstone_lamp\",Count:48b}]}"
             },
             {
               "function": "minecraft:set_name",
               "name": [
                 {
                   "text": "Mansion Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]

@@ -15,14 +15,14 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:dragon_breath\",Count:16b}]}"
+              "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:golden_apple\",Count:3b}]}"
             },
             {
               "function": "minecraft:set_name",
               "name": [
                 {
                   "text": "Bastion Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]
@@ -47,7 +47,7 @@
               "name": [
                 {
                   "text": "Bastion Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]
@@ -65,14 +65,14 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:end_stone\",Count:16b},{id:\"minecraft:chorus_flower\",Count:16b}]}"
+              "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:gilded_blackstone\",Count:16b}]}"
             },
             {
               "function": "minecraft:set_name",
               "name": [
                 {
                   "text": "Bastion Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]
@@ -90,14 +90,14 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:end_rod\",Count:48b}]}"
+              "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:lantern\",Count:32b}]}"
             },
             {
               "function": "minecraft:set_name",
               "name": [
                 {
                   "text": "Bastion Bundle",
-                  "color": "gold",
+                  "color": "yellow",
                   "italic": false
                 }
               ]
