@@ -40,7 +40,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101022,Items:[{id:\"minecraft:shield\",Count:1b}]}"
+              "tag": "{Items:[{id:\"minecraft:shield\",Count:1b,tag:{display:{Name:'{\"text\":\"The Undying\",\"color\":\"yellow\",\"italic\":false}'},BlockEntityTag:{Base:12,Patterns:[{Color:5,Pattern:\"mr\"},{Color:4,Pattern:\"hhb\"},{Color:12,Pattern:\"cbo\"},{Color:12,Pattern:\"bts\"},{Color:4,Pattern:\"sku\"},{Color:12,Pattern:\"bo\"}]}}}]}"
             },
             {
               "function": "minecraft:set_name",

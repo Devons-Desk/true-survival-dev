@@ -1,4 +1,4 @@
-summon snowball ~ ~1 ~ {NoGravity:1b,Tags:["tsurv.cravingicon","tsurv.goldicon"],Item:{id:"minecraft:enchanted_golden_apple",Count:1b,tag:{CustomModelData:5101027}}}
+summon snowball ~ ~1 ~ {NoGravity:1b,Tags:["tsurv.cravingicon","tsurv.goldicon"],Item:{id:"minecraft:golden_apple",Count:1b,tag:{CustomModelData:5101027}}}
 tag @s add tsurv.cravingg
 tag @s remove tsurv.cravingf
 tag @s remove tsurv.cravingb
