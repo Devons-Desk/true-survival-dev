@@ -40,7 +40,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101023,Items:[{id:\"minecraft:shield\",Count:1b}]}"
+              "tag": "{CustomModelData:5101023,Items:[{id:\"minecraft:shield\",Count:1b,tag:{display:{Name:'{\"text\":\"The Cavern\",\"color\":\"yellow\",\"italic\":false}'},BlockEntityTag:{Base:8,Patterns:[{Color:3,Pattern:\"sc\"},{Color:7,Pattern:\"hh\"},{Color:8,Pattern:\"br\"},{Color:8,Pattern:\"tts\"},{Color:3,Pattern:\"ms\"},{Color:7,Pattern:\"gra\"}]}}}]}"
             },
             {
               "function": "minecraft:set_name",
