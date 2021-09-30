@@ -21,7 +21,8 @@
         "conditions": {
           "player": {
             "nbt": "{Tags:[\"tsurv.fenabled\"]}"
-          }
+          },
+          "item": {}
         }
       }
     },
