@@ -1,8 +1,45 @@
 {
   "type": "minecraft:entity",
   "pools": [
-	{
-	  "rolls": 1,
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Artisan Scrap\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Premium crafting material.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101028,tsurv.scrap:1b}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "feature": "mansion"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
