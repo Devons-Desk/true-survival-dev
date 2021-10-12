@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Infernal Explorer Map\"}'}}"
+            },
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "fortress"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Gilded Explorer Map\"}'}}"
+            },
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "bastion_remnant"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
