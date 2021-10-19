@@ -1,0 +1,104 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_stew"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:gameplay/nomad_kits/maps/nether"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_slow_falling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:campfire",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "mineshaft"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Cavern Explorer Map"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "desert_pyramid"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Desert Explorer Map"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "pillager_outpost"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Undercover Explorer Map"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "swamp_hut"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Mudland Explorer Map"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "village"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Embassy Explorer Map"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

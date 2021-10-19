@@ -8,12 +8,14 @@
           "name": "minecraft:map",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Infernal Explorer Map\"}'}}"
-            },
-            {
               "function": "minecraft:exploration_map",
               "destination": "fortress"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Infernal Explorer Map"
+              }
             }
           ]
         },
@@ -22,12 +24,14 @@
           "name": "minecraft:map",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Gilded Explorer Map\"}'}}"
-            },
-            {
               "function": "minecraft:exploration_map",
               "destination": "bastion_remnant"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Gilded Explorer Map"
+              }
             }
           ]
         }

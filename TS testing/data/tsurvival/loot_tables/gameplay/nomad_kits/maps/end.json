@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "endcity"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Enderic Explorer Map"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
