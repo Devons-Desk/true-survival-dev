@@ -216,14 +216,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"Healing Salve\",\"color\":\"aqua\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Put into offhand to heal.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101001,tsurv.salve:1b}"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 2,
-				"type": "minecraft:uniform"
-              }
             }
           ]
         }
