@@ -6,11 +6,28 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:nether_wart",
+          "name": "minecraft:spider_eye",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:5101010,tsurv.detector:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Silverfish Egg",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "It's moving.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
             }
           ],
           "conditions": [
@@ -20,7 +37,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                  "feature": "stronghold"
+                "feature": "stronghold"
               }
             }
           ]
@@ -32,25 +49,25 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
               }
             },
             {
               "function": "minecraft:looting_enchant",
               "count": {
-                "min": 0.0,
-                "max": 1.0,
-				"type": "minecraft:uniform"
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
               }
             }
-          ],
-          "name": "minecraft:rotten_flesh"
+          ]
         }
       ]
     },
@@ -81,8 +98,8 @@
         }
       ]
     },
-	{
-	  "rolls": 1,
+    {
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",

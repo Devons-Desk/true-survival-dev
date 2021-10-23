@@ -6,11 +6,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:nether_wart",
+          "name": "minecraft:spider_eye",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:5101010,tsurv.detector:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Silverfish Egg",
+                "italic": false
+              }
             }
           ],
           "conditions": [
