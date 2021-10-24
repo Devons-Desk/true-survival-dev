@@ -29,6 +29,7 @@
     {"required": false, "id": "farmersdelight:roast_chicken"},
     {"required": false, "id": "farmersdelight:shepherds_pie"},
     {"required": false, "id": "farmersdelight:builders_tea"},
+    {"required": false, "id": "create:builders_tea"},
     "minecraft:beetroot_soup",
     "minecraft:suspicious_stew",
     "minecraft:mushroom_stew",

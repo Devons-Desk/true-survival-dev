@@ -10,24 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101010,tsurv.detector:1b}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Silverfish Egg",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
-                {
-                  "text": "It's moving.",
-                  "color": "gray",
-                  "italic": true
-                }
-              ]
+              "tag": "{display:{Name:'{\"text\":\"Silverfish Egg\",\"italic\":false}',Lore:['{\"text\":\"It\\'s moving.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101010,tsurv.detector:1b}"
             }
           ],
           "conditions": [
@@ -37,7 +20,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                  "feature": "stronghold"
+                "feature": "stronghold"
               }
             }
           ]
