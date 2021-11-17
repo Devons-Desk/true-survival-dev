@@ -1,4 +1,4 @@
-tellraw @a [{"text":"You have just uninstalled True Survival!","bold":true,"italic":true,"hoverEvent":{"action":"show_text","value":"Better survival, better features, better fun!"}},{"text":"\n \u0020 \u0020 \u0020 ","hoverEvent":{"action":"show_text","value":"Better survival, better features, better fun!"}},{"text":"by","color":"black","hoverEvent":{"action":"show_text","value":"Better survival, better features, better fun!"}},{"text":" ","hoverEvent":{"action":"show_text","value":"Better survival, better features, better fun!"}},{"text":"Devon Huge","color":"dark_blue","hoverEvent":{"action":"show_text","value":"Better survival, better features, better fun!"}},{"text":"\n "}]
+tellraw @s [{"text":"----------------------------------------------------","color":"gold"},{"text":"\nYou have uninstalled True Survival. [Thanks for playing! -Devon]","color":"gray"},{"text":"\n----------------------------------------------------","color":"gold"}]
 
 ###STUFF###
 gamerule naturalRegeneration true

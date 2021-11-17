@@ -34,4 +34,4 @@ function tsurvival:teledragon/loop2
 function tsurvival:safety_heal/loop
 function tsurvival:illager_conversion/detection
 function tsurvival:crafter/detect_air
-function tsurvival:guidebook/detection
+#function tsurvival:guidebook/detection
