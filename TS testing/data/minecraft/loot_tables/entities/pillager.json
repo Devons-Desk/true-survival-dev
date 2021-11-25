@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather",
+          "name": "minecraft:feather",
           "functions": [
             {
               "function": "minecraft:set_nbt",
