@@ -35,3 +35,5 @@ function tsurvival:safety_heal/loop
 function tsurvival:illager_conversion/detection
 function tsurvival:crafter/detect_air
 #function tsurvival:guidebook/detection
+
+say hi
