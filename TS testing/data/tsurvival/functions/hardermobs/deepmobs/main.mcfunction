@@ -1,5 +1,5 @@
 ###DEEPSPEED###
-execute as @e[type=#tsurvival:tsurv.deepmobs,tag=!tsurv.deep] at @s if predicate tsurvival:deep run attribute @s generic.movement_speed base set 0.38
+execute as @e[type=#tsurvival:tsurv.deepmobs,tag=!tsurv.deep] at @s if predicate tsurvival:deep run attribute @s generic.movement_speed base set 0.35
 execute as @e[type=#tsurvival:tsurv.deepmobs,tag=!tsurv.deep] at @s if predicate tsurvival:deep run tag @s add tsurv.deep
 
 ###DEEPBITERS###

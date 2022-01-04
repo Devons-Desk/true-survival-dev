@@ -19,9 +19,6 @@
       "fishingtrophies": {
         "trigger": "minecraft:fishing_rod_hooked",
         "conditions": {
-          "player": {
-            "nbt": "{Tags:[\"tsurv.fenabled\"]}"
-          },
           "item": {}
         }
       }

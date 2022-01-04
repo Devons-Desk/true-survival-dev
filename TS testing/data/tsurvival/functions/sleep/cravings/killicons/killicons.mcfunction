@@ -1,0 +1,1 @@
+execute as @e[tag=tsurv.cravingicon] at @s run function tsurvival:sleep/cravings/killicons/poof
