@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:air",
+        "minecraft:stone",
+        "minecraft:andesite",
+        "minecraft:granite",
+        "minecraft:diorite",
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:dirt",
+        "minecraft:deepslate",
+        "minecraft:ice",
+        "minecraft:packed_ice",
+        "minecraft:snow_block",
+        "minecraft:sand",
+        "minecraft:gravel"
+    ]
+  }

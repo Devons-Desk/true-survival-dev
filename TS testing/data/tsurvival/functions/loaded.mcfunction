@@ -1,32 +1,8 @@
-###STUFF###
-gamerule naturalRegeneration false
-difficulty hard
+###CONTROLLER###
+scoreboard objectives add tsurv.controller dummy
+execute unless score #tsurv.controller tsurv.controller matches 1 run function tsurvival:initiate
 
-###SCOREBOARDS###
-scoreboard objectives add tsurv.fishing dummy
-scoreboard objectives add tsurv.witboss dummy
-scoreboard objectives add tsurv.counter dummy
-scoreboard objectives add tsurv.ecounter dummy
-scoreboard objectives add tsurv.ncounter dummy
-scoreboard objectives add tsurv.edragon dummy
-scoreboard objectives add tsurv.random dummy
-scoreboard objectives add tsurv.eatsalve dummy
-#scoreboard objectives add tsurv.ftoggle dummy
-scoreboard objectives add tsurv.guide trigger
-scoreboard objectives add tsurv.starvation food
-scoreboard objectives add tsurv.sleep minecraft.custom:minecraft.time_since_rest
-
-###TEAMS###
-team add Dragon
-team modify Dragon friendlyFire false
-team modify Dragon collisionRule pushOtherTeams
-team add Wither
-team modify Wither friendlyFire false
-team modify Wither collisionRule pushOtherTeams
-team add Bears
-team modify Bears friendlyFire false
-
-##INITIATESCHEDULES##
+###INITIATESCHEDULES###
 function tsurvival:armors/armors
 function tsurvival:hardermobs/spider/detection
 function tsurvival:teledragon/loop1
@@ -34,6 +10,14 @@ function tsurvival:teledragon/loop2
 function tsurvival:safety_heal/loop
 function tsurvival:illager_conversion/detection
 function tsurvival:crafter/detect_air
-#function tsurvival:guidebook/detection
-
-say hi
+function tsurvival:hardermobs/creeper
+function tsurvival:hardermobs/skeleton/detection
+function tsurvival:hardermobs/torches/detection
+function tsurvival:hardermobs/ghast/detection
+function tsurvival:soul_well/detection
+function tsurvival:hardermobs/deepmobs/biters/detection
+function tsurvival:hardermobs/deepmobs/speed/detection
+function tsurvival:strider_jockey/detection
+function tsurvival:spelunker/detection
+function tsurvival:voyager/detection
+function tsurvival:bartering/detection

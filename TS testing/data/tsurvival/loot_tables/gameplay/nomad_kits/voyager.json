@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:gameplay/nomad_kits/maps/nether"
+          "name": "tsurvival:gameplay/nomad_kits/maps/end"
         }
       ]
     },

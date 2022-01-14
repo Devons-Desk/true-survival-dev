@@ -3,3 +3,5 @@ execute as @e[type=skeleton,tag=!tsurv.viking] at @s if predicate tsurvival:hard
 
 ##AXEDETECTION##
 execute as @e[type=skeleton,tag=tsurv.viking,sort=arbitrary] at @s if entity @a[gamemode=!spectator,distance=8..12] run function tsurvival:hardermobs/skeleton/dequip
+
+schedule function tsurvival:hardermobs/skeleton/detection 10t

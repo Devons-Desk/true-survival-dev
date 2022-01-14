@@ -1,0 +1,1 @@
+execute as @e[type=enderman,limit=1,tag=tsurv.found] at @s run function tsurvival:voyager/summon

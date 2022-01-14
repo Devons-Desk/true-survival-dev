@@ -3,6 +3,7 @@ tellraw @s [{"text":"----------------------------------------------------","colo
 ###STUFF###
 gamerule naturalRegeneration true
 difficulty normal
+scoreboard players set #tsurv.controller tsurv.controller 0
 
 ###SCOREBOARDS###
 scoreboard objectives remove tsurv.FullSleep 
