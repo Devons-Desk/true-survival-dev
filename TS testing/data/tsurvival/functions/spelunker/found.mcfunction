@@ -1,1 +1,2 @@
-execute as @e[type=bat,limit=1,tag=tsurv.found] at @s run function tsurvival:spelunker/summon
+tag @s add tsurv.found
+execute if predicate tsurvival:nomads/spelunker_chance run function tsurvival:spelunker/summon

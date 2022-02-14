@@ -1,4 +1,4 @@
 ###SPELUNKERSPAWNING###
-execute as @e[type=bat,tag=!tsurv.found] at @s run function tsurvival:spelunker/scoreboard
+execute as @e[type=bat,tag=!tsurv.found] at @s run function tsurvival:spelunker/found
 
 schedule function tsurvival:spelunker/detection 1s

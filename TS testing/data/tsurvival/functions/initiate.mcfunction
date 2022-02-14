@@ -5,9 +5,6 @@ difficulty hard
 ###SCOREBOARDS###
 scoreboard objectives add tsurv.fishing dummy
 scoreboard objectives add tsurv.witboss dummy
-scoreboard objectives add tsurv.counter dummy
-scoreboard objectives add tsurv.ecounter dummy
-scoreboard objectives add tsurv.ncounter dummy
 scoreboard objectives add tsurv.edragon dummy
 scoreboard objectives add tsurv.random dummy
 scoreboard objectives add tsurv.eatsalve dummy
