@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "offhand": {
+                "items": [
+                  "minecraft:beetroot_soup"
+                ],
+                "nbt": "{tsurv.salve:1b}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tsurvival:healingsalve/use"
+    }
+  }
+  

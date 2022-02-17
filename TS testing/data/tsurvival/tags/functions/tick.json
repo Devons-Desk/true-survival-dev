@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "tsurvival:firewood/detection",
+        "tsurvival:sleep/detection",
+        "tsurvival:fishtraps/scoreboard",
+        "tsurvival:hardermobs/wither_skeleton/detection",
+        "tsurvival:teledragon/detection",
+        "tsurvival:teledragon/scoreboard"
+    ]
+} 

@@ -1,0 +1,1 @@
+tag @s[nbt={Item:{id:"minecraft:poppy",Count:1b}}] add tsurv.soulpoppy

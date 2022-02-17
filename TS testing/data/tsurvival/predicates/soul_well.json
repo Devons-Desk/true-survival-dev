@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "feature": "nether_fossil",
+      "dimension": "minecraft:the_nether",
+      "block": {
+        "blocks": [
+          "minecraft:water"
+        ]
+      }
+    }
+  }
+}

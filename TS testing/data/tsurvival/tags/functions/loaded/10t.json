@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "tsurvival:illager_conversion/detection",
+        "tsurvival:crafter/detect_air",
+        "tsurvival:hardermobs/creeper",
+        "tsurvival:hardermobs/skeleton/detection",
+        "tsurvival:hardermobs/torches/detection",
+        "tsurvival:hardermobs/ghast/detection",
+        "tsurvival:soul_well/detection",
+        "tsurvival:hardermobs/deepmobs/biters/detection",
+        "tsurvival:hardermobs/deepmobs/speed/detection",
+        "tsurvival:bartering/detection"
+    ]
+} 
