@@ -1,3 +1,3 @@
-scoreboard players add @a tsurv.ncounter 1
+scoreboard players add #tsurv.jockeycontroller tsurv.ncounter 1
 tag @s add tsurv.found
-execute as @a[scores={tsurv.ncounter=35..}] at @s run function tsurvival:strider_jockey/found
+execute if score #tsurv.jockeycontroller tsurv.ncounter matches 250 as @e[type=#tsurvival:tsurv.jockeyspawns,tag=tsurv.found,limit=1,distance=..100,nbt={Saddle:0b}] at @s run function tsurvival:strider_jockey/summon

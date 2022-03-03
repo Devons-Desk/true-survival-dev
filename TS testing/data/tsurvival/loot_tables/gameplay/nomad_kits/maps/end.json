@@ -9,7 +9,8 @@
             "functions": [
               {
                 "function": "minecraft:exploration_map",
-                "destination": "endcity"
+                "destination": "tsurvival:end_city",
+                "decoration": "red_x"
               },
               {
                 "function": "minecraft:set_name",

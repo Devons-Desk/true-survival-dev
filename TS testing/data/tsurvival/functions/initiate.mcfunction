@@ -10,6 +10,7 @@ scoreboard objectives add tsurv.random dummy
 scoreboard objectives add tsurv.eatsalve dummy
 scoreboard objectives add tsurv.guide trigger
 scoreboard objectives add tsurv.starvation food
+scoreboard objectives add tsurv.ncounter dummy
 scoreboard objectives add tsurv.sleep minecraft.custom:minecraft.time_since_rest
 
 ###TEAMS###
@@ -22,5 +23,6 @@ team modify Wither collisionRule pushOtherTeams
 team add Bears
 team modify Bears friendlyFire false
 
-###CONTROLLER###
+###CONTROLLERS###
 scoreboard players set #tsurv.controller tsurv.controller 1
+scoreboard players set #tsurv.jockeycontroller tsurv.ncounter 0

@@ -40,7 +40,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101020,Items:[{id:\"minecraft:shield\",Count:1b,tag:{display:{Name:'{\"text\":\"The Crystal\",\"color\":\"yellow\",\"italic\":false}'},BlockEntityTag:{Base:15,Patterns:[{Color:10,Pattern:\"gra\"},{Color:7,Pattern:\"gru\"},{Color:15,Pattern:\"bt\"},{Color:2,Pattern:\"mc\"},{Color:0,Pattern:\"glb\"},{Color:3,Pattern:\"bts\"}]}}}]}"
+              "tag": "{CustomModelData:5101020,Items:[{id:\"minecraft:shield\",Count:1b,tag:{HideFlags:32,display:{Name:'{\"text\":\"The Crystal\",\"color\":\"yellow\",\"italic\":false}'},BlockEntityTag:{Base:15,Patterns:[{Color:10,Pattern:\"gra\"},{Color:7,Pattern:\"gru\"},{Color:15,Pattern:\"bt\"},{Color:2,Pattern:\"mc\"},{Color:0,Pattern:\"glb\"},{Color:3,Pattern:\"bts\"}]}}}]}"
             },
             {
               "function": "minecraft:set_name",

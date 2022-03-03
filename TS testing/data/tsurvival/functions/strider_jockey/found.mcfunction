@@ -1,1 +1,0 @@
-execute as @e[type=#tsurvival:tsurv.jockeyspawns,limit=1,tag=tsurv.found] at @s run function tsurvival:strider_jockey/summon

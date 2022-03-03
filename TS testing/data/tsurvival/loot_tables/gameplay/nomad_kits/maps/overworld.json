@@ -9,7 +9,8 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "mineshaft"
+              "destination": "mineshaft",
+              "decoration": "red_x"
             },
             {
               "function": "minecraft:set_name",
@@ -23,7 +24,8 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "desert_pyramid"
+              "destination": "tsurvival:desert_pyramid",
+              "decoration": "red_x"
             },
             {
               "function": "minecraft:set_name",
@@ -39,7 +41,8 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "pillager_outpost"
+              "destination": "tsurvival:pillager_outpost",
+              "decoration": "red_x"
             },
             {
               "function": "minecraft:set_name",
@@ -53,7 +56,8 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "swamp_hut"
+              "destination": "tsurvival:swamp_hut",
+              "decoration": "red_x"
             },
             {
               "function": "minecraft:set_name",
@@ -67,7 +71,8 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "village"
+              "destination": "village",
+              "decoration": "red_x"
             },
             {
               "function": "minecraft:set_name",

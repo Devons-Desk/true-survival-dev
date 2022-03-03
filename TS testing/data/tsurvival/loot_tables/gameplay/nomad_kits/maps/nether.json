@@ -9,7 +9,8 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "fortress"
+              "destination": "tsurvival:fortress",
+              "decoration": "red_x"
             },
             {
               "function": "minecraft:set_name",
@@ -25,7 +26,8 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "bastion_remnant"
+              "destination": "tsurvival:bastion_remnant",
+              "decoration": "red_x"
             },
             {
               "function": "minecraft:set_name",
