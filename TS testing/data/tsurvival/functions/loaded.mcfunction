@@ -5,12 +5,12 @@ execute unless score #tsurv.controller tsurv.controller matches 1 run function t
 ###INITIATESCHEDULES###
 function tsurvival:loops/10t
 function tsurvival:loops/1s
+function tsurvival:loops/15s
 
 function tsurvival:armors/armors
 function tsurvival:hardermobs/spider/detection
-function tsurvival:teledragon/loop1
-function tsurvival:teledragon/loop2 
 function tsurvival:safety_heal/loop
+function tsurvival:bosses/elder_dragon/stage3
 #function tsurvival:illager_conversion/detection
 #function tsurvival:crafter/detect_air
 #function tsurvival:hardermobs/creeper

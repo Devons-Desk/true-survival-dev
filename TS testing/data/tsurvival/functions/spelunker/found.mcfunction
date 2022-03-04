@@ -1,2 +1,2 @@
 tag @s add tsurv.found
-execute if predicate tsurvival:nomads/spelunker_chance run function tsurvival:spelunker/summon
+execute if predicate tsurvival:rng/spelunker run function tsurvival:spelunker/summon

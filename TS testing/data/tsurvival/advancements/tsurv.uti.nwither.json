@@ -27,6 +27,6 @@
         }
     },
     "rewards": {
-        "function": "tsurvival:necrowither/detection"
+        "function": "tsurvival:bosses/necrowither/detection"
     }
 }

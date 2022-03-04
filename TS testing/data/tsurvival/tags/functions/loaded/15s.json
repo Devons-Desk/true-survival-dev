@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "tsurvival:bosses/elder_dragon/stage1",
+        "tsurvival:bosses/elder_dragon/stage2"
+    ]
+}

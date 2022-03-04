@@ -1,3 +1,3 @@
 execute at @e[type=ender_dragon] run summon tnt ~ ~ ~
-function tsurvival:teledragon/bonuswarmth
+function tsurvival:bosses/bonuswarmth
 advancement revoke @s only tsurvival:tsurv.uti.minion

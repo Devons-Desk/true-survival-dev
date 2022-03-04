@@ -1,0 +1,2 @@
+#execute as @e[type=minecraft:ender_dragon] at @s if entity @e[type=minecraft:end_crystal,distance=..7] run playsound minecraft:entity.enderman.teleport player @a[distance=..100] ~ ~ ~ 2
+#execute as @e[type=minecraft:ender_dragon] at @s if entity @e[type=minecraft:end_crystal,distance=..7] run tp @e[type=minecraft:ender_dragon] @e[type=player,sort=random,limit=1,distance=..100]

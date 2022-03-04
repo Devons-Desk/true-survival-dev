@@ -5,7 +5,6 @@
         "tsurvival:sleep/detection",
         "tsurvival:fishtraps/scoreboard",
         "tsurvival:hardermobs/wither_skeleton/detection",
-        "tsurvival:teledragon/detection",
-        "tsurvival:teledragon/scoreboard"
+        "tsurvival:bosses/elder_dragon/scoreboard"
     ]
 } 
