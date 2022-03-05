@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:yellow_dye",
+          "name": "minecraft:structure_void",
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -25,7 +25,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:brown_dye",
+          "name": "minecraft:structure_void",
           "functions": [
             {
               "function": "minecraft:set_nbt",

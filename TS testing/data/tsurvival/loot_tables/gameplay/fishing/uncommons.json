@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:clay_ball",
+          "name": "minecraft:structure_void",
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -15,7 +15,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:magenta_dye",
+          "name": "minecraft:structure_void",
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -33,7 +33,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:red_dye",
+          "name": "minecraft:structure_void",
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -56,7 +56,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
+          "name": "minecraft:structure_void",
           "functions": [
             {
               "function": "minecraft:set_nbt",

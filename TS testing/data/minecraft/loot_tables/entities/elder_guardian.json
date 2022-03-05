@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:light_blue_dye",
+          "name": "minecraft:amethyst_shard",
           "functions": [
             {
               "function": "minecraft:set_nbt",

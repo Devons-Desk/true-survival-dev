@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:glowstone_dust",
+          "name": "minecraft:structure_void",
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -23,7 +23,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:orange_dye",
+          "name": "minecraft:structure_void",
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -33,7 +33,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:flint",
+          "name": "minecraft:structure_void",
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -43,7 +43,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:blue_dye",
+          "name": "minecraft:structure_void",
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -53,7 +53,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gray_dye",
+          "name": "minecraft:structure_void",
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -63,7 +63,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:green_dye",
+          "name": "minecraft:structure_void",
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -81,7 +81,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stick",
+          "name": "minecraft:structure_void",
           "functions": [
             {
               "function": "minecraft:set_nbt",
