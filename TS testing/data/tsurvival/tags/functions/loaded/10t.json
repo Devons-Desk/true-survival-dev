@@ -10,6 +10,7 @@
         "tsurvival:soul_well/detection",
         "tsurvival:hardermobs/deepmobs/biters/detection",
         "tsurvival:hardermobs/deepmobs/speed/detection",
-        "tsurvival:bartering/detection"
+        "tsurvival:bartering/detection",
+        "tsurvival:bosses/elder_dragon/scoreboard"
     ]
 } 

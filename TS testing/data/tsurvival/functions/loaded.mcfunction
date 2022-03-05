@@ -6,11 +6,12 @@ execute unless score #tsurv.controller tsurv.controller matches 1 run function t
 function tsurvival:loops/10t
 function tsurvival:loops/1s
 function tsurvival:loops/15s
+function tsurvival:loops/20s
 
 function tsurvival:armors/armors
 function tsurvival:hardermobs/spider/detection
 function tsurvival:safety_heal/loop
-function tsurvival:bosses/elder_dragon/stage3
+function tsurvival:bosses/elder_dragon/stage3/detection
 #function tsurvival:illager_conversion/detection
 #function tsurvival:crafter/detect_air
 #function tsurvival:hardermobs/creeper

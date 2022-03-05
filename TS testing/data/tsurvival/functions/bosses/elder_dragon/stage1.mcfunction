@@ -1,2 +1,0 @@
-execute as @s[type=player] at @s if predicate tsurvival:dimension/end if entity @e[type=end_crystal] if entity @e[type=ender_dragon] run effect give @s glowing 3
-#execute as @s[type=minecraft:ender_dragon] at @s if entity @e[type=minecraft:end_crystal,distance=..7] run function tsurvival:bosses/elder_dragon/rng

@@ -12,6 +12,7 @@ scoreboard objectives add tsurv.guide trigger
 scoreboard objectives add tsurv.starvation food
 scoreboard objectives add tsurv.ncounter dummy
 scoreboard objectives add tsurv.sleep minecraft.custom:minecraft.time_since_rest
+scoreboard objectives add tsurv.trophycontroller dummy
 
 ###TEAMS###
 team add Dragon
@@ -26,3 +27,4 @@ team modify Bears friendlyFire false
 ###CONTROLLERS###
 scoreboard players set #tsurv.controller tsurv.controller 1
 scoreboard players set #tsurv.jockeycontroller tsurv.ncounter 0
+scoreboard players set #tsurv.trophycontroller tsurv.trophycontroller 0
