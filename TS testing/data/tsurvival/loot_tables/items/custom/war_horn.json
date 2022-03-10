@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:nautilus_shell",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"War Horn\",\"color\":\"aqua\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Put into offhand to sound the horn.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101002,tsurv.horn:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

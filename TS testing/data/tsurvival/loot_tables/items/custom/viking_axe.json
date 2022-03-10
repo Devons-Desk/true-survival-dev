@@ -1,0 +1,50 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Viking Axe",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "The axe's lip hides a sharp tongue.",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:looting",
+                  "minecraft:sharpness"
+                ]
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "enchantments": [
+                  "minecraft:unbreaking"
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:5101012}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

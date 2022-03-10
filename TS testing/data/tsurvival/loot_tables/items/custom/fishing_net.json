@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:phantom_membrane",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Fishing Net\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Used to make a fish trap.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101003,tsurv.net:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
