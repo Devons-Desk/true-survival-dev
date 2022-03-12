@@ -26,6 +26,6 @@
         }
     },
     "rewards": {
-        "function": "tsurvival:teledragon/bonus"
+        "function": "tsurvival:bosses/bonus"
     }
 }

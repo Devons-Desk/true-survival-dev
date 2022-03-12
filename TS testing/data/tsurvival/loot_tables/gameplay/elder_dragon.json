@@ -9,16 +9,7 @@
           "name": "minecraft:music_disc_11"
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dragon_egg"
-        }
-      ]
-    },
+    }
     {
       "rolls": 1,
       "entries": [

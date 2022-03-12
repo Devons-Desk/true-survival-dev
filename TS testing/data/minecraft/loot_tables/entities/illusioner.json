@@ -5,8 +5,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:dragon_breath",
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/custom/artisan_scrap",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -30,25 +30,6 @@
               "condition": "minecraft:killed_by_player"
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        },
-        {
-          "condition": "minecraft:random_chance_with_looting",
-          "chance": 0.12,
-          "looting_multiplier": 0.03
         }
       ]
     }

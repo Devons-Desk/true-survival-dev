@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "tsurvival:bosses/elder_dragon/stage1/detection",
         "tsurvival:bosses/elder_dragon/stage2/detection"
     ]
 }

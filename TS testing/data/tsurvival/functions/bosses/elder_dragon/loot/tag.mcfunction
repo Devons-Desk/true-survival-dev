@@ -1,0 +1,1 @@
+tag @s[nbt={Item:{id:"minecraft:structure_void",Count:1b,tag:{tsurv.dragdetect:1b}}}] add tsurv.dragdetect

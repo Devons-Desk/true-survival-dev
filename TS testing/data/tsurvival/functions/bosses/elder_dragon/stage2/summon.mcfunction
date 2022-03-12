@@ -1,2 +1,2 @@
-playsound minecraft:entity.lightning_bolt.thunder neutral @a[distance=..100]
-summon phantom ~ ~ ~ {Team:"Dragon"}
+playsound minecraft:entity.lightning_bolt.thunder neutral @s
+summon phantom ~ ~25 ~ {Team:"Dragon"}

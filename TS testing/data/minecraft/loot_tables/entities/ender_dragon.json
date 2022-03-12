@@ -5,26 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chest",
+          "name": "minecraft:structure_void",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{LootTable:\"tsurvival:gameplay/lootchest3\"}}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Loot Chest III",
-                  "color": "yellow",
-                  "bold": false,
-                  "italic": false
-                }
-              ]
+              "tag": "{tsurv.dragdetect:1b}"
             }
           ]
         }
