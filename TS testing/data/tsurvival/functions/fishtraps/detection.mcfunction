@@ -1,2 +1,2 @@
 execute at @s as @e[type=#tsurvival:ts_frames,tag=!tsurv.netframe,distance=..8,nbt={Item:{id:"minecraft:phantom_membrane",Count:1b,tag:{tsurv.net:1b}}}] at @s if block ~ ~-1 ~ minecraft:barrel[facing=up] if block ~1 ~-1 ~ minecraft:water if block ~ ~-1 ~1 minecraft:water if block ~1 ~-1 ~1 minecraft:water if block ~-1 ~-1 ~-1 minecraft:water if block ~ ~-1 ~-1 minecraft:water if block ~-1 ~-1 ~ minecraft:water if block ~-1 ~-1 ~1 minecraft:water if block ~1 ~-1 ~-1 minecraft:water run function tsurvival:fishtraps/create
-advancement revoke @s only tsurvival:utility/tsurv.create_trap
+advancement revoke @s only tsurvival:utility/fishing/create_trap

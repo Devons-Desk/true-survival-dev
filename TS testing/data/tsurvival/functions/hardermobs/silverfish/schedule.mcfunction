@@ -1,2 +1,2 @@
 schedule function tsurvival:hardermobs/silverfish/detection 1t
-advancement revoke @s only tsurvival:tsurv.uti.paras
+advancement revoke @s only tsurvival:utility/hardermobs/parasites
