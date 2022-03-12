@@ -3,7 +3,7 @@
         "title": {
             "text": "Imported Woods",
             "color": "aqua",
-            "italic": true
+            "italic": false
         },
         "description": {
             "text": "Purchase wood from a lumberjack villager."
@@ -25,5 +25,5 @@
             }
         }
     },
-    "parent": "tsurvival:tsurv.tree.1a.2a"
+    "parent": "tsurvival:progression/wood/fortune"
 }

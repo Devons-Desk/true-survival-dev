@@ -1,15 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "You're enchanting!",
-            "color": "dark_green",
-            "italic": true
+            "text": "Shear Luck",
+            "italic": false
         },
         "description": {
-            "text": "Craft an enchantment table using an emerald block."
+            "text": "Craft a pair of shears."
         },
         "icon": {
-            "item": "minecraft:enchanting_table"
+            "item": "minecraft:shears"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,18 +16,16 @@
         "hidden": false
     },
     "criteria": {
-        "table": {
+        "shears": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "minecraft:enchanting_table"
-                        ]
+                        "items": ["minecraft:shears"]
                     }
                 ]
             }
         }
     },
-    "parent": "tsurvival:tsurv.end.1a.2a"
+    "parent": "tsurvival:progression/iron/prospecting"
 }

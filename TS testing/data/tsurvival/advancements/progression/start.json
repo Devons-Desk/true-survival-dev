@@ -1,15 +1,15 @@
 {
     "display": {
         "title": {
-            "text": "The Beholder Of The Eye",
-            "color": "dark_green",
+            "text": "Warm your boots by the fire...",
+            "color": "gold",
             "italic": true
         },
         "description": {
-            "text": "Use an emerald to craft an eye of ender."
+            "text": "Craft a campfire."
         },
         "icon": {
-            "item": "minecraft:ender_eye"
+            "item": "minecraft:campfire"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,16 +17,18 @@
         "hidden": false
     },
     "criteria": {
-        "eye": {
+        "craftcampfire": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:ender_eye"]
+                        "items": [
+                            "minecraft:campfire"
+                        ]
                     }
                 ]
             }
         }
     },
-    "parent": "tsurvival:tsurv.end.1a.2a"
+    "parent": "tsurvival:progression/root"
 }

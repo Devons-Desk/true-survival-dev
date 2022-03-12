@@ -3,7 +3,7 @@
         "title": {
             "text": "Drums, drums in the deep.",
             "color": "red",
-            "italic": true
+            "italic": false
         },
         "description": {
             "text": "Enter the deepest part of Minecraft."
@@ -30,5 +30,5 @@
             }
         }
     },
-    "parent": "tsurvival:tsurv.key.2a.3b"
+    "parent": "tsurvival:progression/survival/light_upgrade"
 }

@@ -4,8 +4,7 @@
             "text": "The Eater of Worlds",
             "color": "dark_purple",
             "bold": true,
-            "italic": true,
-            "underlined": true
+            "italic": false
         },
         "description": {
             "text": "Defeat the Elder Dragon."
@@ -28,5 +27,5 @@
             }
         }
     },
-    "parent": "tsurvival:tsurv.end.2a.3a"
+    "parent": "tsurvival:progression/endgame/beholder"
 }

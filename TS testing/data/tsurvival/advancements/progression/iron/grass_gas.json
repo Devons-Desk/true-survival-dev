@@ -2,7 +2,7 @@
     "display": {
         "title": {
             "text": "Grass is gas!",
-            "italic": true
+            "italic": false
         },
         "description": {
             "text": "Acquire a piece of kindling. Use it to make more torches."
@@ -28,5 +28,5 @@
             }
         }
     },
-    "parent": "tsurvival:tsurv.iron.2a.3b"
+    "parent": "tsurvival:progression/iron/shear_luck"
 }

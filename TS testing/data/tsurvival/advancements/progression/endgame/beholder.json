@@ -1,14 +1,15 @@
 {
     "display": {
         "title": {
-            "text": "Shear Luck",
-            "italic": true
+            "text": "The Beholder Of The Eye",
+            "color": "dark_green",
+            "italic": false
         },
         "description": {
-            "text": "Craft a pair of shears."
+            "text": "Use an emerald to craft an eye of ender."
         },
         "icon": {
-            "item": "minecraft:shears"
+            "item": "minecraft:ender_eye"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,16 +17,16 @@
         "hidden": false
     },
     "criteria": {
-        "shears": {
+        "eye": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:shears"]
+                        "items": ["minecraft:ender_eye"]
                     }
                 ]
             }
         }
     },
-    "parent": "tsurvival:tsurv.iron.1a.2a"
+    "parent": "tsurvival:progression/endgame/emerald_road"
 }

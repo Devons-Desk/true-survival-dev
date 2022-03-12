@@ -1,15 +1,15 @@
 {
     "display": {
         "title": {
-            "text": "Tough Prospects",
-            "italic": true
-        },
-        "description": {
-            "text": "Acquire an iron nugget from stone.",
+            "text": "You're enchanting!",
+            "color": "dark_green",
             "italic": false
         },
+        "description": {
+            "text": "Craft an enchantment table using an emerald block."
+        },
         "icon": {
-            "item": "minecraft:iron_nugget"
+            "item": "minecraft:enchanting_table"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,21 +17,18 @@
         "hidden": false
     },
     "criteria": {
-        "mining": {
+        "table": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_nugget"
+                            "minecraft:enchanting_table"
                         ]
                     }
                 ]
             }
         }
     },
-    "rewards": {
-        "function": "tsurvival:advancement_rewards/iron_usage"
-    },
-    "parent": "tsurvival:tsurv.start.0a.1a"
+    "parent": "tsurvival:progression/endgame/emerald_road"
 }

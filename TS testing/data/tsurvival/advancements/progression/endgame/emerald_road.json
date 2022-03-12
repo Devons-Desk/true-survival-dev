@@ -1,16 +1,15 @@
 {
     "display": {
         "title": {
-            "text": "Mobile Infirmary",
-            "color": "red",
-            "italic": true
+            "text": "Follow the emerald road!",
+            "color": "dark_green",
+            "italic": false
         },
         "description": {
-            "text": "Acquire a healing salve!"
+            "text": "Acquire your first emerald."
         },
         "icon": {
-            "item": "minecraft:beetroot_soup",
-            "nbt": "{CustomModelData:5101001}"
+            "item": "minecraft:emerald"
         },
         "frame": "task",
         "show_toast": true,
@@ -18,19 +17,18 @@
         "hidden": false
     },
     "criteria": {
-        "craftsalve": {
+        "emeralds": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:beetroot_soup"
-                        ],
-                        "nbt": "{tsurv.salve:1b}"
+                            "minecraft:emerald"
+                        ]
                     }
                 ]
             }
         }
     },
-    "parent": "tsurvival:tsurv.key.1a.2a"
+    "parent": "tsurvival:tsurv.start.0a.1a"
 }

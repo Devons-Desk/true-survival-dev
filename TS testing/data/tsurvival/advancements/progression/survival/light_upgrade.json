@@ -3,7 +3,7 @@
         "title": {
             "text": "Take back the night!",
             "color": "red",
-            "italic": true
+            "italic": false
         },
         "description": {
             "text": "Upgrade your lights."
@@ -101,5 +101,5 @@
 			"candles"
         ]
     ],
-    "parent": "tsurvival:tsurv.key.1a.2a"
+    "parent": "tsurvival:progression/survival/rem_sleep"
 }

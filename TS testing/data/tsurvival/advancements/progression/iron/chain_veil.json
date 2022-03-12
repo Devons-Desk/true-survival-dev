@@ -2,7 +2,7 @@
     "display": {
         "title": {
             "text": "The Chain Veil",
-            "italic": true
+            "italic": false
         },
         "description": {
             "text": "Craft a piece of chainmail armor from chains."
@@ -72,5 +72,5 @@
             "chainshoes"
         ]
     ],
-    "parent": "tsurvival:tsurv.iron.1a.2a"
+    "parent": "tsurvival:progression/iron/prospecting"
 }

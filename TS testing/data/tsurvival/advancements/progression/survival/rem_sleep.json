@@ -3,7 +3,7 @@
         "title": {
             "text": "Hey, you. You're finally awake.",
             "color": "red",
-            "italic": true
+            "italic": false
         },
         "description": {
             "text": "Experience REM sleep."
@@ -21,5 +21,5 @@
             "trigger": "minecraft:slept_in_bed"
         }
     },
-    "parent": "tsurvival:tsurv.start.0a.1a"
+    "parent": "tsurvival:progression/start"
 }

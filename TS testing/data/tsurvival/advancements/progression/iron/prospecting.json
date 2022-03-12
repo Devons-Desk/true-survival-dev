@@ -1,15 +1,15 @@
 {
     "display": {
         "title": {
-            "text": "Follow the emerald road!",
-            "color": "dark_green",
-            "italic": true
+            "text": "Tough Prospects",
+            "italic": false
         },
         "description": {
-            "text": "Acquire your first emerald."
+            "text": "Acquire an iron nugget from stone.",
+            "italic": false
         },
         "icon": {
-            "item": "minecraft:emerald"
+            "item": "minecraft:iron_nugget"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,18 +17,21 @@
         "hidden": false
     },
     "criteria": {
-        "emeralds": {
+        "mining": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:emerald"
+                            "minecraft:iron_nugget"
                         ]
                     }
                 ]
             }
         }
     },
-    "parent": "tsurvival:tsurv.start.0a.1a"
+    "rewards": {
+        "function": "tsurvival:advancement_rewards/iron_usage"
+    },
+    "parent": "tsurvival:progression/start"
 }

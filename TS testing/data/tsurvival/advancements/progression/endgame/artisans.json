@@ -3,7 +3,7 @@
         "title": {
             "text": "Local Artisans",
             "color": "dark_green",
-            "italic": true
+            "italic": false
         },
         "description": {
             "text": "Trade with a wandering trader.",
@@ -28,5 +28,5 @@
             }
         }
     },
-    "parent": "tsurvival:tsurv.end.1a.2a"
+    "parent": "tsurvival:progression/endgame/emerald_road"
 }

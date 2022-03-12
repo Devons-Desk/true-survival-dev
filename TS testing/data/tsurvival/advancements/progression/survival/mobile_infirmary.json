@@ -1,15 +1,16 @@
 {
     "display": {
         "title": {
-            "text": "Warm your boots by the fire...",
-            "color": "gold",
-            "italic": true
+            "text": "Mobile Infirmary",
+            "color": "red",
+            "italic": false
         },
         "description": {
-            "text": "Craft a campfire."
+            "text": "Acquire a healing salve!"
         },
         "icon": {
-            "item": "minecraft:campfire"
+            "item": "minecraft:beetroot_soup",
+            "nbt": "{CustomModelData:5101001}"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,18 +18,19 @@
         "hidden": false
     },
     "criteria": {
-        "craftcampfire": {
+        "craftsalve": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:campfire"
-                        ]
+                            "minecraft:beetroot_soup"
+                        ],
+                        "nbt": "{tsurv.salve:1b}"
                     }
                 ]
             }
         }
     },
-    "parent": "tsurvival:tsurv.root.0x.0a"
+    "parent": "tsurvival:progression/survival/rem_sleep"
 }

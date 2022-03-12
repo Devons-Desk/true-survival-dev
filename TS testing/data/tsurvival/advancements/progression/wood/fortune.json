@@ -3,7 +3,7 @@
         "title": {
             "text": "Experienced lumberjack.",
             "color": "aqua",
-            "italic": true
+            "italic": false
         },
         "description": {
             "text": "Enchant an axe with fortune."
@@ -36,5 +36,5 @@
             }
         }
     },
-    "parent": "tsurvival:tsurv.start.0a.1a"
+    "parent": "tsurvival:progression/start"
 }
