@@ -99,9 +99,9 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 10,
-          "name": "minecraft:string",
+          "name": "tsurvival:items/custom/artisan_scrap",
           "functions": [
             {
               "function": "minecraft:set_count",

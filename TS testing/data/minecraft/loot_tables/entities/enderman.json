@@ -5,21 +5,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:spider_eye",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101010,tsurv.detector:1b}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Silverfish Egg",
-                "italic": false
-              }
-            }
-          ],
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/custom/silverfish_egg",
           "conditions": [
             {
               "condition": "minecraft:killed_by_player"

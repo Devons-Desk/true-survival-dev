@@ -7,6 +7,7 @@
         "minecraft:skeleton",
         "minecraft:witch",
         "minecraft:enderman",
-        "minecraft:spider"		
+        "minecraft:spider",
+        "minecraft:drowned"		
     ]
 }

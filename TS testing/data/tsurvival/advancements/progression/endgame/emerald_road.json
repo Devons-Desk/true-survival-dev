@@ -30,5 +30,5 @@
             }
         }
     },
-    "parent": "tsurvival:tsurv.start.0a.1a"
+    "parent": "tsurvival:progression/start"
 }

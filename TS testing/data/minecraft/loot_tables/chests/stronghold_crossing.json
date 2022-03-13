@@ -39,9 +39,9 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 5,
-          "name": "minecraft:redstone_block",
+          "name": "tsurvival:items/custom/silverfish_egg",
           "functions": [
             {
               "function": "minecraft:set_count",
