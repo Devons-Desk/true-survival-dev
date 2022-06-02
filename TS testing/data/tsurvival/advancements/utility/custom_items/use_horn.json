@@ -7,7 +7,7 @@
             "equipment": {
               "offhand": {
                 "items": [
-                  "minecraft:nautilus_shell"
+                  "minecraft:goat_horn"
                 ],
                 "nbt": "{tsurv.horn:1b}"
               }
