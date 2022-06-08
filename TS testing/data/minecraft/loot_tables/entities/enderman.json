@@ -14,7 +14,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                  "feature": "stronghold"
+                  "structure": "minecraft:stronghold"
               }
             }
           ]

@@ -3,7 +3,7 @@
   "entity": "this",
   "predicate": {
     "location": {
-      "feature": "nether_fossil",
+      "structure": "minecraft:nether_fossil",
       "dimension": "minecraft:the_nether",
       "block": {
         "blocks": [

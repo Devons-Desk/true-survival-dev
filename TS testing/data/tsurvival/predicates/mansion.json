@@ -3,7 +3,7 @@
     "entity": "this",
     "predicate": {
       "location": {
-        "feature": "mansion"
+        "structure": "minecraft:mansion"
       }
     }
   }
