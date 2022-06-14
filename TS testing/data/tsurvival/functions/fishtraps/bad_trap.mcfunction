@@ -1,5 +1,6 @@
 ##TRAPSCATCH##
 playsound minecraft:entity.player.splash player @a[distance=..7]
-particle minecraft:bubble_pop ~ ~ ~ 0.5 0.5 0.5 0.0001 20 force
+particle block sand ~ ~ ~ 0.1 0.2 0.1 0.0001 4 force
+particle block mud ~ ~ ~ 0.25 0.4 0.25 0.0001 12 force
 loot insert ~ ~-1 ~ loot tsurvival:gameplay/fishing/fishtraps/trash
 scoreboard players reset @s tsurv.fishing
