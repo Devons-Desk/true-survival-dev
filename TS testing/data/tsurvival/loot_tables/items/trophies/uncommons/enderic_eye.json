@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Enderic Eye\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Don\\'t stare into the abyss.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The abyss hits back.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Hinge\",\"color\":\"dark_green\"}']},CustomModelData:5101110,tsurv.trophy:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Faded Scroll\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Thanks for playing!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"~True Survival~\",\"color\":\"dark_green\"}']},CustomModelData:5101106,tsurv.trophy:1b,title:\"Triumph\",author:\"Devon's Desk\",generation:0,pages:['{\"text\":\"Lords may take by miles. \\\\nKings may take by horizons. \\\\nBut they are no more. \\\\nInches will do just fine.\"}']}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

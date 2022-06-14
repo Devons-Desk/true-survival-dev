@@ -19,9 +19,8 @@
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "item": {
-                    "items": [
-                        "minecraft:phantom_membrane"
-                    ],
+                    "tag": "tsurvival:nets"
+                    ,
                     "nbt": "{tsurv.net:1b}"
                 },
                 "entity": {

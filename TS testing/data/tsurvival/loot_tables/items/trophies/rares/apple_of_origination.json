@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Apple of Origination\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"11\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"18\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"11 \",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- TimeDragon\",\"color\":\"dark_green\"}']},CustomModelData:5101108,tsurv.trophy:1b,Enchantments:[{}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

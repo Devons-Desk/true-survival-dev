@@ -3,7 +3,6 @@
     "values": [
         "tsurvival:firewood/detection",
         "tsurvival:sleep/detection",
-        "tsurvival:fishtraps/scoreboard",
         "tsurvival:hardermobs/wither_skeleton/detection",
         "tsurvival:bosses/elder_dragon/stage1/telegraph/errupt"
     ]

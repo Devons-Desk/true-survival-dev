@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Ruby Geode\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"A gem rarer than emerald...\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"A gem lost to time.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- notbadkid\",\"color\":\"dark_green\"}']},CustomModelData:5101101,tsurv.trophy:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Gold Boot\",\"italic\":false,\"color\":\"white\"}',Lore:['{\"text\":\"There\\'s always a bigger boot.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"-npash\",\"color\":\"dark_green\",\"italic\":true}']},CustomModelData:5101114,tsurv.trophy:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

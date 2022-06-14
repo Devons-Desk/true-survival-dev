@@ -38,6 +38,6 @@
         }
     },
     "rewards": {
-        "function": "tsurvival:fishtraps/shears"
+        "function": "tsurvival:fishtraps/polar_bears/detection"
     }
 }

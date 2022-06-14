@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Broken Shovel\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Riches come to those who\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"sing in the mines.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Iran Junction\",\"color\":\"dark_green\"}']},CustomModelData:5101109,tsurv.trophy:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

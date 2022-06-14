@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Dirty Gem\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"It\\'s not a diamond...\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"It\\'s moissanite!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Chief Executive Admin\",\"color\":\"dark_green\"}']},CustomModelData:5101107,tsurv.trophy:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

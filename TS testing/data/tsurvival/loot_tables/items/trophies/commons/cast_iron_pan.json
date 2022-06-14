@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Cast Iron Pan\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"I\\'m so glad I\\'m not an idiot.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- PieGodofWar\",\"color\":\"dark_green\"}']},CustomModelData:5101104,tsurv.trophy:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

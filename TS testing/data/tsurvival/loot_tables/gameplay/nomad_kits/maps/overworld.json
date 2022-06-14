@@ -79,6 +79,21 @@
               "name": "Embassy Explorer Map"
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "tsurvival:ancient_city",
+              "decoration": "red_x"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Archaeological Explorer Map"
+            }
+          ]
         }
       ]
     }

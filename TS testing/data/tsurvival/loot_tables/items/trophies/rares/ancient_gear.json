@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Ancient Gear\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"The race of industry\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"has been brought to a crawl.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Galdeveer\",\"color\":\"dark_green\"}']},CustomModelData:5101102,tsurv.trophy:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

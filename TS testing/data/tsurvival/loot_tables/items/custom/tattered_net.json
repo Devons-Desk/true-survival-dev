@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sugar",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Tattered Net\",\"color\":\"white\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Ravaged by the currents.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101034,tsurv.net:1b,tsurv.tattered:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

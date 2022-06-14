@@ -3,6 +3,7 @@
     "values": [
         "tsurvival:spelunker/detection",
         "tsurvival:voyager/detection",
-        "tsurvival:strider_jockey/detection"
+        "tsurvival:strider_jockey/detection",
+        "tsurvival:fishtraps/scoreboard"
     ]
 } 

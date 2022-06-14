@@ -4,14 +4,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:structure_void",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Gold Boot\",\"italic\":false}',Lore:['{\"text\":\"There\\'s always a bigger boot.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"-npash\",\"color\":\"dark_green\",\"italic\":true}']},CustomModelData:5101114,tsurv.trophy:1b}"
-            }
-          ],
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/gold_boot",
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -22,54 +16,8 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:structure_void",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Old Boot\",\"italic\":false}',Lore:['{\"text\":\"Going the extra mile\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"tracks a lot of dirt.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"-ToastyMicach\",\"color\":\"dark_green\",\"italic\":true}']},CustomModelData:5101113,tsurv.trophy:1b}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:structure_void",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Broken Shovel\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Riches come to those who\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"sing in the mines.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Iran Junction\",\"color\":\"dark_green\"}']},CustomModelData:5101109,tsurv.trophy:1b}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:structure_void",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Dirty Gem\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"It\\'s not a diamond...\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"It\\'s moissanite!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Chief Executive Admin\",\"color\":\"dark_green\"}']},CustomModelData:5101107,tsurv.trophy:1b}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:structure_void",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Cast Iron Pan\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"I\\'m so glad I\\'m not an idiot.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- PieGodofWar\",\"color\":\"dark_green\"}']},CustomModelData:5101104,tsurv.trophy:1b}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:structure_void",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Foxtail\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"A form of wild barley that\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"dominates grassy areas.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Liquid Exodus\",\"color\":\"dark_green\"}']},CustomModelData:5101103,tsurv.trophy:1b}"
-            }
-          ],
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/foxtail",
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -80,14 +28,24 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:structure_void",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Stick of Destiny\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"This stick has powers unseen...\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Probably because it has none.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Shouix\",\"color\":\"dark_green\"}']},CustomModelData:5101100,tsurv.trophy:1b}"
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/old_boot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/broken_shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/dirty_gem"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/cast_iron_pan"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/trophies/commons/stick_of_destiny"
         }
       ]
     }

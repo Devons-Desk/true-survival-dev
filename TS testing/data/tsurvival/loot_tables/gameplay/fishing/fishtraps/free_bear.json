@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "name": "tsurvival:items/custom/tattered_net"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "tsurvival:items/custom/fishing_net"
+        }
+      ]
+    }
+  ]
+}
