@@ -11,7 +11,7 @@
         "tsurvival:bosses/elder_dragon/loot/detection",
         "tsurvival:hardermobs/deepmobs/biters/detection",
         "tsurvival:hardermobs/deepmobs/speed/detection",
-        "tsurvival:bartering/detection",
+        "tsurvival:gilded_blackstone/bartering/detection",
         "tsurvival:bosses/elder_dragon/scoreboard"
     ]
 } 

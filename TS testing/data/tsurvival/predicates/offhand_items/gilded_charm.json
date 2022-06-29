@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": [
+          "minecraft:name_tag"
+        ],
+        "nbt": "{tsurv.gcharm:1b}"
+      }
+    }
+  }
+}

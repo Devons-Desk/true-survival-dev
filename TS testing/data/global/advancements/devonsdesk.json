@@ -4,7 +4,7 @@
         "description": "",
         "icon": {
             "item": "minecraft:player_head",
-            "nbt": "{SkullOwner: 'Devon_Huge'}"
+            "nbt": "{SkullOwner: 'devonsdesk'}"
         },
         "show_toast": false,
         "announce_to_chat": false

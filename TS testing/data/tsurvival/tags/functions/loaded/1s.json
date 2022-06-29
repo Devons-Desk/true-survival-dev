@@ -1,9 +1,9 @@
 {
     "replace": false,
     "values": [
-        "tsurvival:spelunker/detection",
-        "tsurvival:voyager/detection",
-        "tsurvival:strider_jockey/detection",
+        "tsurvival:nomads/spelunker/detection",
+        "tsurvival:nomads/voyager/detection",
+        "tsurvival:nomads/strider_jockey/detection",
         "tsurvival:fishtraps/scoreboard"
     ]
 } 
