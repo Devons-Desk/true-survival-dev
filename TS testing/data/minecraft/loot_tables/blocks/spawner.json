@@ -13,7 +13,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "feature": "mansion",
+                    "structure": "mansion",
                     "dimension": "minecraft:overworld"
                   }
                 }
@@ -26,7 +26,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "feature": "mineshaft",
+                    "structure": "mineshaft",
                     "dimension": "minecraft:overworld"
                   }
                 }
@@ -39,7 +39,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "feature": "stronghold",
+                    "structure": "stronghold",
                     "dimension": "minecraft:overworld"
                   }
                 }
@@ -74,7 +74,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "feature": "fortress",
+                    "structure": "fortress",
                     "dimension": "minecraft:the_nether"
                   }
                 }
@@ -87,7 +87,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "feature": "bastion_remnant",
+                    "structure": "bastion_remnant",
                     "dimension": "minecraft:the_nether"
                   }
                 }

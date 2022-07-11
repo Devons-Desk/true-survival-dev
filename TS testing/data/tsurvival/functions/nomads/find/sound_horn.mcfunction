@@ -1,0 +1,1 @@
+execute as @e[tag=tsurv.trader] at @s run playsound minecraft:item.goat_horn.sound.0 player @a[distance=..180] ~ ~ ~ 12.5

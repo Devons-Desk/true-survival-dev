@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Fishing Net\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Used to make a fish trap.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101003,tsurv.net:1b}"
+                "tag": "{display:{Name:'{\"text\":\"Fishing Net\",\"color\":\"aqua\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Used to make a fish trap.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101003,tsurv.net:1b}"
               }
             ]
           }

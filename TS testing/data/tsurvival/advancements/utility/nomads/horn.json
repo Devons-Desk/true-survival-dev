@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:air"
+    },
+    "title": {
+      "text": "blownomadhorn"
+    },
+    "description": {
+      "text": "all horns blown give glowing effect to nearby nomads"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:goat_horn"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tsurvival:nomads/find/detection"
+  }
+}

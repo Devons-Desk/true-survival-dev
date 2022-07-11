@@ -1,21 +1,29 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "feet": {
-          "items": ["minecraft:leather_boots"]
-        },
-        "legs": {
-          "items": ["minecraft:leather_leggings"]
-        },
-        "chest": {
-          "items": ["minecraft:leather_chestplate"]
-        },
-        "head": {
-          "items": ["minecraft:leather_helmet"]
-        }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "player"
+    },
+    "equipment": {
+      "feet": {
+        "items": [
+          "minecraft:leather_boots"
+        ]
+      },
+      "legs": {
+        "items": [
+          "minecraft:leather_leggings"
+        ]
+      },
+      "chest": {
+        "tag": "tsurvival:armors/leather_chestplates"
+      },
+      "head": {
+        "items": [
+          "minecraft:leather_helmet"
+        ]
       }
     }
   }
-  
+}

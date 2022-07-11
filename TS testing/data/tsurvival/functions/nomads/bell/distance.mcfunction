@@ -1,1 +1,0 @@
-execute if entity @p[distance=..100] run function tsurvival:nomads/bell/ring
