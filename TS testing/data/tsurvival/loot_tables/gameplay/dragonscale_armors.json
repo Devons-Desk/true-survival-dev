@@ -1,0 +1,26 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "tsurvival:items/custom/dragonscale_helmet"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "tsurvival:items/custom/dragonscale_chestplate"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "tsurvival:items/custom/dragonscale_leggings"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "tsurvival:items/custom/dragonscale_boots"
+          }
+        ]
+      }
+    ]
+  }
+  

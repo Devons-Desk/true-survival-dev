@@ -1,0 +1,43 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Dragonscale Helmet",
+                  "color": "yellow",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Imbued with splendor.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "Forged in shadow.",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{color:0},HideFlags:64,Unbreakable:1b,tsurv.dshelmet:1b,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1610881736,1784825882,-1722184383,-2109547344],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-392405319,1502168484,-2141163343,-611950575],Slot:\"head\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

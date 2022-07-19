@@ -9,7 +9,7 @@
                 "functions": [
                     {
                     "function": "set_nbt", 
-                    "tag": "{display:{Name:'{\"text\":\"Gilded Charm\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Grants di-swine providence.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101035,tsurv.gcharm:1b}"
+                    "tag": "{display:{Name:'{\"text\":\"Gilded Charm\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"The providence of swine.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101035,tsurv.gcharm:1b}"
               }      
             ]
           }

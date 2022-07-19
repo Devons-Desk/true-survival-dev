@@ -1,6 +1,21 @@
 {
   "pools": [
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{instrument:\"minecraft:yearn_goat_horn\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "rolls": 3,
       "entries": [
         {
