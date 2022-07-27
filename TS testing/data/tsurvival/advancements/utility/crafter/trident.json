@@ -29,6 +29,6 @@
         }
     },
     "rewards": {
-        "function": "tsurvival:crafter/craft_trident"
+        "function": "tsurvival:crafter/craft_effects/craft_trident"
     }
 }

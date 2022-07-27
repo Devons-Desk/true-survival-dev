@@ -1,2 +1,2 @@
-execute unless entity @s[predicate=tsurvival:armors/tsurv.metalchest] run function tsurvival:hardermobs/deepmobs/torches/pilfer
+function tsurvival:hardermobs/deepmobs/torches/pilfer
 advancement revoke @s only tsurvival:utility/hardermobs/pilfer

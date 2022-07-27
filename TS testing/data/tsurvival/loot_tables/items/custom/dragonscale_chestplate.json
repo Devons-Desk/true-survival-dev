@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Dragonscale Chestplate",
+                  "text": "Dragonscale Tunic",
                   "color": "yellow",
                   "italic": false
                 }
@@ -32,7 +32,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{color:0},HideFlags:64,Unbreakable:1b,tsurv.dschestplate:1b,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1610881736,1784825882,-1722184383,-2109547344],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-392405319,1502168484,-2141163343,-611950575],Slot:\"chest\"}]}"
+                "tag": "{display:{color:2171169},HideFlags:64,Unbreakable:1b,tsurv.dschestplate:1b,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1610881736,1784825882,-1722184383,-2109547344],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-392405319,1502168484,-2141163343,-611950575],Slot:\"chest\"}]}"
               }
             ]
           }

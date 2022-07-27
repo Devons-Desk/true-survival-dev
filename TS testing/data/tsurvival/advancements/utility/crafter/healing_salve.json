@@ -30,6 +30,6 @@
         }
     },
     "rewards": {
-        "function": "tsurvival:crafter/craft_salve"
+        "function": "tsurvival:crafter/craft_effects/craft_salve"
     }
 }

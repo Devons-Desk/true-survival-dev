@@ -20,11 +20,12 @@
             "conditions": {
                 "item": {
                     "items": [
-                        "minecraft:emerald"
-                    ]
+                        "minecraft:written_book"
+                    ],
+                    "nbt": "{tsurv.guide:1b}"
                 },
                 "entity": {
-                    "type": "minecraft:item_frame"
+                    "type": "#tsurvival:ts_frames"
                 }
             }
         }

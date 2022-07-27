@@ -30,6 +30,6 @@
         }
     },
     "rewards": {
-        "function": "tsurvival:crafter/craft_horn"
+        "function": "tsurvival:crafter/craft_effects/craft_horn"
     }
 }

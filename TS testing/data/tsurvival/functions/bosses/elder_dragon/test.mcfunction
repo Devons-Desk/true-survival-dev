@@ -1,0 +1,9 @@
+summon dragon_fireball ~ ~ ~ {power:[0.0,-0.1,0.0]}
+summon dragon_fireball ~ ~ ~6 {power:[0.0,-0.1,0.0]}
+summon dragon_fireball ~ ~ ~-6 {power:[0.0,-0.1,0.0]}
+summon dragon_fireball ~6 ~ ~ {power:[0.0,-0.1,0.0]}
+summon dragon_fireball ~-6 ~ ~ {power:[0.0,-0.1,0.0]}
+summon dragon_fireball ~ ~ ~12 {power:[0.0,-0.1,0.0]}
+summon dragon_fireball ~ ~ ~-12 {power:[0.0,-0.1,0.0]}
+summon dragon_fireball ~12 ~ ~ {power:[0.0,-0.1,0.0]}
+summon dragon_fireball ~-12 ~ ~ {power:[0.0,-0.1,0.0]}

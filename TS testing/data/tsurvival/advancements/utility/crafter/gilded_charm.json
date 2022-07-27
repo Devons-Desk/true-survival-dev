@@ -1,7 +1,7 @@
 {
     "display": {
         "title": {
-            "text": "craft horn"
+            "text": "craft gilded charm"
         },
         "description": {
             "text": "special effects from crafting"
@@ -22,14 +22,14 @@
                 },
                 "item": {
                     "items": [
-                        "minecraft:enchanted_golden_apple"
+                        "minecraft:name_tag"
                     ],
-                    "nbt": "{tsurv.endchant:1b}"
+                    "nbt": "{tsurv.gcharm:1b}"
                 }
             }
         }
     },
     "rewards": {
-        "function": "tsurvival:crafter/craft_effects/craft_endchant"
+        "function": "tsurvival:crafter/craft_effects/craft_gcharm"
     }
 }

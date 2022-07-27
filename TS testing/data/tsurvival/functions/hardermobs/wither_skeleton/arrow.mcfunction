@@ -1,0 +1,1 @@
+execute as @e[type=#arrows,distance=..4] at @s run function tsurvival:hardermobs/wither_skeleton/nullify
