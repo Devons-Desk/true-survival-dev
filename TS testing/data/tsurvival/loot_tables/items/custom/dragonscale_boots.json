@@ -32,7 +32,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{color:2171169},HideFlags:64,Unbreakable:1b,tsurv.dsboots:1b,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1610881736,1784825882,-1722184383,-2109547344],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-392405319,1502168484,-2141163343,-611950575],Slot:\"feet\"}]}"
+                "tag": "{display:{color:2171169},HideFlags:64,Unbreakable:1b,tsurv.dsboots:1b,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1389051006,1444918930,-1424098098,-411414142],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-341798439,431849399,-221300012,-333481922],Slot:\"feet\"}]}"
               }
             ]
           }

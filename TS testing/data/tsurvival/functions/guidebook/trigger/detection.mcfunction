@@ -1,0 +1,1 @@
+execute if entity @s[scores={tsurv.guide=1..}] run function tsurvival:guidebook/trigger/give

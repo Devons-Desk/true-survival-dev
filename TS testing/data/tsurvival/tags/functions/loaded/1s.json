@@ -4,6 +4,7 @@
         "tsurvival:nomads/spelunker/detection",
         "tsurvival:nomads/voyager/detection",
         "tsurvival:nomads/strider_jockey/detection",
-        "tsurvival:fishtraps/scoreboard"
+        "tsurvival:fishtraps/scoreboard",
+        "tsurvival:guidebook/trigger/detection"
     ]
 } 

@@ -1,6 +1,7 @@
 ###CONTROLLER###
 scoreboard objectives add tsurv.controller dummy
 execute unless score #tsurv.controller tsurv.controller matches 1 run function tsurvival:initiate
+scoreboard players enable @a tsurv.guide
 
 ###INITIATESCHEDULES###
 function tsurvival:loops/10t
