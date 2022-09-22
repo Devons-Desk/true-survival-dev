@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
@@ -85,30 +85,16 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2,
-				"type": "minecraft:uniform"
+                "max": 3,
+				        "type": "minecraft:uniform"
               }
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 15,
+          "weight": 20,
           "name": "tsurvival:items/custom/healing_salve"
-        },
-        {
-          "type": "minecraft:item",
-		  "weight": 5,
-          "name": "minecraft:diamond_shovel",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 5,
-                "max": 10
-              }
-            }
-          ]
         }
       ]
     }

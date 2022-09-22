@@ -5,14 +5,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:amethyst_shard",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Sea Fragment\",\"color\":\"aqua\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Assemble three\",\"color\":\"gray\",\"bold\":false,\"italic\":true}','{\"text\":\"to tame the sea.\",\"color\":\"gray\",\"bold\":false,\"italic\":true}']},CustomModelData:5101009,tsurv.shard:1b}"
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "name": "tsurvival:items/custom/sea_fragment"
         }
       ]
     },

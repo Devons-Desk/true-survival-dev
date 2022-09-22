@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "tsurvival:sleep/detection",
+        "tsurvival:firewood/detection"
+    ]
+}
