@@ -2,8 +2,6 @@
     "replace": false,
     "values": [
         "tsurvival:bosses/elder_dragon/stage1/telegraph/errupt",
-        "tsurvival:hardermobs/wither_skeleton/detection",
-        "tsurvival:firewood/detection",
-        "tsurvival:sleep/detection"
+        "tsurvival:hardermobs/wither_skeleton/detection"
     ]
 } 
