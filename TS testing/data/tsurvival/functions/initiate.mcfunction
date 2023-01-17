@@ -15,7 +15,6 @@ scoreboard objectives add tsurv.ncounter dummy
 scoreboard objectives add tsurv.firewood dummy
 scoreboard objectives add tsurv.sleep minecraft.custom:minecraft.time_since_rest
 scoreboard objectives add tsurv.trophycontroller dummy
-scoreboard objectives add tsurv.break_crafter minecraft.mined:minecraft.crafting_table
 
 ###TEAMS###
 team add Dragon
