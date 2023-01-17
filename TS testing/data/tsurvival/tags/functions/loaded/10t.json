@@ -2,7 +2,6 @@
     "replace": false,
     "values": [
         "tsurvival:illager_conversion/detection",
-        "tsurvival:crafter/detect_air",
         "tsurvival:soul_well/detection",
 
         "tsurvival:hardermobs/torches/detection",

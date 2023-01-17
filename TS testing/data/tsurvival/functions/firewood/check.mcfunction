@@ -1,6 +1,6 @@
 
 
-
+##CHECK LOG
 execute if entity @s[tag=!tsurv.firewood_found] at @s if block ~ ~-0.4 ~ #campfires[lit=true] run function tsurvival:firewood/tag
 
 
