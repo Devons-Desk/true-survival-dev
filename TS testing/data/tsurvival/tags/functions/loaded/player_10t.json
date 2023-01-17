@@ -2,7 +2,6 @@
     "replace": false,
     "values": [
         "tsurvival:hardermobs/creeper",
-        "tsurvival:hardermobs/skeleton/detection",
-        "tsurvival:crafter/break/detection"
+        "tsurvival:hardermobs/skeleton/detection"
     ]
 }

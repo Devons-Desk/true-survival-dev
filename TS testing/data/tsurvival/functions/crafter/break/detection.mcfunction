@@ -1,3 +1,2 @@
-execute if entity @s[scores={tsurv.break_crafter=1..}] at @s run function tsurvival:crafter/break/detect_air
-
-#execute as @e[tag=tsurv.completed,distance=..7] at @s unless entity @e[tag=tsurv.cmarker,distance=..0.9] run function tsurvival:crafter/break/fix
+execute if entity @s[tag=tsurv.cmarker] at @s if block ~ ~-1 ~ air run function tsurvival:crafter/break/kill_crafter
+execute if entity @s[tag=tsurv.completed] at @s unless block ~ ~ ~ crafting_table run tp @s ~ ~-500 ~

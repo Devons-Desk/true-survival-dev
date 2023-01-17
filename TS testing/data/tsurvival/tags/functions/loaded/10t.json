@@ -6,7 +6,7 @@
 
         "tsurvival:hardermobs/torches/detection",
         "tsurvival:hardermobs/ghast/detection",
-
+        "tsurvival:crafter/break/detection",
         "tsurvival:bosses/elder_dragon/loot/detection",
         "tsurvival:hardermobs/deepmobs/biters/detection",
         "tsurvival:hardermobs/deepmobs/speed/detection",
