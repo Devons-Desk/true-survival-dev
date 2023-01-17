@@ -20,14 +20,18 @@
         "enteringdeep": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "overworld",
-                "position": {
-                    "y": {
+                "player": {
+                  "location": {
+                    "position": {
+                      "y": {
                         "min": -64,
                         "max": 0
-                    }
+                      }
+                    },
+                    "dimension": "minecraft:overworld"
+                  }
                 }
-            }
+              }
         }
     },
     "parent": "tsurvival:progression/survival/light_upgrade"
