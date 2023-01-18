@@ -1,0 +1,1 @@
+loot spawn ~ ~0.25 ~ loot tsurvival:gameplay/pigs/poop

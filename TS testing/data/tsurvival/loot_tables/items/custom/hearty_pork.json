@@ -1,0 +1,37 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_porkchop",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Hearty Pork",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "All natural genetic modification.",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{tsurv.hearty_pork:1b,CustomModelData:5101038,Enchantments:[{}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

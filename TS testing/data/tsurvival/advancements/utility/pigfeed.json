@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "text": "feeding potatoes"
+            "text": "feeding heartbeets"
         },
         "description": {
-            "text": "trigger the pigpoop functions with potatoes"
+            "text": "trigger the modification functions on pigs when using heartbeets"
         },
         "icon": {
             "item": "minecraft:air"
@@ -15,18 +15,18 @@
         "hidden": true
     },
     "criteria": {
-        "endchant": {
-            "trigger": "minecraft:player_interacted_with_entity",
-            "conditions": {
-                "item": {
-                    "tag": "tsurvival:pigfood"
-                },
-                "entity": {
-                    "type": "minecraft:pig"
-                }
+        "requirement": {
+          "trigger": "minecraft:player_interacted_with_entity",
+          "conditions": {
+            "item": {
+              "items": [
+                "minecraft:beetroot"
+              ],
+              "nbt": "{tsurv.heartbeet:1b}"
             }
+          }
         }
-    },
+      },
     "rewards": {
         "function": "tsurvival:pigs/detection"
     }
