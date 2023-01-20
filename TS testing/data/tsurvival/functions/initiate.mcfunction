@@ -3,6 +3,7 @@ gamerule naturalRegeneration false
 difficulty hard
 
 ###SCOREBOARDS###
+scoreboard objectives add tsurv.cravings dummy
 scoreboard objectives add tsurv.fishing dummy
 scoreboard objectives add tsurv.witboss dummy
 scoreboard objectives add tsurv.edragon dummy

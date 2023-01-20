@@ -1,80 +1,23 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone_button",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{tsurv.liquid:1b}"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone_button",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{tsurv.trash:1b}"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone_button",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{tsurv.fruit:1b}"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone_button",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{tsurv.baked:1b}"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone_button",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{tsurv.gold:1b}"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone_button",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{tsurv.veggie:1b}"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone_button",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{tsurv.protein:1b}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
