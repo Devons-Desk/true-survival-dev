@@ -53,7 +53,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "minecraft:set_instrument",
+              "options": "#minecraft:regular_goat_horns"
+            }
+          ]
         },
         {
           "type": "minecraft:item",

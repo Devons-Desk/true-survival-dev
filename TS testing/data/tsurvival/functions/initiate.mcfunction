@@ -12,6 +12,7 @@ scoreboard objectives add tsurv.eatsalve dummy
 scoreboard objectives add tsurv.gbarter dummy
 scoreboard objectives add tsurv.guide trigger
 scoreboard objectives add tsurv.starvation food
+scoreboard objectives add tsurv.health health
 scoreboard objectives add tsurv.ncounter dummy
 scoreboard objectives add tsurv.firewood dummy
 scoreboard objectives add tsurv.pig.raycast dummy

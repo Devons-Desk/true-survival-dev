@@ -1,33 +1,36 @@
 {
-    "display": {
-        "title": {
-            "text": "feeding heartbeets"
-        },
-        "description": {
-            "text": "trigger the modification functions on pigs when using heartbeets"
-        },
-        "icon": {
-            "item": "minecraft:air"
-        },
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true
+  "display": {
+    "icon": {
+      "item": "minecraft:air"
     },
-    "criteria": {
-        "requirement": {
-          "trigger": "minecraft:player_interacted_with_entity",
-          "conditions": {
-            "item": {
-              "items": [
-                "minecraft:beetroot"
-              ],
-              "nbt": "{tsurv.heartbeet:1b}"
-            }
-          }
+    "title": {
+      "text": "feeding heartbeets"
+    },
+    "description": {
+      "text": "trigger the modification functions on pigs when using heartbeets"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:beetroot"
+          ],
+          "nbt": "{tsurv.heartbeet:1b}"
+        },
+        "entity": {
+          "type": "minecraft:pig"
         }
-      },
-    "rewards": {
-        "function": "tsurvival:pigs/detection"
+      }
     }
+  },
+  "rewards": {
+    "function": "tsurvival:pigs/detection"
+  }
 }
