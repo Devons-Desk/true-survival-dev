@@ -47,15 +47,15 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 15,
-          "name": "minecraft:cooked_porkchop",
+          "name": "tsurvival:items/custom/hearty_pork",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 6,
+                "min": 2,
+                "max": 3,
 				"type": "minecraft:uniform"
               }
             }
