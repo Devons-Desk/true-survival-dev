@@ -1,0 +1,32 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "tsurvival:items/custom/unlit_campfire"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:fire_charge",
+            "conditions": [
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:campfire",
+                "properties": {
+                  "lit": "true"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
