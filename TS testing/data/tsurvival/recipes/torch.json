@@ -1,17 +1,16 @@
 {
-    "type": "crafting_shaped",
-    "pattern": [
-        "F",
-        "S"	
-    ],
-    "key": {
-        "F": {
-            "item": "minecraft:fire_charge"
+    "type": "crafting_shapeless",
+    "ingredients":  [
+        {
+            "item": "minecraft:blaze_powder"
         },
-        "S": {
+        {
             "item": "minecraft:stick"
+        },
+        {
+            "tag": "minecraft:coals"
         }
-	},
+    ],
     "result": {
 		"item": "minecraft:torch",
 		"count": 6

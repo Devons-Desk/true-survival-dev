@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "minecraft:diorite"
+    "tag": "tsurvival:blackstone_smeltable"
   },
   "result": "minecraft:blackstone",
   "experience": 0.1,

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smoking",
   "ingredient": {
-    "item": "minecraft:jungle_sapling"
+    "tag": "minecraft:saplings"
   },
   "result": "minecraft:dead_bush",
   "experience": 0.35,

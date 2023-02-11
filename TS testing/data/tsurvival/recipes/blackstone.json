@@ -1,7 +1,7 @@
 ﻿{
  "type": "minecraft:smelting",
     "ingredient": {
-        "item": "minecraft:andesite"
+        "tag": "tsurvival:blackstone_smeltable"
     },
 		"result": "minecraft:blackstone",
 		"experience": 0.1,
