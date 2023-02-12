@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "tsurvival:nonwood_shovels"
+        },
+        "location": {
+          "block": {
+            "tag": "minecraft:campfires"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tsurvival:firewood/extinguish/detection"
+  }
+}
