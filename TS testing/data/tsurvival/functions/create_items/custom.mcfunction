@@ -1,5 +1,16 @@
-summon item ~ ~ ~ {Tags:["fresh_craft"],Item:{id:"minecraft:beetroot_soup",Count:1b,tag:{display:{Name:'{"text":"Healing Salve","color":"aqua","bold":false,"italic":false}',Lore:['{"text":"Put into offhand to heal.","color":"gray","italic":true}']},CustomModelData:5101001,tsurv.salve:1b}}}
-summon item ~ ~ ~ {Tags:["custom_craft"],Item:{id:"minecraft:nautilus_shell",Count:1b,tag:{display:{Name:'{"text":"War Horn","color":"aqua","bold":false,"italic":false}',Lore:['{"text":"Put into offhand to sound the horn.","color":"gray","italic":true}']},CustomModelData:5101002,tsurv.horn:1b}}}
-summon item ~ ~ ~ {Item:{id:"minecraft:amethyst_shard",Count:1b,tag:{display:{Name:'{"text":"Sea Fragment","color":"aqua","bold":false,"italic":false}',Lore:['{"text":"Assemble three","color":"gray","bold":false,"italic":true}','{"text":"to tame the sea.","color":"gray","bold":false,"italic":true}']},CustomModelData:5101009,tsurv.shard:1b}}}
-give @s spider_eye{display:{Name:'{"text":"Silverfish Egg","italic":false}',Lore:['{"text":"It\'s moving.","color":"gray","italic":true}']},CustomModelData:5101010,tsurv.detector:1b}
-give @s feather{display:{Name:'{"text":"Artisan Scrap","color":"white","italic":false}',Lore:['{"text":"Premium crafting material.","color":"gray","italic":true}']},CustomModelData:5101028,tsurv.scrap:1b}
+loot give @s loot tsurvival:items/custom/artisan_scrap
+loot give @s loot tsurvival:items/custom/dragonscale_boots
+loot give @s loot tsurvival:items/custom/dragonscale_chestplate
+loot give @s loot tsurvival:items/custom/dragonscale_helmet
+loot give @s loot tsurvival:items/custom/dragonscale_leggings
+loot give @s loot tsurvival:items/custom/fishing_net
+loot give @s loot tsurvival:items/custom/tattered_net
+loot give @s loot tsurvival:items/custom/gilded_charm
+loot give @s loot tsurvival:items/custom/healing_salve
+loot give @s loot tsurvival:items/custom/heartbeet
+loot give @s loot tsurvival:items/custom/hearty_pork
+loot give @s loot tsurvival:items/custom/sea_fragment
+loot give @s loot tsurvival:items/custom/silverfish_egg
+loot give @s loot tsurvival:items/custom/viking_axe
+loot give @s loot tsurvival:items/custom/war_horn
+
