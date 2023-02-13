@@ -3,7 +3,6 @@ tellraw @s [{"text":"----------------------------------------------------","colo
 ###STUFF###
 gamerule naturalRegeneration true
 difficulty normal
-scoreboard players set #tsurv.controller tsurv.controller 0
 
 ###SCOREBOARDS###
 scoreboard objectives remove tsurv.FullSleep 
@@ -18,6 +17,11 @@ scoreboard objectives remove tsurv.random
 scoreboard objectives remove tsurv.sleep 
 scoreboard objectives remove tsurv.endchant
 scoreboard objectives remove tsurv.starvation
+scoreboard objectives remove tsurv.cravings
+scoreboard objectives remove tsurv.edragon.loop1
+scoreboard objectives remove tsurv.edragon.loop2
+scoreboard objectives remove tsurv.controller
+scoreboard objectives remove tsurv.trophycontroller
 
 ###LEGACYSCOREBOARDS###
 scoreboard objectives remove FullSleep 
