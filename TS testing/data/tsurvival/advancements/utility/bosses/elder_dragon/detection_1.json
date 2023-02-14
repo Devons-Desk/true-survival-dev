@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": {
+        "text": "detection1"
+    },
+    "description": {
+        "text": "detecting entering end dimension to test for ender dragon for loop initiations"
+    },
+    "icon": {
+        "item": "minecraft:air"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+},
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "minecraft:the_end"
+        }
+      }
+    },
+    "rewards": {
+      "function": "tsurvival:bosses/elder_dragon/initiation"
+    }
+  }
+  

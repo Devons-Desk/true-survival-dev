@@ -1,2 +1,2 @@
-###using health data stage one###
-execute as @s[type=ender_dragon] at @s in minecraft:the_end if score #tsurv.dragoncontroller tsurv.edragon matches ..150 run function tsurvival:bosses/elder_dragon/stage2/check
+###using health data, 15s loop
+execute if entity @s[type=ender_dragon] at @s in minecraft:the_end if score #tsurv.dragoncontroller tsurv.edragon matches ..150 run function tsurvival:bosses/elder_dragon/stage2/check
