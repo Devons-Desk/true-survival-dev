@@ -23,7 +23,7 @@
       }
     },
     "rewards": {
-      "function": "tsurvival:bosses/elder_dragon/initiation"
+      "function": "tsurvival:bosses/elder_dragon/buffer"
     }
   }
   

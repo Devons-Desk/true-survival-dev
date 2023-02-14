@@ -7,7 +7,6 @@ scoreboard players enable @a tsurv.guide
 function tsurvival:loops/10t
 function tsurvival:loops/1s
 function tsurvival:loops/8s
-function tsurvival:loops/15s
 
 
 function tsurvival:hardermobs/spider/detection
