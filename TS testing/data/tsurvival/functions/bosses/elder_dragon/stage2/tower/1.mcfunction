@@ -1,0 +1,1 @@
+place template tsurvival:elder_dragon/stage2.tower.1 ~-1 ~ ~-1
