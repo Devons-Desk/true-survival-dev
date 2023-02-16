@@ -1,4 +1,4 @@
-
+say loops initiated
 
 scoreboard players set $tsurv.ed.loop_controller tsurv.ed.loop_controller 1
 

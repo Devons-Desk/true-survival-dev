@@ -1,1 +1,0 @@
-execute as @e[tag=tsurv.ed.stage2.complete,limit=2,sort=random] at @s run setblock ~ ~13 ~ spawner{SpawnCount:1,SpawnRange:5,MinSpawnDelay:200,MaxSpawnDelay:600,MaxNearbyEntities:5,RequiredPlayerRange:80,SpawnData:{entity:{id:"minecraft:phantom",Tags:["tsurv.ed.phantom"]}}} replace
