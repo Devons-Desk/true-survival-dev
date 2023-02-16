@@ -11,4 +11,3 @@ function tsurvival:loops/8s
 
 function tsurvival:hardermobs/spider/detection
 function tsurvival:safety_heal/loop
-function tsurvival:bosses/elder_dragon/stage3/detection

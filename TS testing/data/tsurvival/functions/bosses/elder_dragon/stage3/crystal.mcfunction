@@ -1,0 +1,1 @@
+execute unless block ~ ~13 ~ spawner as @e[tag=tsurv.ed.stage3.complete] at @s run summon end_crystal ~ ~13 ~
