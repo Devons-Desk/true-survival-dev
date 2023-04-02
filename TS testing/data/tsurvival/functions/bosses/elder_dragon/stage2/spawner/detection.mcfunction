@@ -1,1 +1,1 @@
-execute as @e[tag=tsurv.ed.stage2.complete,limit=2,sort=random] at @s run function tsurvival:bosses/elder_dragon/stage2/spawner/create
+execute as @e[tag=tsurv.ed.stage2.complete,limit=1,sort=random] at @s run function tsurvival:bosses/elder_dragon/stage2/spawner/create
