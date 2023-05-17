@@ -1,1 +1,1 @@
-execute at @e[tag=tsurv.end_fountain] run fill ~ ~ ~ ~ ~20 ~ air replace
+execute at @e[tag=tsurv.end_fountain] run fill ~ ~1 ~ ~ ~20 ~ air replace

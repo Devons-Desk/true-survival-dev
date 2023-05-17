@@ -1,4 +1,4 @@
-###called by the summon function. only loops when called then ends once telegraph+ability are over.
+###called by the spread function. only loops when called then ends once telegraph+ability are over.
 
 #scoreboard players add @e[tag=tsurv.geyser] tsurv.edragon.loop1 1
 scoreboard players add $tsurv.geyser tsurv.edragon.loop1 1
