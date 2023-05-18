@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "tsurvival:hardermobs/creeper",
+        "tsurvival:hardermobs/creeper/detection",
         "tsurvival:hardermobs/skeleton/detection"
     ]
 }
