@@ -27,6 +27,6 @@
         }
     },
     "rewards": {
-        "function": "tsurvival:hardermobs/husk"
+        "function": "tsurvival:hardermobs/zombies/husk"
     }
 }

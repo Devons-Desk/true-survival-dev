@@ -28,6 +28,6 @@
         }
     },
     "rewards": {
-        "function": "tsurvival:hardermobs/biters"
+        "function": "tsurvival:hardermobs/zombies/biters"
     }
 }
