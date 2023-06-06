@@ -17,7 +17,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:5101040,BlockStateTag:{lit:\"false\"}}"
+                "tag": "{CustomModelData:5101040,BlockStateTag:{lit:\"false\"},Enchantments:[{}]}"
               }
             ]
           }

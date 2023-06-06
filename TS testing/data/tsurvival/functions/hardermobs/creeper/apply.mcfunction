@@ -1,1 +1,1 @@
-execute unless predicate tsurvival:armors/tsurv.fullleather if entity @s[gamemode=survival] run effect give @s slowness 7 1 true
+execute if entity @s[predicate=!tsurvival:armors/tsurv.fullleather,gamemode=survival] run effect give @s slowness 7 1 true
