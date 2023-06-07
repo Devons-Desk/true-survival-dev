@@ -214,6 +214,26 @@
           "name": "tsurvival:items/custom/healing_salve"
         }
       ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:dune_armor_trim_smithing_template"
+        }
+      ]
     }
   ]
 }

@@ -144,6 +144,19 @@
           "name": "tsurvival:items/custom/healing_salve"
         }
       ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:eye_armor_trim_smithing_template"
+        }
+      ]
     }
   ]
 } 
