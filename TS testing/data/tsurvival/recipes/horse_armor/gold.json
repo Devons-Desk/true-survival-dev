@@ -1,5 +1,8 @@
 {
-  "type": "minecraft:smithing",
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:leather"
+  },
   "base": {
     "item": "minecraft:leather_horse_armor"
   },
