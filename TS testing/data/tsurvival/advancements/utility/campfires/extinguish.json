@@ -1,17 +1,30 @@
 {
   "criteria": {
-    "requirement": {
-      "trigger": "minecraft:item_used_on_block",
+    "requirement":{
+      "trigger": "item_used_on_block",
       "conditions": {
-        "item": {
-          "tag": "tsurvival:nonwood_shovels"
-        },
-        "location": {
-          "block": {
-            "tag": "minecraft:campfires"
+        "location": 
+        [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": 
+            {
+              "block": {
+                "blocks": [
+                  "minecraft:campfire"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "match_tool",
+            "predicate": {
+              "tag": "tsurvival:nonwood_shovels"
+            }
           }
-        }
+        ]
       }
+      
     }
   },
   "rewards": {

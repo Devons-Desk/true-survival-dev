@@ -10,6 +10,7 @@ execute if data storage minecraft:tsurvival.firewood_detection Item{id:"minecraf
 execute if data storage minecraft:tsurvival.firewood_detection Item{id:"minecraft:dark_oak_log"} run scoreboard players set $red tsurv.firewood 1
 execute if data storage minecraft:tsurvival.firewood_detection Item{id:"minecraft:spruce_log"} run scoreboard players set $red tsurv.firewood 1
 execute if data storage minecraft:tsurvival.firewood_detection Item{id:"minecraft:mangrove_log"} run scoreboard players set $red tsurv.firewood 1
+execute if data storage minecraft:tsurvival.firewood_detection Item{id:"minecraft:cherry_log"} run scoreboard players set $red tsurv.firewood 1
 
 ##NETHER FIREWOOD##
 execute if data storage minecraft:tsurvival.firewood_detection Item{id:"minecraft:crimson_stem"} run scoreboard players set $blue tsurv.firewood 1
