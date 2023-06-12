@@ -1,6 +1,6 @@
 ###CONTROLLER###
 scoreboard objectives add tsurv.controller dummy
-execute unless score $tsurv.controller_4.5.0 tsurv.controller matches 1 run function tsurvival:initiate
+execute unless score $tsurv.controller_5.0.0 tsurv.controller matches 1 run function tsurvival:initiate
 scoreboard players enable @a tsurv.guide
 
 ###INITIATESCHEDULES###

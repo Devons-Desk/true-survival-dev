@@ -91,6 +91,21 @@
             },
             {
               "function": "minecraft:set_name",
+              "name": "Ancient Explorer Map"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "tsurvival:trail_ruins",
+              "decoration": "red_x"
+            },
+            {
+              "function": "minecraft:set_name",
               "name": "Archaeological Explorer Map"
             }
           ]

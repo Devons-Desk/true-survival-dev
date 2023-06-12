@@ -5,11 +5,11 @@ recipe give @s minecraft:ender_chest
 recipe give @s minecraft:ender_eye
 recipe give @s minecraft:chain
 recipe give @s minecraft:shield
-recipe give @s tsurvival:chainhat
-recipe give @s tsurvival:chainshirt
-recipe give @s tsurvival:chainshoes
-recipe give @s tsurvival:chainpants
-recipe give @s tsurvival:chain_decraft
+recipe give @s tsurvival:chainmail/helmet
+recipe give @s tsurvival:chainmail/chestplate
+recipe give @s tsurvival:chainmail/leggings
+recipe give @s tsurvival:chainmail/boots
+recipe give @s tsurvival:chainmail/chain_decraft
 recipe give @s minecraft:jack_o_lantern
 recipe give @s tsurvival:torch
 recipe give @s minecraft:torch
