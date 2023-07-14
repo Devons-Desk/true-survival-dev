@@ -23,6 +23,7 @@ scoreboard objectives add tsurv.pbear.raycast dummy
 scoreboard objectives add tsurv.sleep minecraft.custom:minecraft.time_since_rest
 scoreboard objectives add tsurv.trophycontroller dummy
 scoreboard objectives add tsurv.ed.loop_controller dummy
+scoreboard objectives add tsurv.eatcake minecraft.custom:minecraft.eat_cake_slice
 
 ###TEAMS###
 team add Dragon
