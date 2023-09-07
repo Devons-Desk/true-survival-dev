@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "totem nerfs"
+        },
+        "description": {
+            "text": "xxx"
+        },
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "endchant": {
+            "trigger": "minecraft:used_totem"
+        }
+    },
+    "rewards": {
+        "function": "tsurvival:endchanted/totem"
+    }
+}

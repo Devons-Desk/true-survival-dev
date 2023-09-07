@@ -9,8 +9,8 @@ execute if predicate tsurvival:rng/50 run attribute @s generic.max_health base s
 execute if predicate tsurvival:rng/20 run attribute @s generic.max_health base set 16
 execute if predicate tsurvival:rng/5 run attribute @s generic.max_health base set 20
 
-attribute @s generic.movement_speed base set 0.30 
-execute if predicate tsurvival:rng/50 run attribute @s generic.movement_speed base set 0.35
-execute if predicate tsurvival:rng/20 run attribute @s generic.movement_speed base set 0.45
-execute if predicate tsurvival:rng/5 run attribute @s generic.movement_speed base set 0.50 
+#attribute @s generic.movement_speed base set 0.30 
+#execute if predicate tsurvival:rng/50 run attribute @s generic.movement_speed base set 0.35
+#execute if predicate tsurvival:rng/20 run attribute @s generic.movement_speed base set 0.45
+#execute if predicate tsurvival:rng/5 run attribute @s generic.movement_speed base set 0.50 
 

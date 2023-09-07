@@ -24,7 +24,8 @@ scoreboard objectives add tsurv.sleep minecraft.custom:minecraft.time_since_rest
 scoreboard objectives add tsurv.trophycontroller dummy
 scoreboard objectives add tsurv.ed.loop_controller dummy
 scoreboard objectives add tsurv.eatcake minecraft.custom:minecraft.eat_cake_slice
-
+scoreboard objectives add tsurv.dragonfruit dummy
+scoreboard objectives add tsurv.deaths deathCount
 ###TEAMS###
 team add Dragon
 team modify Dragon friendlyFire false
