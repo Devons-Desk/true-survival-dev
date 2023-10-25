@@ -26,6 +26,8 @@ scoreboard objectives add tsurv.ed.loop_controller dummy
 scoreboard objectives add tsurv.eatcake minecraft.custom:minecraft.eat_cake_slice
 scoreboard objectives add tsurv.dragonfruit dummy
 scoreboard objectives add tsurv.deaths deathCount
+scoreboard objectives add tsurv.trap.raycast dummy
+
 ###TEAMS###
 team add Dragon
 team modify Dragon friendlyFire false
@@ -37,7 +39,7 @@ team add Bears
 team modify Bears friendlyFire false
 
 ###CONTROLLERS###
-scoreboard players set $tsurv.controller_5.0.0 tsurv.controller 1
+scoreboard players set $tsurv.controller_5.2.0 tsurv.controller 1
 scoreboard players set #tsurv.jockeycontroller tsurv.ncounter 0
 scoreboard players set #tsurv.trophycontroller tsurv.trophycontroller 0
 
