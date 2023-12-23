@@ -19,6 +19,7 @@ scoreboard objectives add tsurv.health health
 scoreboard objectives add tsurv.ncounter dummy
 scoreboard objectives add tsurv.firewood dummy
 scoreboard objectives add tsurv.pig.raycast dummy
+scoreboard objectives add tsurv.gcharm.raycast dummy
 scoreboard objectives add tsurv.pbear.raycast dummy
 scoreboard objectives add tsurv.sleep minecraft.custom:minecraft.time_since_rest
 scoreboard objectives add tsurv.trophycontroller dummy
