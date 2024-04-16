@@ -9,7 +9,7 @@
             "text": "A Devon's Desk Original"
         },
         "icon": {
-            "item": "minecraft:soul_campfire"
+            "id": "minecraft:soul_campfire"
         },
         "frame": "challenge",
         "show_toast": true,

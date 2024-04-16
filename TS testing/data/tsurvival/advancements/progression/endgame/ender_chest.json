@@ -9,7 +9,7 @@
             "text": "Place an ender chest crafted from two emerald blocks. "
         },
         "icon": {
-            "item": "minecraft:ender_chest"
+            "id": "minecraft:ender_chest"
         },
         "frame": "task",
         "show_toast": true,

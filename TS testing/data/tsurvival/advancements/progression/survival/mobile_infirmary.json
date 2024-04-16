@@ -1,36 +1,38 @@
 {
     "display": {
-        "title": {
-            "text": "Mobile Infirmary",
-            "color": "red",
-            "italic": false
-        },
-        "description": {
-            "text": "Acquire a healing salve!"
-        },
-        "icon": {
-            "item": "minecraft:beetroot_soup",
-            "nbt": "{CustomModelData:5101001}"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "craftsalve": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:beetroot_soup"
-                        ],
-                        "nbt": "{tsurv.salve:1b}"
-                    }
-                ]
-            }
+      "icon": {
+        "id": "minecraft:beetroot_soup",
+        "components": {
+          "minecraft:custom_model_data": 5101001
         }
+      },
+      "title": {
+        "text": "Mobile Infirmary",
+        "color": "red",
+        "italic": false
+      },
+      "description": {
+        "text": "Acquire a healing salve!"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
     },
-    "parent": "tsurvival:progression/survival/rem_sleep"
-}
+    "parent": "tsurvival:progression/survival/rem_sleep",
+    "criteria": {
+      "craftsalve": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:beetroot_soup"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

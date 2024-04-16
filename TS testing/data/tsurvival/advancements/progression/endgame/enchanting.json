@@ -9,7 +9,7 @@
             "text": "Craft an enchantment table using an emerald block."
         },
         "icon": {
-            "item": "minecraft:enchanting_table"
+            "id": "minecraft:enchanting_table"
         },
         "frame": "task",
         "show_toast": true,

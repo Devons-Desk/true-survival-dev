@@ -11,8 +11,10 @@
             "italic": false
         },
         "icon": {
-            "item": "minecraft:iron_pickaxe",
-            "nbt" : "{CustomModelData:5101004}"
+            "id": "minecraft:iron_pickaxe",
+            "components" : {
+                "minecraft:custom_model_data":5101004
+            }
         },
         "frame": "challenge",
         "show_toast": true,
@@ -25,19 +27,33 @@
                 "items": [
                     {
                         "items": ["minecraft:iron_pickaxe"],
-                        "nbt": "{tsurv.fortune:1b}"
+                        "components": 
+                        {
+                            "minecraft:custom_data":{tsurv.fortune:1b}
+                        }
                     },
                     {
                         "items": ["minecraft:iron_pickaxe"],
-                        "nbt": "{tsurv.silk:1b}"
+                        "components": 
+                        {
+                            "minecraft:custom_data":{
+                                "minecraft:custom_data": tsurv.silk:1b
+                            }
+                        }
                     },
                     {
                         "items": ["minecraft:iron_boots"],
-                        "nbt": "{tsurv.boots:1b}"
+                        "components": 
+                        {
+                            "minecraft:custom_data":tsurv.boots:1b
+                        }
                     },
                     {
                         "items": ["minecraft:suspicious_stew"],
-                        "nbt": "{tsurv.brew:1b}"
+                        "components": 
+                        {
+                            "minecraft:custom_data":tsurv.brew:1b
+                        }
                     }
                 ]
             }

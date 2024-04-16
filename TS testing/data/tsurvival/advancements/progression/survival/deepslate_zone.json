@@ -9,7 +9,7 @@
             "text": "Enter the deepest part of Minecraft."
         },
         "icon": {
-            "item": "minecraft:skeleton_skull"
+            "id": "minecraft:skeleton_skull"
         },
         "frame": "task",
         "show_toast": true,

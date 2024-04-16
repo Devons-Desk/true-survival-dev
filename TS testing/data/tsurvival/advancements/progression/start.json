@@ -9,7 +9,7 @@
             "text": "Craft a campfire."
         },
         "icon": {
-            "item": "minecraft:campfire"
+            "id": "minecraft:campfire"
         },
         "frame": "task",
         "show_toast": true,

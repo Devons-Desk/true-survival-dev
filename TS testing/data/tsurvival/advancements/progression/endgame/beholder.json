@@ -9,7 +9,7 @@
             "text": "Use an emerald to craft an eye of ender."
         },
         "icon": {
-            "item": "minecraft:ender_eye"
+            "id": "minecraft:ender_eye"
         },
         "frame": "task",
         "show_toast": true,

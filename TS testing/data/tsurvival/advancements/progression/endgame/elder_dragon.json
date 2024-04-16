@@ -10,7 +10,7 @@
             "text": "Defeat the Elder Dragon."
         },
         "icon": {
-            "item": "minecraft:dragon_head"
+            "id": "minecraft:dragon_head"
         },
         "frame": "challenge",
         "show_toast": true,

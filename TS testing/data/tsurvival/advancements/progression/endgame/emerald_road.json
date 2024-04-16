@@ -9,7 +9,7 @@
             "text": "Acquire your first emerald."
         },
         "icon": {
-            "item": "minecraft:emerald"
+            "id": "minecraft:emerald"
         },
         "frame": "task",
         "show_toast": true,

@@ -9,7 +9,7 @@
             "text": "Enchant an axe with fortune."
         },
         "icon": {
-            "item": "minecraft:iron_axe"
+            "id": "minecraft:iron_axe"
         },
         "frame": "task",
         "show_toast": true,

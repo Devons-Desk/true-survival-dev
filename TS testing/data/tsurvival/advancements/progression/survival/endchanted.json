@@ -10,8 +10,10 @@
             "text": "Defeat the dragon. Return home. Celebrate."
         },
         "icon": {
-            "item": "minecraft:enchanted_golden_apple",
-            "nbt": "{CustomModelData:5101011}"
+            "id": "minecraft:enchanted_golden_apple",
+            "components": {
+                "minecraft:custom_model_data":5101011
+            }
         },
         "frame": "challenge",
         "show_toast": true,

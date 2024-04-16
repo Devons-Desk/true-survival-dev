@@ -9,7 +9,7 @@
             "text": "Upgrade your lights."
         },
         "icon": {
-            "item": "minecraft:jack_o_lantern"
+            "id": "minecraft:jack_o_lantern"
         },
         "frame": "task",
         "show_toast": true,

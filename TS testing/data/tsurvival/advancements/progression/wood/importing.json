@@ -9,7 +9,7 @@
             "text": "Purchase wood from a lumberjack villager."
         },
         "icon": {
-            "item": "minecraft:barrel"
+            "id": "minecraft:barrel"
         },
         "frame": "task",
         "show_toast": true,
