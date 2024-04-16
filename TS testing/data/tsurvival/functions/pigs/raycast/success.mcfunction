@@ -1,6 +1,6 @@
 tag @s add tsurv.pig.modified
 playsound entity.generic.eat player @a[distance=..10]
-
+attribute @s generic.scale base set 1.2
 effect give @s regeneration 10 1
 data modify entity @s DeathLootTable set value "tsurvival:gameplay/pigs/hearty"
 
