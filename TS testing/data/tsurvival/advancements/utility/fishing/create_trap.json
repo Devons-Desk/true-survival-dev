@@ -1,19 +1,4 @@
 {
-    "display": {
-        "title": {
-            "text": "creating fishtraps"
-        },
-        "description": {
-            "text": "putting fishnet in item frame to create trap"
-        },
-        "icon": {
-            "item": "minecraft:air"
-        },
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true
-    },
     "criteria": {
         "endchant": {
             "trigger": "minecraft:player_interacted_with_entity",

@@ -1,20 +1,4 @@
 {
-    "display": {
-        "title": {
-            "text": "gildedcharm"
-        },
-        "description": {
-            "text": "right click detection for gilded charm"
-        },
-        "icon": {
-            "item": "minecraft:air"
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true,
-        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
-    },
     "criteria": {
       "requirement": {
         "trigger": "minecraft:player_interacted_with_entity",

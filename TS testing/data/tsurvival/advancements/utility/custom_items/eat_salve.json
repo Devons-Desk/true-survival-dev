@@ -1,20 +1,4 @@
 {
-    "display": {
-        "title": {
-            "text": "eatsalve"
-        },
-        "description": {
-            "text": "voiding the bowl when eating salve"
-        },
-        "icon": {
-            "item": "minecraft:air"
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true,
-        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
-    },
     "criteria": {
         "eatsalve": {
             "trigger": "minecraft:consume_item",

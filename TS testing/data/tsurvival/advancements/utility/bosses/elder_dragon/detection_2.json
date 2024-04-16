@@ -1,19 +1,4 @@
 {
-    "display": {
-        "title": {
-            "text": "detection2"
-        },
-        "description": {
-            "text": "detecting summoning ender dragon for loop initations"
-        },
-        "icon": {
-            "item": "minecraft:air"
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true
-    },
     "criteria": {
       "requirement2": {
         "trigger": "minecraft:summoned_entity",

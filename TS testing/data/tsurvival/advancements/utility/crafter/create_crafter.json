@@ -1,19 +1,4 @@
 {
-    "display": {
-        "title": {
-            "text": "creating crafter"
-        },
-        "description": {
-            "text": "putting emerald in item frame on crafting table"
-        },
-        "icon": {
-            "item": "minecraft:air"
-        },
-        "frame": "goal",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true
-    },
     "criteria": {
         "endchant": {
             "trigger": "minecraft:player_interacted_with_entity",

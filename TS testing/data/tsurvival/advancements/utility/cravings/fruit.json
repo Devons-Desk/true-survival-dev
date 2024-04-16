@@ -1,20 +1,4 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:air"
-      },
-      "title": {
-        "text": "cravings fruit"
-      },
-      "description": {
-        "text": "detecting for player eating craven fruit."
-      },
-      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
-      "frame": "challenge",
-      "show_toast": false,
-      "announce_to_chat": false,
-      "hidden": true
-    },
     "criteria": {
       "fishingtrophies": {
         "trigger": "minecraft:consume_item",

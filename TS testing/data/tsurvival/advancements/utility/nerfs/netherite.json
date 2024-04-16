@@ -1,19 +1,4 @@
 {
-    "display": {
-        "title": {
-            "text": "diamondnerf"
-        },
-        "description": {
-            "text": "Wearing diamond chestplates drains your hunger while attacking."
-        },
-        "icon": {
-            "item": "minecraft:air"
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true
-    },
     "criteria": {
         "armor1": {
             "trigger": "minecraft:player_hurt_entity",

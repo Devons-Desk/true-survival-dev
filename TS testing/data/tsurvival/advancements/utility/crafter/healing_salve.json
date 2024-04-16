@@ -1,18 +1,4 @@
 {
-    "display": {
-        "title": {
-            "text": "craft salve"
-        },
-        "description": {
-            "text": "special effects from crafting"
-        },
-        "icon": {
-            "item": "minecraft:air"
-        },
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true
-    },
     "criteria": {
         "lumberjack": {
             "trigger": "minecraft:villager_trade",

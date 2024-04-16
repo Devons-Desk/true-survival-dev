@@ -1,19 +1,4 @@
 {
-    "display": {
-        "title": {
-            "text": "minions"
-        },
-        "description": {
-            "text": "gives player bonus for defeating boss minions"
-        },
-        "icon": {
-            "item": "minecraft:air"
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true
-    },
     "criteria": {
         "bite": {
             "trigger": "minecraft:player_killed_entity",

@@ -1,13 +1,4 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:stone"
-      },
-      "title": "cake consumption",
-      "description": "cake eating triggers different advancement criteria than main craving advancement",
-      "announce_to_chat": false,
-      "hidden": true
-    },
     "criteria": {
       "requirement": {
         "trigger": "minecraft:item_used_on_block",

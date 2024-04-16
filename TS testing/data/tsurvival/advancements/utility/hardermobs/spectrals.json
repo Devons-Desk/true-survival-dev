@@ -1,19 +1,4 @@
 {
-    "display": {
-        "title": {
-            "text": "spectrals"
-        },
-        "description": {
-            "text": "Spectral arrow weakness"
-        },
-        "icon": {
-            "item": "minecraft:air"
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true
-    },
     "criteria": {
         "spectral": {
             "trigger": "minecraft:player_hurt_entity",
