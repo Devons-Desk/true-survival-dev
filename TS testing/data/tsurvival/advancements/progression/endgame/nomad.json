@@ -29,7 +29,11 @@
                         "items": ["minecraft:iron_pickaxe"],
                         "components": 
                         {
-                            "minecraft:custom_data":{tsurv.fortune:1b}
+                            "minecraft:custom_data":{
+                                "minecraft:custom_data": {
+                                    "tsurv.fortune":1
+                                }
+                            }
                         }
                     },
                     {
@@ -37,7 +41,9 @@
                         "components": 
                         {
                             "minecraft:custom_data":{
-                                "minecraft:custom_data": tsurv.silk:1b
+                                "minecraft:custom_data": {
+                                    "tsurv.silk":1
+                                }
                             }
                         }
                     },
@@ -45,14 +51,22 @@
                         "items": ["minecraft:iron_boots"],
                         "components": 
                         {
-                            "minecraft:custom_data":tsurv.boots:1b
+                            "minecraft:custom_data":{
+                                "minecraft:custom_data": {
+                                    "tsurv.boots":1
+                                }
+                            }
                         }
                     },
                     {
                         "items": ["minecraft:suspicious_stew"],
                         "components": 
                         {
-                            "minecraft:custom_data":tsurv.brew:1b
+                            "minecraft:custom_data":{
+                                "minecraft:custom_data": {
+                                    "tsurv.brew":1
+                                }
+                            }
                         }
                     }
                 ]
