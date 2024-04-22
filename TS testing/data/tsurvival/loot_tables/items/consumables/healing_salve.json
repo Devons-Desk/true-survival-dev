@@ -1,19 +1,51 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:beetroot_soup",
-            "functions": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_soup",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Healing Salve"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Put into offhand to heal.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": 
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Healing Salve\",\"color\":\"aqua\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Put into offhand to heal.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101001,tsurv.salve:1b}"
+                  "minecraft:custom_model_data": 5101001,
+                  "minecraft:rarity": "rare"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{tsurv.salve:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

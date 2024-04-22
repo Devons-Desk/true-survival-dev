@@ -1,19 +1,51 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:spider_eye",
-            "functions": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Silverfish Egg"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "It's moving.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": 
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Silverfish Egg\",\"italic\":false}',Lore:['{\"text\":\"It\\'s moving.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101010,tsurv.detector:1b}"
+                  "minecraft:custom_model_data": 5101010,
+                  "minecraft:rarity": "common"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{tsurv.detector:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

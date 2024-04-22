@@ -1,19 +1,64 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:amethyst_shard",
-            "functions": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Sea Fragment"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Assemble three",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "append",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "to tame the sea.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": 
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Sea Fragment\",\"color\":\"white\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Assemble three\",\"color\":\"gray\",\"bold\":false,\"italic\":true}','{\"text\":\"to tame the sea.\",\"color\":\"gray\",\"bold\":false,\"italic\":true}']},CustomModelData:5101009,tsurv.shard:1b}"
+                  "minecraft:custom_model_data": 5101009,
+                  "minecraft:rarity": "common"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{tsurv.shard:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,19 +1,51 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:sugar",
-            "functions": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Tattered Net"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Ravaged by the currents.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": 
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Tattered Net\",\"color\":\"white\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Ravaged by the currents.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101034,tsurv.net:1b,tsurv.tattered:1b}"
+                  "minecraft:custom_model_data": 5101034,
+                  "minecraft:rarity": "common"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{tsurv.tattered:1b,tsurv.net:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
