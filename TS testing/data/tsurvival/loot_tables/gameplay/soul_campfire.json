@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "tsurvival:items/custom/unlit_soul_campfire"
+            "name": "tsurvival:items/unlit_soul_campfire"
           }
         ]
       },
