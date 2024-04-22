@@ -10,15 +10,18 @@
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Viking Axe",
-                  "italic": false
+                  "translate":"test",
+                  "fallback": "Viking Axe",
+                  "target": "item_name"
                 }
               },
               {
                 "function": "minecraft:set_lore",
+                "mode": "replace_all",
                 "lore": [
                   {
-                    "text": "The axe's lip hides a sharp tongue.",
+                    "translate":"test",
+                    "fallback": "The axe's lip hides a sharp tongue.",
                     "color": "gray",
                     "italic": true
                   }
@@ -38,8 +41,12 @@
                 ]
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:5101012}"
+                "function": "minecraft:set_components",
+                "components":
+                {
+                  "minecraft:custom_model_data": 5101012,
+                  "minecraft:rarity": "common"
+                }
               }
             ]
           }

@@ -1,19 +1,52 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:phantom_membrane",
-            "functions": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Fishing Net"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Used to make a fish trap.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": 
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Fishing Net\",\"color\":\"aqua\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Used to make a fish trap.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101003,tsurv.net:1b}"
+                  "minecraft:custom_model_data": 5101003,
+                  "minecraft:rarity": "rare",
+                  "minecraft:max_stack_size": 1
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{tsurv.net:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,43 +1,99 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:leather_chestplate",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "text": "Dragonscale Tunic",
-                  "color": "yellow",
-                  "italic": false
-                }
-              },
-              {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  {
-                    "text": "Imbued with splendor.",
-                    "color": "gray",
-                    "italic": true
-                  },
-                  {
-                    "text": "Forged in glory.",
-                    "color": "gray",
-                    "italic": true
-                  }
-                ]
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{color:2171169},HideFlags:64,Unbreakable:1b,tsurv.dschestplate:1b,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1610881736,1784825882,-1722184383,-2109547344],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-392405319,1502168484,-2141163343,-611950575],Slot:\"chest\"}]}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "test",
+                "fallback": "Dragonscale Tunic"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "test",
+                  "fallback": "Imbued with splendor.",
+                  "color": "gray",
+                  "italic": true
+                },
+                {
+                  "translate": "test",
+                  "fallback": "Forged in glory.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components":
+              {
+                "minecraft:rarity": "uncommon",
+                "minecraft:unbreakable":
+                {
+                  "show_in_tooltip": true
+                },
+                "minecraft:dyed_color": 
+                {
+                  "rgb": 2171169,
+                  "show_in_tooltip": false
+                },
+                "minecraft:trim": 
+                {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:raiser",
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": 
+                {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.armor",
+                      "uuid": [
+                        -392405319,
+                        1502168484,
+                        -2141163343,
+                        -611950575
+                      ],
+                      "name": "generic.armor",
+                      "amount": 3,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "type": "minecraft:generic.knockback_resistance",
+                      "uuid": [
+                        -1610881736,
+                        1784825882,
+                        -1722184383,
+                        -2109547344
+                      ],
+                      "name": "generic.knockback_resistance",
+                      "amount": 0.1,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ],
+                  "show_in_tooltip": true
+                }
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{tsurv.ds_chestplate:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

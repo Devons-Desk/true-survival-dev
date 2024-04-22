@@ -1,37 +1,59 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cooked_porkchop",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "text": "Hearty Pork",
-                  "italic": false
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_porkchop",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Hearty Pork"
                 }
-              },
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "All natural genetic modification",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": 
               {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  {
-                    "text": "All natural genetic modification.",
-                    "color": "gray",
-                    "italic": true
-                  }
-                ]
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{tsurv.hearty_pork:1b,CustomModelData:5101038,Enchantments:[{}]}"
+                  "minecraft:custom_model_data": 5101038,
+                  "minecraft:rarity": "common",
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:food":
+                      {
+                        "nutrition": 10,
+                        "saturation": 12.8,
+                        "eat_seconds": 3.22,
+                        "can_always_eat": true
+                      }
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{tsurv.hearty_pork:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

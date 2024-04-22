@@ -1,16 +1,16 @@
 {
     "display": {
         "title": {
-            "text": "Welcome to True Survival!",
-            "color": "dark_red",
-            "bold": true
+            "text": "True Survival",
+            "color": "dark_red"
         },
         "description": {
             "text": "A Devon's Desk Original"
         },
-        "icon": {
+        "icon": 
+            {
             "id": "minecraft:soul_campfire"
-        },
+            },
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

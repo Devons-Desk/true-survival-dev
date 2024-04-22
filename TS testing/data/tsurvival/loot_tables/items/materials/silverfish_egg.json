@@ -36,12 +36,18 @@
               "components": 
               {
                   "minecraft:custom_model_data": 5101010,
-                  "minecraft:rarity": "common"
+                  "minecraft:rarity": "common",
+                  "minecraft:food": 
+                    {
+                      "nutrition":2,
+                      "saturation":3.2,
+                      "eat_seconds": 1.61
+                    }
               }
             },
             {
                 "function": "set_custom_data",
-                "tag": "{tsurv.detector:1b}"
+                "tag": "{tsurv.silverfish_egg:1b}"
             }
           ]
         }

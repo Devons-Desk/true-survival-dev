@@ -9,30 +9,87 @@
             "functions": [
               {
                 "function": "minecraft:set_name",
+                "target": "item_name",
                 "name": {
-                  "text": "Dragonscale Greaves",
-                  "color": "yellow",
-                  "italic": false
+                  "translate": "test",
+                  "fallback": "Dragonscale Greaves"
                 }
               },
               {
                 "function": "minecraft:set_lore",
+                "mode": "replace_all",
                 "lore": [
                   {
-                    "text": "Imbued with splendor.",
+                    "translate": "test",
+                    "fallback": "Imbued with splendor.",
                     "color": "gray",
                     "italic": true
                   },
                   {
-                    "text": "Forged in void.",
+                    "translate": "test",
+                    "fallback": "Forged in void.",
                     "color": "gray",
                     "italic": true
                   }
                 ]
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{color:2171169},HideFlags:64,Unbreakable:1b,tsurv.dsboots:1b,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1389051006,1444918930,-1424098098,-411414142],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-341798439,431849399,-221300012,-333481922],Slot:\"feet\"}]}"
+                "function": "minecraft:set_components",
+                "components":
+                {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:unbreakable":
+                  {
+                    "show_in_tooltip": true
+                  },
+                  "minecraft:dyed_color": 
+                  {
+                    "rgb": 2171169,
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:trim": 
+                  {
+                    "material": "minecraft:amethyst",
+                    "pattern": "minecraft:raiser",
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:attribute_modifiers": 
+                  {
+                    "modifiers": [
+                      {
+                        "type": "minecraft:generic.armor",
+                        "uuid": [
+                          -341798439,
+                          431849399,
+                          -221300012,
+                          -333481922
+                        ],
+                        "name": "generic.armor",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "feet"
+                      },
+                      {
+                        "type": "minecraft:generic.knockback_resistance",
+                        "uuid": [
+                          -1389051006,
+                          1444918930,
+                          -1424098098,
+                          -411414142
+                        ],
+                        "name": "generic.knockback_resistance",
+                        "amount": 0.1,
+                        "operation": "add_value",
+                        "slot": "feet"
+                      }
+                    ],
+                    "show_in_tooltip": true
+                  }
+                }
+              },
+              {
+                "function": "set_custom_data",
+                "tag": "{tsurv.ds_boots:1b}"
               }
             ]
           }
