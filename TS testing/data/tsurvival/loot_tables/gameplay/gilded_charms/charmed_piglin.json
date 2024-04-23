@@ -6,7 +6,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "tsurvival:items/custom/gilded_charm"
+            "value": "tsurvival:items/consumables/gilded_charm"
           }
         ]
       },

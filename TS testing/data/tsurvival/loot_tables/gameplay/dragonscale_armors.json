@@ -5,19 +5,19 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "tsurvival:items/custom/dragonscale_helmet"
+            "value": "tsurvival:items/equipment/armor/dragonscale_helmet"
           },
           {
             "type": "minecraft:loot_table",
-            "name": "tsurvival:items/custom/dragonscale_chestplate"
+            "value": "tsurvival:items/equipment/armor/dragonscale_chestplate"
           },
           {
             "type": "minecraft:loot_table",
-            "name": "tsurvival:items/custom/dragonscale_leggings"
+            "value": "tsurvival:items/equipment/armor/dragonscale_leggings"
           },
           {
             "type": "minecraft:loot_table",
-            "name": "tsurvival:items/custom/dragonscale_boots"
+            "value": "tsurvival:items/equipment/armor/dragonscale_boots"
           }
         ]
       }

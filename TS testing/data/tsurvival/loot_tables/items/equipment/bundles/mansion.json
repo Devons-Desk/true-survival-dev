@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "translate": "test",
+                  "fallback": "Mansion Bundle"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": 
+              {
+                  "minecraft:custom_model_data": 5101022,
+                  "minecraft:rarity": "epic"
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{tsurv.bundle.mansion:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -22,21 +22,23 @@
                   {
                     "condition": "minecraft:match_tool",
                     "predicate": {
-                      "enchantments": [
-                        {
-                          "enchantment": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantment": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
                           }
-                        }
-                      ]
+                        ]
+                      }
                     }
                   }
                 ]
               },
               {
                 "type": "minecraft:loot_table",
-                "name": "tsurvival:gameplay/campfire",
+                "value": "tsurvival:gameplay/campfire",
                 "conditions": [
                   {
                     "condition": "minecraft:survives_explosion"

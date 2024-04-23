@@ -1,0 +1,110 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5101021,Items:[{id:\"minecraft:beetroot_soup\",Count:1b,tag:{display:{Name:'{\"text\":\"Healing Salve\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Put into offhand to heal.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101001,tsurv.salve:1b}}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Fortress Bundle",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5101021,Items:[{id:\"minecraft:shield\",Count:1b,tag:{HideFlags:32,display:{Name:'{\"text\":\"The Inferno\",\"color\":\"yellow\",\"italic\":false}'},BlockEntityTag:{Base:14,Patterns:[{Color:1,Pattern:\"bri\"},{Color:14,Pattern:\"gru\"},{Color:4,Pattern:\"gra\"},{Color:14,Pattern:\"bts\"},{Color:4,Pattern:\"tts\"},{Color:14,Pattern:\"flo\"}]}}}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Fortress Bundle",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5101021,Items:[{id:\"minecraft:potion\",Count:1b,tag:{Potion:\"minecraft:long_fire_resistance\"}}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Fortress Bundle",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5101021,Items:[{id:\"minecraft:soul_lantern\",Count:32b}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Fortress Bundle",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
