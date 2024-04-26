@@ -36,7 +36,14 @@
               "components": 
               {
                   "minecraft:custom_model_data": 5101001,
-                  "minecraft:rarity": "rare"
+                  "minecraft:rarity": "rare",
+                  "minecraft:food":
+                    {
+                      "saturation": 0,
+                      "nutrition": 0,
+                      "can_always_eat": true,
+                      "eat_seconds": 0.865
+                    }
               }
             },
             {
