@@ -11,7 +11,6 @@ scoreboard objectives add tsurv.fishing dummy
 scoreboard objectives add tsurv.witboss dummy
 scoreboard objectives add tsurv.edragon dummy
 scoreboard objectives add tsurv.random dummy
-scoreboard objectives add tsurv.eatsalve dummy
 scoreboard objectives add tsurv.gbarter dummy
 scoreboard objectives add tsurv.guide trigger
 scoreboard objectives add tsurv.starvation food

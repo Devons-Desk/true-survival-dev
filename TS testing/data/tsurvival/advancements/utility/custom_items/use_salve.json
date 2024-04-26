@@ -1,23 +1,18 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "player": {
-            "equipment": {
-              "offhand": {
-                "items": [
-                  "minecraft:beetroot_soup"
-                ],
-                "nbt": "{tsurv.salve:1b}"
-              }
-            }
+  "criteria": {
+      "eatsalve": {
+          "trigger": "minecraft:consume_item",
+          "conditions": {
+              "item": {
+                  "items": "minecraft:beetroot_soup",
+                  "predicates": {
+                    "minecraft:custom_data": "{tsurv.salve:1b}"
+                  }
+                }
           }
-        }
       }
-    },
-    "rewards": {
-      "function": "tsurvival:healingsalve/use"
-    }
+  },
+  "rewards": {
+      "function": "tsurvival:healingsalve/detection"
   }
-  
+} 

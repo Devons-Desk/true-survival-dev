@@ -39,6 +39,7 @@ scoreboard objectives remove coinflip
 scoreboard objectives remove Sleep 
 scoreboard objectives remove tsurv.stwohealth 
 scoreboard objectives remove tsurv.s3health 
+scoreboard objectives remove tsurv.eatsalve
 
 ###DRAGONTEAM###
 team remove Dragon

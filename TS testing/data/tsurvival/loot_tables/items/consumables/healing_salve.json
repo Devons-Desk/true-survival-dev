@@ -25,7 +25,7 @@
               [
                 {
                   "translate": "test",
-                  "fallback": "Put into offhand to heal.",
+                  "fallback": "Soothes most wounds.",
                   "color": "gray",
                   "italic": true
                 }
