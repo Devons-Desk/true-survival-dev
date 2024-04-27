@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "armor1": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "equipment": {
+                "chest": {
+                  "items": "#tsurvival:armors/nerfed_chestplates"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tsurvival:armors/nerf"
+    }
+  }
+  

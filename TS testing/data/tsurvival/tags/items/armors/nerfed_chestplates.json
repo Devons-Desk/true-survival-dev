@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": 
+        [
+            "minecraft:diamond_chestplate",
+            "minecraft:netherite_chestplate"
+        ]
+}
