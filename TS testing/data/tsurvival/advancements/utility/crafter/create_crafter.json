@@ -1,21 +1,24 @@
 {
     "criteria": {
-        "endchant": {
-            "trigger": "minecraft:player_interacted_with_entity",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "minecraft:written_book"
-                    ],
-                    "nbt": "{tsurv.guide:1b}"
-                },
-                "entity": {
-                    "type": "#tsurvival:ts_frames"
-                }
+      "endchant": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "predicates": {
+              "minecraft:custom_data": "{tsurv.guide:1b}"
             }
+          },
+          "entity": {
+            "type": "#tsurvival:frames"
+          }
         }
+      }
     },
     "rewards": {
-        "function": "tsurvival:crafter/detection"
+      "function": "tsurvival:crafter/detection"
     }
-}
+  }
+  
