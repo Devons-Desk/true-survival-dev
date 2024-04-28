@@ -8,8 +8,7 @@
         "tsurvival:hardermobs/ghast/detection",
         "tsurvival:crafter/break/detection",
         "tsurvival:bosses/elder_dragon/end/detection",
-        "tsurvival:hardermobs/deepmobs/biters/detection",
-        "tsurvival:hardermobs/deepmobs/speed/detection",
+        "tsurvival:hardermobs/deepmobs/detection",
         "tsurvival:gilded_blackstone/bartering/detection"
     ]
 } 
