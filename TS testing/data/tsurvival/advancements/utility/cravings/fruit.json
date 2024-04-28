@@ -1,19 +1,18 @@
 {
-    "criteria": {
-      "fishingtrophies": {
-        "trigger": "minecraft:consume_item",
-        "conditions": {
-          "player": {
-            "nbt": "{Tags:[\"tsurv.cravingf\"]}"
-          },
-          "item": {
-            "tag": "tsurvival:cravings/fruit"
-          }
+  "criteria": {
+    "fishingtrophies": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"tsurv.cravingf\"]}"
+        },
+        "item": {
+          "items": "#tsurvival:cravings/fruit"
         }
       }
-    },
-    "rewards": {
-      "function": "tsurvival:sleep/cravings/effects/fruit"
     }
+  },
+  "rewards": {
+    "function": "tsurvival:sleep/cravings/effects/fruit"
   }
-  
+}

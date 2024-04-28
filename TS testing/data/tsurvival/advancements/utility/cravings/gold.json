@@ -7,7 +7,7 @@
             "nbt": "{Tags:[\"tsurv.cravingg\"]}"
           },
           "item": {
-            "tag": "tsurvival:cravings/gold"
+            "items": "#tsurvival:cravings/gold"
           }
         }
       }

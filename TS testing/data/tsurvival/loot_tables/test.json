@@ -1,0 +1,25 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:entity_data": {
+                    "id": "minecraft:arrow",
+                    "Tags":["example"]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

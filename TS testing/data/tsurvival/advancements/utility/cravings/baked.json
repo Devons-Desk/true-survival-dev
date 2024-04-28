@@ -1,19 +1,18 @@
 {
-    "criteria": {
-      "fishingtrophies": {
-        "trigger": "minecraft:consume_item",
-        "conditions": {
-          "player": {
-            "nbt": "{Tags:[\"tsurv.cravingb\"]}"
-          },
-          "item": {
-            "tag": "tsurvival:cravings/baked"
-          }
+  "criteria": {
+    "fishingtrophies": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"tsurv.cravingb\"]}"
+        },
+        "item": {
+          "items": "#tsurvival:cravings/baked"
         }
       }
-    },
-    "rewards": {
-      "function": "tsurvival:sleep/cravings/effects/baked"
     }
+  },
+  "rewards": {
+    "function": "tsurvival:sleep/cravings/effects/baked"
   }
-  
+}
