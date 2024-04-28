@@ -12,7 +12,25 @@ loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/crafter/2.
 loot replace entity @s armor.head loot tsurvival:items/materials/artisan_scrap
 function tsurvival:crafter/trades/add
 
+#fishing net
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/crafter/3.fishing_net
+loot replace entity @s armor.head loot tsurvival:items/materials/artisan_scrap
+function tsurvival:crafter/trades/add
 
+#trident
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/crafter/4.trident
+loot replace entity @s armor.head loot tsurvival:gameplay/trades/extra_ingredients/3x_sea_fragment
+function tsurvival:crafter/trades/add
+
+#gilded charm
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/crafter/5.gilded_charm
+item replace entity @s armor.head with minecraft:diamond 1
+function tsurvival:crafter/trades/add
+
+#dragon fruit
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/crafter/6.dragon_fruit
+item replace entity @s armor.head with minecraft:enchanted_golden_apple 1
+function tsurvival:crafter/trades/add
 
 item replace entity @s weapon.mainhand with air
 item replace entity @s weapon.offhand with air
