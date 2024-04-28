@@ -20,7 +20,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "tsurvival:items/consumables/healing_salve",
+            "value": "tsurvival:items/consumables/dragon_fruit",
             "functions": [
               {
                 "function": "minecraft:set_count",

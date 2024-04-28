@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Dragon Fruit"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Grants enderic power...",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": 
+              {
+                  "minecraft:custom_model_data": 5101011,
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:food":
+                      {
+                        "nutrition": 20,
+                        "saturation": 14.4,
+                        "eat_seconds": 4,
+                        "can_always_eat": true
+                      }
+              }
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{tsurv.dragon_fruit:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,4 @@
-say attempt creation
 #loot spawn ~ ~ ~ loot tsurvival:items/custom/guidebook
-
 execute positioned ~ ~-2.5 ~ summon wandering_trader run function tsurvival:crafter/trades/initiate
 
 function tsurvival:crafter/direction/initiate 
