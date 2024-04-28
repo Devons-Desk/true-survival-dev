@@ -37,7 +37,8 @@
               {
                   "minecraft:custom_model_data": 5101002,
                   "minecraft:rarity": "rare",
-                  "minecraft:instrument": "minecraft:seek_goat_horn"
+                  "minecraft:instrument": "minecraft:seek_goat_horn",
+                  "minecraft:hide_additional_tooltip": {}
               }
             },
             {
