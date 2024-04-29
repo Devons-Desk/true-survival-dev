@@ -3,7 +3,10 @@
   "ingredient": {
     "item": "minecraft:stick"
   },
-  "result": "minecraft:torch",
+  "result": 
+    {
+      "id": "minecraft:torch"
+    },
   "experience": 0.1,
   "cookingtime": 150
 }

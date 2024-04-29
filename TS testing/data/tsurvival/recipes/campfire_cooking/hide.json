@@ -3,7 +3,12 @@
   "ingredient": {
     "item": "minecraft:rotten_flesh"
   },
-  "result": "minecraft:rabbit_hide",
+  "result": {
+    "id": "minecraft:rabbit_hide",
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"test\",\"fallback\":\"Hide\"}"
+    }
+  },
   "experience": 0.1,
   "cookingtime": 600
 }
