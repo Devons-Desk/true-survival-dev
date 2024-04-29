@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/custom/fishing_net"
+          "value": "tsurvival:items/equipmentfishing_net"
         }
       ],
       "conditions": [
