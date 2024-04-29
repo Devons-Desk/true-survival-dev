@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/custom/artisan_scrap",
+          "value": "tsurvival:items/materials/artisan_scrap",
           "functions": [
             {
               "function": "minecraft:set_count",

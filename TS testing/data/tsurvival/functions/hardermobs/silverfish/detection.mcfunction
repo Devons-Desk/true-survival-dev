@@ -1,1 +1,2 @@
-execute as @e[type=item,nbt={Item:{id:"minecraft:spider_eye",Count:1b,tag:{tsurv.detector:1b}}}] at @s run function tsurvival:hardermobs/silverfish/summon
+advancement revoke @s only tsurvival:utility/hardermobs/parasites
+schedule function tsurvival:hardermobs/silverfish/scheduled 1t

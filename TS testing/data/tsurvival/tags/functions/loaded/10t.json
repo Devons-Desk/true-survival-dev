@@ -3,7 +3,6 @@
     "values": [
         "tsurvival:illager_conversion/detection",
         "tsurvival:soul_well/detection",
-
         "tsurvival:hardermobs/torches/detection",
         "tsurvival:hardermobs/ghast/detection",
         "tsurvival:crafter/break/detection",

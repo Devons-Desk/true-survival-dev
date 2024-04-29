@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:spider_eye",count:1,components:{"minecraft:custom_data":{tsurv.silverfish_egg:1b}}}}] at @s run function tsurvival:hardermobs/silverfish/summon

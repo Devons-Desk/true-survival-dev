@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/custom/sea_fragment"
+          "value": "tsurvival:items/materials/sea_fragment"
         }
       ]
     },
@@ -138,7 +138,7 @@
               "function": "minecraft:furnace_smelt"
             }
           ],
-          "name": "minecraft:gameplay/fishing/fish"
+          "value": "minecraft:gameplay/fishing/fish"
         }
       ],
       "rolls": 1.0

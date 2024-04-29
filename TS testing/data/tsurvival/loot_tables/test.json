@@ -5,13 +5,13 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:arrow",
+            "name": "minecraft:item_frame",
             "functions": [
               {
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:entity_data": {
-                    "id": "minecraft:arrow",
+                    "id": "minecraft:item_frame",
                     "Tags":["example"]
                   }
                 }

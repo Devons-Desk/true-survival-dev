@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/custom/silverfish_egg",
+          "value": "tsurvival:items/materials/silverfish_egg",
           "conditions": [
             {
               "condition": "minecraft:killed_by_player"
@@ -14,7 +14,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "structure": "minecraft:stronghold"
+                "structures": "minecraft:stronghold"
               }
             }
           ]

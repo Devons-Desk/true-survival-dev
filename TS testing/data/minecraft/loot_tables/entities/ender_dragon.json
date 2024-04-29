@@ -8,7 +8,7 @@
           "name": "minecraft:structure_void",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
+              "function": "minecraft:set_custom_data",
               "tag": "{tsurv.dragdetect:1b}"
             }
           ]

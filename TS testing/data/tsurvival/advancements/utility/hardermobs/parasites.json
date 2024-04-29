@@ -1,24 +1,18 @@
 {
-    "criteria": {
-      "bite": {
-        "trigger": "minecraft:player_killed_entity",
-        "conditions": {
-          "entity": {
-            "type": "#tsurvival:ts_infested",
-            "location": {
-              "structure": "minecraft:stronghold"
-            }
-          },
-          "killing_blow": {
-            "source_entity": {
-              "location": {}
-            }
+  "criteria": {
+    "bite": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#tsurvival:ts_infested",
+          "location": {
+            "structures": "minecraft:stronghold"
           }
         }
       }
-    },
-    "rewards": {
-      "function": "tsurvival:hardermobs/silverfish/schedule"
     }
+  },
+  "rewards": {
+    "function": "tsurvival:hardermobs/silverfish/detection"
   }
-  
+}
