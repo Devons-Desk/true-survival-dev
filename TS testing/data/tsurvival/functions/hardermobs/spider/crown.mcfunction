@@ -1,6 +1,5 @@
-#say crowned
 tag @s add tsurv.crowned
-item replace entity @s weapon.mainhand with iron_axe{}
+item replace entity @s weapon.mainhand with iron_axe
 data modify entity @s HandDropChances set value [0F,0F]
 attribute @s minecraft:generic.scale base set 1.7
 attribute @s generic.max_health base set 30

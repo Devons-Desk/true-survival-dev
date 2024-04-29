@@ -1,1 +1,1 @@
-execute as @e[type=#tsurvival:ts_spectrals] at @s if predicate tsurvival:hardermobs/spectral_check run function tsurvival:hardermobs/spectrals/kill
+execute as @e[type=#tsurvival:spectrals] at @s if predicate tsurvival:hardermobs/spectral_check run function tsurvival:hardermobs/spectrals/kill
