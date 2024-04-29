@@ -7,7 +7,7 @@
           {
             "type": "minecraft:loot_table",
             "weight": 15,
-            "name": "tsurvival:gameplay/fishing/uncommons"
+            "value": "tsurvival:gameplay/fishing/uncommons"
           },
           {
             "type": "minecraft:loot_table",
@@ -23,12 +23,12 @@
               }
             ],
             "weight": 5,
-            "name": "tsurvival:gameplay/fishing/rares"
+            "value": "tsurvival:gameplay/fishing/rares"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 80,
-            "name": "tsurvival:gameplay/fishing/commons"
+            "value": "tsurvival:gameplay/fishing/commons"
           }
         ]
       }

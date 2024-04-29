@@ -21,12 +21,12 @@
         {
           "type": "minecraft:loot_table",
           "weight": 20,
-          "name": "tsurvival:items/custom/tattered_net"
+          "value": "tsurvival:items/materials/tattered_net"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 10,
-          "name": "tsurvival:items/custom/fishing_net"
+          "value": "tsurvival:items/equipment/fishing_net"
         }
       ]
     }

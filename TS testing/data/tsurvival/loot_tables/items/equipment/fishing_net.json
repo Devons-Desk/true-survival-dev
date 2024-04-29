@@ -42,7 +42,7 @@
             },
             {
                 "function": "set_custom_data",
-                "tag": "{tsurv.net:1b}"
+                "tag": "{tsurv.wholenet:1b,tsurv.net:1b}"
             }
           ]
         }
