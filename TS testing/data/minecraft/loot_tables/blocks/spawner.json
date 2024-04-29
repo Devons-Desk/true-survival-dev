@@ -8,12 +8,12 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "tsurvival:gameplay/loot_bundles/mansion",
+              "value": "tsurvival:gameplay/loot_bundles/mansion",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "structure": "mansion",
+                    "structures": "minecraft:mansion",
                     "dimension": "minecraft:overworld"
                   }
                 }
@@ -21,12 +21,12 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "tsurvival:gameplay/loot_bundles/mineshaft",
+              "value": "tsurvival:gameplay/loot_bundles/mineshaft",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "structure": "mineshaft",
+                    "structures": "minecraft:mineshaft",
                     "dimension": "minecraft:overworld"
                   }
                 }
@@ -34,12 +34,12 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "tsurvival:gameplay/loot_bundles/stronghold",
+              "value": "tsurvival:gameplay/loot_bundles/stronghold",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "structure": "stronghold",
+                    "structures": "minecraft:stronghold",
                     "dimension": "minecraft:overworld"
                   }
                 }
@@ -47,7 +47,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "tsurvival:gameplay/loot_bundles/overworld",
+              "value": "tsurvival:gameplay/loot_bundles/overworld",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -69,12 +69,12 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "tsurvival:gameplay/loot_bundles/fortress",
+              "value": "tsurvival:gameplay/loot_bundles/fortress",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "structure": "fortress",
+                    "structures": "minecraft:fortress",
                     "dimension": "minecraft:the_nether"
                   }
                 }
@@ -82,12 +82,12 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "tsurvival:gameplay/loot_bundles/bastion",
+              "value": "tsurvival:gameplay/loot_bundles/bastion",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "structure": "bastion_remnant",
+                    "structures": "minecraft:bastion_remnant",
                     "dimension": "minecraft:the_nether"
                   }
                 }
@@ -95,7 +95,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "tsurvival:gameplay/loot_bundles/nether",
+              "value": "tsurvival:gameplay/loot_bundles/nether",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -117,7 +117,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "tsurvival:gameplay/loot_bundles/end",
+              "value": "tsurvival:gameplay/loot_bundles/end",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",

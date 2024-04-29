@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "minecraft:arrow",
+    "id": "minecraft:arrow",
     "count": 4
   }
 }
