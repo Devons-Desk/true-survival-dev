@@ -10,7 +10,7 @@
         }
 	},
     "result": {
-		"item": "minecraft:sugar",
+		"id": "minecraft:sugar",
 		"count": 1
 	}
 }
