@@ -40,7 +40,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/custom/healing_salve"
+          "value": "tsurvival:items/consumables/healing_salve"
         }
       ]
     },

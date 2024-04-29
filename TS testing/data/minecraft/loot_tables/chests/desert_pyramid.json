@@ -211,7 +211,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 15,
-          "name": "tsurvival:items/custom/healing_salve"
+          "value": "tsurvival:items/consumables/healing_salve"
         }
       ]
     },

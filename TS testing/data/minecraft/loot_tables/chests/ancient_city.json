@@ -337,6 +337,7 @@
           },
           {
             "type": "minecraft:loot_table",
+            "value": "tsurvival:items/materials/artisan_scrap",
             "functions": [
               {
                 "add": false,
@@ -348,7 +349,6 @@
                 "function": "minecraft:set_count"
               }
             ],
-            "name": "tsurvival:items/custom/artisan_scrap",
             "weight": 5
           },
           {

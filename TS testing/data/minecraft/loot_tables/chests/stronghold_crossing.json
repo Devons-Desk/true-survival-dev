@@ -41,7 +41,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 5,
-          "name": "tsurvival:items/custom/silverfish_egg",
+          "value": "tsurvival:items/materials/silverfish_egg",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -56,7 +56,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 10,
-          "name": "tsurvival:items/custom/healing_salve"
+          "value": "tsurvival:items/consumables/healing_salve"
         },
         {
           "type": "minecraft:item",

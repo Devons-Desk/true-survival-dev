@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/custom/tattered_net",
+          "value": "tsurvival:items/materials/tattered_net",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -76,7 +76,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 5,
-          "name": "tsurvival:items/custom/war_horn"
+          "value": "tsurvival:items/equipment/war_horn"
         }
       ]
     },
@@ -101,7 +101,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 10,
-          "name": "tsurvival:items/custom/artisan_scrap",
+          "value": "tsurvival:items/materials/artisan_scrap",
           "functions": [
             {
               "function": "minecraft:set_count",
