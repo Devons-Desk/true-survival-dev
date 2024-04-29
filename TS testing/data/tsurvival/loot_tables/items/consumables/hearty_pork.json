@@ -43,7 +43,15 @@
                         "nutrition": 10,
                         "saturation": 12.8,
                         "eat_seconds": 3.22,
-                        "can_always_eat": true
+                        "can_always_eat": true,
+                        "effects": [
+                          {
+                            "effect": {
+                              "id": "minecraft:health_boost",
+                              "duration": 6000
+                            }
+                          }
+                        ]
                       }
               }
             },

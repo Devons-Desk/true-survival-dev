@@ -4,12 +4,12 @@
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "item": {
-                    "tag": "tsurvival:nets"
+                    "items": "#tsurvival:nets"
                     ,
                     "nbt": "{tsurv.net:1b}"
                 },
                 "entity": {
-                    "type": "#tsurvival:ts_frames"
+                    "type": "#tsurvival:frames"
                 }
             }
         }

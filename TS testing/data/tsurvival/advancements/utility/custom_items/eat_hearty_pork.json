@@ -1,18 +1,18 @@
 {
     "criteria": {
-        "endchant": {
+        "eatsalve": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": [
-                        "minecraft:cooked_porkchop"
-                    ],
-                    "nbt": "{tsurv.hearty_pork:1b}"
-                }
+                    "items": "minecraft:cooked_porkchop",
+                    "predicates": {
+                      "minecraft:custom_data": "{tsurv.hearty_pork:1b}"
+                    }
+                  }
             }
         }
     },
     "rewards": {
         "function": "tsurvival:pigs/hearty_pork/detection"
     }
-}
+  } 
