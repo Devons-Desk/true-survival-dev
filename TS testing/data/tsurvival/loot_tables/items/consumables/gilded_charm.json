@@ -1,19 +1,52 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-        "rolls": 1,
-        "entries":[
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "functions": [
             {
-                "type": "item",
-                "name": "minecraft:name_tag",
-                "functions": [
-                    {
-                    "function": "set_nbt", 
-                    "tag": "{display:{Name:'{\"text\":\"Gilded Charm\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"The providence of swine.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101035,tsurv.gcharm:1b}"
-              }      
-            ]
-          }
-        ]
-      }        
-    ]
-  }
+              "function": "set_name",
+              "target": "custom_name",
+              "name": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Gilded Charm",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "The providence of swine.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": 
+              {
+                  "minecraft:custom_model_data": 5101035,
+                  "minecraft:rarity": "rare"
+              }
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{tsurv.gcharm:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

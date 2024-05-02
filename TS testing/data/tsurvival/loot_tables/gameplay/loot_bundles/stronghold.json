@@ -5,102 +5,46 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:bundle",
+          "value": "tsurvival:items/equipment/bundles/stronghold",
           "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:5101026,Items:[{id:\"minecraft:golden_carrot\",Count:32b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Stronghold Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
             }
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "minecraft:bundle",
+          "value": "tsurvival:items/equipment/bundles/stronghold",
           "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:5101026,Items:[{id:\"minecraft:shield\",Count:1b,tag:{HideFlags:32,display:{Name:'{\"text\":\"The Eye\",\"color\":\"yellow\",\"italic\":false}'},BlockEntityTag:{Base:15,Patterns:[{Color:7,Pattern:\"gru\"},{Color:3,Pattern:\"glb\"},{Color:5,Pattern:\"mc\"},{Color:15,Pattern:\"gru\"},{Color:15,Pattern:\"cr\"},{Color:15,Pattern:\"tts\"}]}}}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Stronghold Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
             }
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:bundle",
+          "value": "tsurvival:items/equipment/bundles/stronghold",
           "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:5101026,Items:[{id:\"minecraft:ender_pearl\",Count:3b},]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Stronghold Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
             }
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:bundle",
+          "value": "tsurvival:items/equipment/bundles/stronghold",
           "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:5101026,Items:[{id:\"minecraft:jack_o_lantern\",Count:48b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Stronghold Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
             }
           ]
         }

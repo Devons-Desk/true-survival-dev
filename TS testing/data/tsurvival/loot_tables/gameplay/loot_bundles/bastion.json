@@ -10,97 +10,41 @@
           "value": "tsurvival:items/equipment/bundles/bastion",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:golden_apple\",Count:3b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Bastion Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
             }
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "minecraft:bundle",
+          "value": "tsurvival:items/equipment/bundles/bastion",
           "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:shield\",Count:1b,tag:{HideFlags:32,display:{Name:'{\"text\":\"The Bulwark\",\"color\":\"yellow\",\"italic\":false}'},BlockEntityTag:{Base:4,Patterns:[{Color:15,Pattern:\"bri\"},{Color:7,Pattern:\"gra\"},{Color:4,Pattern:\"gru\"},{Color:15,Pattern:\"bri\"},{Color:14,Pattern:\"mc\"},{Color:15,Pattern:\"pig\"}]}}}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Bastion Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
             }
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:bundle",
+          "value": "tsurvival:items/equipment/bundles/bastion",
           "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:gilded_blackstone\",Count:16b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Bastion Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
             }
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:bundle",
+          "value": "tsurvival:items/equipment/bundles/bastion",
           "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:lantern\",Count:32b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Bastion Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
             }
           ]
         }
