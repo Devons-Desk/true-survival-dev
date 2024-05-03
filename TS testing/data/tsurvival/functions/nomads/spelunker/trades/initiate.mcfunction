@@ -1,4 +1,4 @@
-data merge entity @s {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomNameVisible:0b,PersistenceRequired:1b,NoAI:1b,Tags:["tsurv.crafter","global.ignore","tsurv.temp","smithed.entity","smithed.strict","smithed.block"],CustomName:'{"fallback":"Artisan\'s Workbench","translate":"test"}',active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b}]}
+data merge entity @s {CustomNameVisible:0b,DespawnDelay:12000,PersistenceRequired:1b,NoAI:1b,Tags:["tsurv.spelunker","global.ignore","tsurv.trader","smithed.entity"],CustomName:'{"fallback":"Spelunker","translate":"test"}'}
 
 data modify entity @s Offers.Recipes set value []
 ##Crafting Recipes

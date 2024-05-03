@@ -1,23 +1,22 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "player": {
-            "equipment": {
-              "offhand": {
-                "items": [
-                  "minecraft:goat_horn"
-                ],
-                "nbt": "{tsurv.horn:1b}"
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.offhand": {
+              "items": "minecraft:goat_horn",
+              "predicates": {
+                "minecraft:custom_data": "{tsurv.horn:1b}"
               }
             }
           }
         }
       }
-    },
-    "rewards": {
-      "function": "tsurvival:warhorn/use"
     }
+  },
+  "rewards": {
+    "function": "tsurvival:warhorn/use"
   }
-  
+}
