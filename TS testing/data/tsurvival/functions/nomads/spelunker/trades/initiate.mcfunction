@@ -29,6 +29,7 @@ function tsurvival:crafter/trades/add
 #pickaxe
 execute if entity @s[tag=tsurv.spelunker.fortune] run loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/6-1.pickaxe
 execute if entity @s[tag=tsurv.spelunker.touch] run loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/6-2.pickaxe
+item replace entity @s armor.head with minecraft:iron_ingot 3
 function tsurvival:crafter/trades/add
 
 #kit
