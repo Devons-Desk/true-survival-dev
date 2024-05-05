@@ -27,6 +27,7 @@ scoreboard objectives add tsurv.eatcake minecraft.custom:minecraft.eat_cake_slic
 scoreboard objectives add tsurv.dragonfruit dummy
 scoreboard objectives add tsurv.deaths deathCount
 scoreboard objectives add tsurv.trap.raycast dummy
+scoreboard objectives add tsurv.coinflip dummy
 
 ###TEAMS###
 team add Dragon

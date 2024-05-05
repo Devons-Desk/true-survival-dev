@@ -1,5 +1,8 @@
 data merge entity @s {CustomNameVisible:0b,PersistenceRequired:1b,Tags:["tsurv.spelunker","global.ignore","tsurv.trader","smithed.entity"],CustomName:'{"fallback":"Spelunker","translate":"test"}',active_effects:[{id:"minecraft:slow_falling",amplifier:0,duration:600,show_particles:1b}]}
 
+execute store result score @s tsurv.coinflip run random roll 1..2
+execute if score @s tsurv.coinflip matches 1 run tag @s add tsurv.spelunker.fortune
+execute if score @s tsurv.coinflip matches 2 run tag @s add tsurv.spelunker.touch
 
 data modify entity @s Offers.Recipes set value []
 ##Trades
@@ -21,6 +24,11 @@ function tsurvival:crafter/trades/add
 
 #salve
 loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/5.salve
+function tsurvival:crafter/trades/add
+
+#pickaxe
+execute if entity @s[tag=tsurv.spelunker.fortune] run loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/6-1.pickaxe
+execute if entity @s[tag=tsurv.spelunker.touch] run loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/6-2.pickaxe
 function tsurvival:crafter/trades/add
 
 #kit
