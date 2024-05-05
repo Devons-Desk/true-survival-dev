@@ -20,7 +20,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "tsurvival:items/equipment/war_horn",
+            "value": "tsurvival:items/equipment/tools/war_horn",
             "functions": [
               {
                 "function": "minecraft:set_count",

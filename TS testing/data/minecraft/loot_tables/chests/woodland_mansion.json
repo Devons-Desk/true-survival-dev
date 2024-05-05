@@ -56,7 +56,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 20,
-          "value": "tsurvival:items/equipment/war_horn"
+          "value": "tsurvival:items/equipment/tools/war_horn"
         }
       ]
     },

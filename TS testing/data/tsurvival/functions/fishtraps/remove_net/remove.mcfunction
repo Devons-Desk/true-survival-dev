@@ -1,5 +1,5 @@
 execute if entity @s[tag=tsurv.tatterednet] run loot spawn ~ ~0.5 ~ loot tsurvival:items/materials/tattered_net
-execute if entity @s[tag=tsurv.wholenet] run loot spawn ~ ~0.5 ~ loot tsurvival:items/equipment/fishing_net
+execute if entity @s[tag=tsurv.wholenet] run loot spawn ~ ~0.5 ~ loot tsurvival:items/equipment/tools/fishing_net
 scoreboard players reset @s tsurv.fishing
 tag @s remove tsurv.netframe
 tag @s remove tsurv.wholenet

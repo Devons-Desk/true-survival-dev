@@ -20,7 +20,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "tsurvival:items/equipment/fishing_net",
+            "value": "tsurvival:items/equipment/tools/fishing_net",
             "functions": [
               {
                 "function": "minecraft:set_count",

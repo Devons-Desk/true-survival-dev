@@ -8,8 +8,10 @@
           "name": "minecraft:goat_horn",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{instrument:\"minecraft:yearn_goat_horn\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                  "minecraft:instrument": "minecraft:yearn_goat_horn"
+                }
             }
           ]
         }
@@ -47,7 +49,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:gameplay/nomad_kits/maps/end"
+          "value": "tsurvival:gameplay/nomad_kits/maps/end"
         }
       ]
     },
