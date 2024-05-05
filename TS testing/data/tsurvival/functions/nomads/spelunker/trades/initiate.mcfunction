@@ -1,37 +1,35 @@
-data merge entity @s {CustomNameVisible:0b,DespawnDelay:12000,PersistenceRequired:1b,NoAI:1b,Tags:["tsurv.spelunker","global.ignore","tsurv.trader","smithed.entity"],CustomName:'{"fallback":"Spelunker","translate":"test"}'}
+data merge entity @s {CustomNameVisible:0b,PersistenceRequired:1b,Tags:["tsurv.spelunker","global.ignore","tsurv.trader","smithed.entity"],CustomName:'{"fallback":"Spelunker","translate":"test"}',active_effects:[{id:"minecraft:slow_falling",amplifier:0,duration:600,show_particles:1b}]}
+
 
 data modify entity @s Offers.Recipes set value []
-##Crafting Recipes
-#healing salve
-loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/crafter/1.healing_salve
-item replace entity @s armor.head with minecraft:honey_bottle 1
+##Trades
+#emerald
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/1.emerald
 function tsurvival:crafter/trades/add
 
-#war horn
-loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/crafter/2.war_horn
-loot replace entity @s armor.head loot tsurvival:items/materials/artisan_scrap
+#campfire
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/2.campfire
 function tsurvival:crafter/trades/add
 
-#fishing net
-loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/crafter/3.fishing_net
-loot replace entity @s armor.head loot tsurvival:items/materials/artisan_scrap
+#bread
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/3.bread
 function tsurvival:crafter/trades/add
 
-#trident
-loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/crafter/4.trident
-loot replace entity @s armor.head loot tsurvival:gameplay/trades/extra_ingredients/3x_sea_fragment
+#ladder
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/4.ladder
 function tsurvival:crafter/trades/add
 
-#gilded charm
-loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/crafter/5.gilded_charm
-item replace entity @s armor.head with minecraft:diamond 1
+#salve
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/5.salve
 function tsurvival:crafter/trades/add
 
-#dragon fruit
-loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/crafter/6.dragon_fruit
-item replace entity @s armor.head with minecraft:enchanted_golden_apple 1
+#kit
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/7.kit
+item replace entity @s armor.head with minecraft:diamond 3
 function tsurvival:crafter/trades/add
 
 item replace entity @s weapon.mainhand with air
 item replace entity @s weapon.offhand with air
-item replace entity @s armor.head with air
+item replace entity @s armor.head with lantern[custom_model_data=5101030] 1
+
+function tsurvival:nomads/path

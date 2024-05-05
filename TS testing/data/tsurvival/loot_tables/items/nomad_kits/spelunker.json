@@ -8,8 +8,20 @@
             "name": "minecraft:barrel",
             "functions": [
               {
+                "function": "set_name",
+                "target": "item_name",
+                "name": 
+                [
+                  {
+                    "translate": "test",
+                    "fallback": "Spelunking Kit"
+                  }
+                ]
+              },
+              {
                 "function": "minecraft:set_components",
                 "components": {
+                  "minecraft:rarity": "common",
                   "minecraft:container_loot": {
                     "loot_table": "tsurvival:gameplay/nomad_kits/spelunker"
                   }

@@ -1,4 +1,3 @@
 ###SUMMONSPELUNKER###
-function tsurvival:nomads/spawn/spelunker
-execute as @e[tag=tsurv.spelunker,limit=1,sort=nearest,distance=..2] run function tsurvival:nomads/path
-tp @s ~ -512 ~
+execute summon minecraft:wandering_trader run function tsurvival:nomads/spelunker/trades/initiate
+tp @s[type=!player] ~ -512 ~

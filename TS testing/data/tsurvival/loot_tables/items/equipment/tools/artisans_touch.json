@@ -1,57 +1,56 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:iron_pickaxe",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "translate":"test",
-                  "fallback": "Artisan's Pickaxe",
-                  "target": "item_name"
-                }
-              },
-              {
-                "function": "minecraft:set_lore",
-                "mode": "replace_all",
-                "lore": [
-                  {
-                    "translate":"test",
-                    "fallback": "The axe's lip hides a sharp tongue.",
-                    "color": "gray",
-                    "italic": true
-                  }
-                ]
-              },
-              {
-                "function": "minecraft:enchant_randomly",
-                "enchantments": [
-                  "minecraft:looting",
-                  "minecraft:sharpness"
-                ]
-              },
-              {
-                "function": "minecraft:enchant_randomly",
-                "enchantments": [
-                  "minecraft:unbreaking"
-                ]
-              },
-              {
-                "function": "minecraft:set_components",
-                "components":
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": 
+              [
                 {
-                  "minecraft:custom_model_data": 5101012,
-                  "minecraft:rarity": "common"
+                  "translate": "test",
+                  "fallback": "Artisan's Pickaxe"
                 }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "An artisan's touch.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components":
+              {
+                "minecraft:custom_model_data": 5101004,
+                "minecraft:rarity": "common",
+                "minecraft:max_damage": 500,
+                "minecraft:enchantments": 
+                  {
+                    "minecraft:silk_touch": 1
+                  }
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{tsurv.artisans_touch:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
