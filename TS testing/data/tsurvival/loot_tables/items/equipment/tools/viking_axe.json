@@ -9,18 +9,20 @@
             "functions": [
               {
                 "function": "minecraft:set_name",
-                "name": {
-                  "translate":"test",
-                  "fallback": "Viking Axe",
-                  "target": "item_name"
-                }
+                "target": "item_name",
+                "name": [
+                  {
+                    "translate": "test",
+                    "fallback": "Viking Axe"
+                  }
+                ]
               },
               {
                 "function": "minecraft:set_lore",
                 "mode": "replace_all",
                 "lore": [
                   {
-                    "translate":"test",
+                    "translate": "test",
                     "fallback": "The axe's lip hides a sharp tongue.",
                     "color": "gray",
                     "italic": true
