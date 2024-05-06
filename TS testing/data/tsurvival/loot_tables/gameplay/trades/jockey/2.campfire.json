@@ -20,7 +20,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:campfire",
+            "name": "minecraft:soul_campfire",
             "functions": [
               {
                 "function": "minecraft:set_count",

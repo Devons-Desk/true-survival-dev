@@ -1,3 +1,3 @@
-function tsurvival:nomads/spawn/strider_jockey
-tp @s ~ -512 ~
+execute summon wandering_trader run function tsurvival:nomads/strider_jockey/trades/initiate
+tp @s[type=!player] ~ -512 ~
 scoreboard players set #tsurv.jockeycontroller tsurv.ncounter 0

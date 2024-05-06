@@ -1,57 +1,84 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:iron_boots",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "translate":"test",
-                  "fallback": "Artisan's Boots",
-                  "target": "item_name"
-                }
-              },
-              {
-                "function": "minecraft:set_lore",
-                "mode": "replace_all",
-                "lore": [
-                  {
-                    "translate":"test",
-                    "fallback": "The axe's lip hides a sharp tongue.",
-                    "color": "gray",
-                    "italic": true
-                  }
-                ]
-              },
-              {
-                "function": "minecraft:enchant_randomly",
-                "enchantments": [
-                  "minecraft:looting",
-                  "minecraft:sharpness"
-                ]
-              },
-              {
-                "function": "minecraft:enchant_randomly",
-                "enchantments": [
-                  "minecraft:unbreaking"
-                ]
-              },
-              {
-                "function": "minecraft:set_components",
-                "components":
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "test",
+                "fallback": "Artisan's Boots"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
                 {
-                  "minecraft:custom_model_data": 5101012,
-                  "minecraft:rarity": "common"
+                  "translate": "test",
+                  "fallback": "An artisan's subtlety.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components":
+              {
+                "minecraft:rarity": "rare",
+                "minecraft:trim": 
+                {
+                  "material": "minecraft:copper",
+                  "pattern": "minecraft:wayfinder",
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": 
+                {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.armor",
+                      "uuid": [
+                        -341798439,
+                        431849399,
+                        -221453012,
+                        -333001137
+                      ],
+                      "name": "generic.armor",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "feet"
+                    },
+                    {
+                      "type": "generic.safe_fall_distance",
+                      "name": "generic.safe_fall_distance",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "feet",
+                      "uuid": [
+                        -2013014094,
+                        -1957018710,
+                        -2068177078,
+                        22609515
+                      ]
+                    }
+                  ],
+                  "show_in_tooltip": true
                 }
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "set_custom_data",
+              "tag": "{tsurv.artisans_boots:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

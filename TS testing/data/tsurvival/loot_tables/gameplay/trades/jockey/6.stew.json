@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 12
+                "count": 10
               }
             ]
           }
@@ -20,11 +20,11 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "tsurvival:items/equipment/tools/artisans_touch",
+            "value": "tsurvival:items/equipment/consumables/artisans_brew",
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 1
+                "count": 3
               }
             ]
           }

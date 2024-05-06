@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 12
+                "count": 1
               }
             ]
           }
@@ -19,8 +19,8 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:loot_table",
-            "value": "tsurvival:items/equipment/tools/artisans_touch",
+            "type": "minecraft:item",
+            "name": "minecraft:poppy",
             "functions": [
               {
                 "function": "minecraft:set_count",

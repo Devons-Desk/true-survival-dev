@@ -55,7 +55,7 @@
               },
               {
                 "function": "minecraft:set_custom_data",
-                "tag": "{tsurv.brew:1b}"
+                "tag": "{tsurv.artisans_brew:1b}"
               }
             ]
           }

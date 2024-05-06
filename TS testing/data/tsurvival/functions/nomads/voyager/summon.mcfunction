@@ -1,3 +1,2 @@
-function tsurvival:nomads/spawn/voyager
-execute as @e[tag=tsurv.voyager,limit=1,sort=nearest,distance=..2] run function tsurvival:nomads/path
-tp @s ~ -512 ~
+execute summon minecraft:wandering_trader run function tsurvival:nomads/voyager/trades/initiate
+tp @s[type=!player] ~ -512 ~

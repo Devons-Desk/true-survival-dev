@@ -14,7 +14,7 @@ function tsurvival:crafter/trades/add
 
 #fishing net
 loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/crafter/3.fishing_net
-loot replace entity @s armor.head loot tsurvival:items/materials/artisan_scrap
+loot replace entity @s armor.head loot tsurvival:gameplay/trades/extra_ingredients/2x_artisan_scrap
 function tsurvival:crafter/trades/add
 
 #trident

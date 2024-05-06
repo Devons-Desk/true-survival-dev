@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:iron_nugget",
+            "name": "minecraft:chorus_flower",
             "functions": [
               {
                 "function": "minecraft:set_count",

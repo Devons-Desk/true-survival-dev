@@ -25,7 +25,7 @@
               [
                 {
                   "translate": "test",
-                  "fallback": "Soothes most wounds.",
+                  "fallback": "Cures most wounds.",
                   "color": "gray",
                   "italic": true
                 }
