@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "tsurvival:items/custom/hearty_pork",
+            "value": "tsurvival:items/consumables/hearty_pork",
             "functions": [
               {
                 "function": "minecraft:set_count",

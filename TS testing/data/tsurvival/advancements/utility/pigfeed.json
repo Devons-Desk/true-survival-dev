@@ -7,7 +7,9 @@
           "items": [
             "minecraft:beetroot"
           ],
-          "nbt": "{tsurv.heartbeet:1b}"
+          "predicates": {
+            "minecraft:custom_data": "{tsurv.heartbeet:1b}"
+          }
         },
         "entity": {
           "type": "minecraft:pig"

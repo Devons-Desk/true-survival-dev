@@ -57,7 +57,7 @@
                     {
                       "type": "generic.safe_fall_distance",
                       "name": "generic.safe_fall_distance",
-                      "amount": 1,
+                      "amount": 3,
                       "operation": "add_value",
                       "slot": "feet",
                       "uuid": [

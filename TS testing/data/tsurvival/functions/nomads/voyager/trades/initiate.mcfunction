@@ -1,8 +1,5 @@
 data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],CustomNameVisible:0b,DespawnDelay:3600,PersistenceRequired:1b,Tags:["tsurv.voyager","global.ignore","tsurv.trader","smithed.entity"],CustomName:'{"fallback":"Voyager","translate":"test"}',active_effects:[{id:"minecraft:slow_falling",amplifier:0,duration:600,show_particles:1b}]}
 
-execute store result score @s tsurv.coinflip run random roll 1..2
-execute if score @s tsurv.coinflip matches 1 run tag @s add tsurv.spelunker.fortune
-execute if score @s tsurv.coinflip matches 2 run tag @s add tsurv.spelunker.touch
 
 data modify entity @s Offers.Recipes set value []
 ##Trades
