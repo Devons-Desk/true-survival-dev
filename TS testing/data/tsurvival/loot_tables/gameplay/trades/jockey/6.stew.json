@@ -20,7 +20,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "tsurvival:items/equipment/consumables/artisans_brew",
+            "value": "tsurvival:items/consumables/artisans_brew",
             "functions": [
               {
                 "function": "minecraft:set_count",
