@@ -1,1 +1,1 @@
-execute as @s[type=#tsurvival:tsurv.jockeyspawns,tag=!tsurv.found] at @s if predicate tsurvival:dimensions/nether run function tsurvival:nomads/strider_jockey/scoreboard
+execute if entity @s[type=#tsurvival:tsurv.jockeyspawns,tag=!tsurv.found] at @s if dimension minecraft:the_nether run function tsurvival:nomads/strider_jockey/scoreboard

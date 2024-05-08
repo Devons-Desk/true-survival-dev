@@ -1,3 +1,4 @@
+#say attempt raycast
 scoreboard players set #tsurv.trap.raycast tsurv.trap.raycast 50
 
 summon minecraft:marker ~ ~ ~ {Tags:["tsurv.trap.caster"]}
