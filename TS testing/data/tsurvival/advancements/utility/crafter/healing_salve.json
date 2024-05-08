@@ -1,21 +1,22 @@
 {
     "criteria": {
-        "lumberjack": {
-            "trigger": "minecraft:villager_trade",
-            "conditions": {
-                "villager": {
-                    "nbt": "{Tags:[\"global.ignore\",\"tsurv.crafter\"]}"
-                },
-                "item": {
-                    "item": [
-                        "minecraft:beetroot_soup"
-                    ],
-                    "nbt": "{tsurv.salve:1b}"
-                }
+      "lumberjack": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "nbt": "{Tags:[\"global.ignore\",\"tsurv.crafter\"]}"
+          },
+          "item": {
+            "items": "minecraft:beetroot_soup",
+            "predicates": {
+              "minecraft:custom_data": "{tsurv.salve:1b}"
             }
+          }
         }
+      }
     },
     "rewards": {
-        "function": "tsurvival:crafter/craft_effects/craft_salve"
+      "function": "tsurvival:crafter/craft_effects/craft_salve"
     }
-}
+  }
+  
