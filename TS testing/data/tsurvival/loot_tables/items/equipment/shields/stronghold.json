@@ -1,106 +1,57 @@
 {
-  "type": "minecraft:generic",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
+          "name": "minecraft:shield",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101026,Items:[{id:\"minecraft:golden_carrot\",Count:32b}]}"
-            },
-            {
               "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Stronghold Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
+              "target": "item_name",
+              "name": {
+                "translate": "test",
+                "fallback": "The Eye"
+              }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101026,Items:[{id:\"minecraft:shield\",Count:1b,tag:{HideFlags:32,display:{Name:'{\"text\":\"The Eye\",\"color\":\"yellow\",\"italic\":false}'},BlockEntityTag:{Base:15,Patterns:[{Color:7,Pattern:\"gru\"},{Color:3,Pattern:\"glb\"},{Color:5,Pattern:\"mc\"},{Color:15,Pattern:\"gru\"},{Color:15,Pattern:\"cr\"},{Color:15,Pattern:\"tts\"}]}}}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Stronghold Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101026,Items:[{id:\"minecraft:ender_pearl\",Count:3b},]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Stronghold Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101026,Items:[{id:\"minecraft:jack_o_lantern\",Count:48b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Stronghold Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
+              "function": "minecraft:set_components",
+              "components": {
+                "rarity": "uncommon",
+                "max_damage": 500,
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:base",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:gradient_up",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "minecraft:globe",
+                    "color": "light_blue"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "lime"
+                  },
+                  {
+                    "pattern": "minecraft:gradient_up",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:cross",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_top",
+                    "color": "black"
+                  }
+                ]
+              }
             }
           ]
         }

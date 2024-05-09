@@ -1,106 +1,57 @@
 {
-  "type": "minecraft:generic",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
+          "name": "minecraft:shield",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101025,Items:[{id:\"minecraft:jukebox\",Count:1b}]}"
-            },
-            {
               "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Overworld Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
+              "target": "item_name",
+              "name": {
+                "translate": "test",
+                "fallback": "The Hearth"
+              }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101025,Items:[{id:\"minecraft:shield\",Count:1b,tag:{HideFlags:32,display:{Name:'{\"text\":\"The Hearth\",\"color\":\"yellow\",\"italic\":false}'},BlockEntityTag:{Base:7,Patterns:[{Color:14,Pattern:\"gra\"},{Color:1,Pattern:\"bri\"},{Color:4,Pattern:\"bt\"},{Color:1,Pattern:\"cr\"},{Color:4,Pattern:\"bts\"},{Color:12,Pattern:\"bts\"}]}}}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Overworld Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101025,Items:[{id:\"minecraft:campfire\",Count:3b},]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Overworld Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101025,Items:[{id:\"minecraft:torch\",Count:64b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Overworld Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
+              "function": "minecraft:set_components",
+              "components": {
+                "rarity": "uncommon",
+                "max_damage": 500,
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:base",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "minecraft:gradient",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:bricks",
+                    "color": "orange"
+                  },
+                  {
+                    "pattern": "minecraft:triangle_bottom",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "minecraft:cross",
+                    "color": "orange"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_bottom",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_bottom",
+                    "color": "brown"
+                  }
+                ]
+              }
             }
           ]
         }

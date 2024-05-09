@@ -8,7 +8,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "value": "tsurvival:gameplay/loot_bundles/mansion",
+              "value": "tsurvival:gameplay/spawner_loot/mansion",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -21,7 +21,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "value": "tsurvival:gameplay/loot_bundles/mineshaft",
+              "value": "tsurvival:gameplay/spawner_loot/mineshaft",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -34,7 +34,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "value": "tsurvival:gameplay/loot_bundles/stronghold",
+              "value": "tsurvival:gameplay/spawner_loot/stronghold",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -47,7 +47,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "value": "tsurvival:gameplay/loot_bundles/overworld",
+              "value": "tsurvival:gameplay/spawner_loot/overworld",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -69,7 +69,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "value": "tsurvival:gameplay/loot_bundles/fortress",
+              "value": "tsurvival:gameplay/spawner_loot/fortress",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -82,7 +82,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "value": "tsurvival:gameplay/loot_bundles/bastion",
+              "value": "tsurvival:gameplay/spawner_loot/bastion",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -95,7 +95,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "value": "tsurvival:gameplay/loot_bundles/nether",
+              "value": "tsurvival:gameplay/spawner_loot/nether",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -117,7 +117,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "value": "tsurvival:gameplay/loot_bundles/end",
+              "value": "tsurvival:gameplay/spawner_loot/end",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",

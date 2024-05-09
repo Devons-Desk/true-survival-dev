@@ -1,106 +1,57 @@
 {
-  "type": "minecraft:generic",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
+          "name": "minecraft:shield",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101022,Items:[{id:\"minecraft:nautilus_shell\",Count:1b,tag:{display:{Name:'{\"text\":\"War Horn\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Put into offhand to sound the horn.\",\"color\":\"gray\",\"italic\":true}']},CustomModelData:5101002,tsurv.horn:1b}}]}"
-            },
-            {
               "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Mansion Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
+              "target": "item_name",
+              "name": {
+                "translate": "test",
+                "fallback": "The Jaded"
+              }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101022,Items:[{id:\"minecraft:shield\",Count:1b,tag:{HideFlags:32,display:{Name:'{\"text\":\"The Jaded\",\"color\":\"yellow\",\"italic\":false}'},BlockEntityTag:{Base:8,Patterns:[{Color:0,Pattern:\"bri\"},{Color:0,Pattern:\"gru\"},{Color:0,Pattern:\"gra\"},{Color:5,Pattern:\"glb\"},{Color:5,Pattern:\"mr\"},{Color:0,Pattern:\"cr\"}]}}}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Mansion Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101022,Items:[{id:\"minecraft:emerald\",Count:18b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Mansion Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101022,Items:[{id:\"minecraft:redstone_lamp\",Count:48b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Mansion Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
+              "function": "minecraft:set_components",
+              "components": {
+                "rarity": "uncommon",
+                "max_damage": 500,
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:base",
+                    "color": "light_gray"
+                  },
+                  {
+                    "pattern": "minecraft:bricks",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:gradient_up",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:gradient",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:globe",
+                    "color": "lime"
+                  },
+                  {
+                    "pattern": "minecraft:rhombus",
+                    "color": "lime"
+                  },
+                  {
+                    "pattern": "minecraft:cross",
+                    "color": "white"
+                  }
+                ]
+              }
             }
           ]
         }

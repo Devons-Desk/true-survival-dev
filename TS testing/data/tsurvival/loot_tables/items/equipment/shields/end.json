@@ -1,106 +1,57 @@
 {
-  "type": "minecraft:generic",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
+          "name": "minecraft:shield",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101020,Items:[{id:\"minecraft:dragon_breath\",Count:16b}]}"
-            },
-            {
               "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "End Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
+              "target": "item_name",
+              "name": {
+                "translate": "test",
+                "fallback": "The Crystal"
+              }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101020,Items:[{id:\"minecraft:shield\",Count:1b,tag:{HideFlags:32,display:{Name:'{\"text\":\"The Crystal\",\"color\":\"yellow\",\"italic\":false}'},BlockEntityTag:{Base:15,Patterns:[{Color:10,Pattern:\"gra\"},{Color:7,Pattern:\"gru\"},{Color:15,Pattern:\"bt\"},{Color:2,Pattern:\"mc\"},{Color:0,Pattern:\"glb\"},{Color:3,Pattern:\"bts\"}]}}}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "End Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101020,Items:[{id:\"minecraft:end_stone\",Count:16b},{id:\"minecraft:chorus_flower\",Count:16b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "End Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101020,Items:[{id:\"minecraft:end_rod\",Count:48b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "End Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
+              "function": "minecraft:set_components",
+              "components": {
+                "rarity": "uncommon",
+                "max_damage": 500,
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:base",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:gradient",
+                    "color": "purple"
+                  },
+                  {
+                    "pattern": "minecraft:gradient_up",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "minecraft:triangle_bottom",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "magenta"
+                  },
+                  {
+                    "pattern": "minecraft:globe",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_bottom",
+                    "color": "light_blue"
+                  }
+                ]
+              }
             }
           ]
         }

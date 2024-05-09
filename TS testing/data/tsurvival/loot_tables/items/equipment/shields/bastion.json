@@ -1,106 +1,57 @@
 {
-  "type": "minecraft:generic",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
+          "name": "minecraft:shield",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:golden_apple\",Count:3b}]}"
-            },
-            {
               "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Bastion Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
+              "target": "item_name",
+              "name": {
+                "translate": "test",
+                "fallback": "The Bulwark"
+              }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:shield\",Count:1b,tag:{HideFlags:32,display:{Name:'{\"text\":\"The Bulwark\",\"color\":\"yellow\",\"italic\":false}'},BlockEntityTag:{Base:4,Patterns:[{Color:15,Pattern:\"bri\"},{Color:7,Pattern:\"gra\"},{Color:4,Pattern:\"gru\"},{Color:15,Pattern:\"bri\"},{Color:14,Pattern:\"mc\"},{Color:15,Pattern:\"pig\"}]}}}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Bastion Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:gilded_blackstone\",Count:16b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Bastion Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101019,Items:[{id:\"minecraft:lantern\",Count:32b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Bastion Bundle",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
+              "function": "minecraft:set_components",
+              "components": {
+                "rarity": "uncommon",
+                "max_damage": 500,
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:base",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "minecraft:bricks",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:gradient",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "minecraft:gradient_up",
+                    "color": "yellow"
+                  },
+                  {
+                    "pattern": "minecraft:bricks",
+                    "color": "black"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:piglin",
+                    "color": "black"
+                  }
+                ]
+              }
             }
           ]
         }
