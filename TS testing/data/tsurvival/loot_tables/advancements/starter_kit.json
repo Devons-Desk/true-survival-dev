@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/custom/guidebook"
+          "value": "tsurvival:items/guidebook"
         }
       ]
     },
@@ -14,37 +14,18 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:bundle",
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:items/equipment/bundles/old_bundle",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5101008,tsurv.bundle:1b,Items:[{id:\"minecraft:emerald\",Count:1b}]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
-                {
-                  "text": "Old Bundle",
-                  "color": "yellow",
-                  "bold": false,
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
-                {
-                  "text": "A journey begins...",
-                  "color": "gray",
-                  "italic": true
-                }
-              ]
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:bundle_contents": [
+                  {
+                  "id": "minecraft:emerald"
+                  }
+                ]
+              }
             }
           ]
         }

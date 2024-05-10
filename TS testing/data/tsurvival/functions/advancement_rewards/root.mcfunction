@@ -17,13 +17,11 @@ recipe give @s minecraft:arrow
 recipe give @s tsurvival:beenest
 recipe give @s tsurvival:berry_sugar
 recipe give @s tsurvival:dispenser
-recipe give @s tsurvival:ferment
 recipe give @s minecraft:flower_pot
 recipe give @s tsurvival:spectral_arrows
 recipe give @s tsurvival:spiderslime
 recipe give @s tsurvival:black_dye
 recipe give @s minecraft:bundle
-recipe give @s tsurvival:cobwebs
 effect give @s minecraft:hunger 5 110 true
 effect give @s minecraft:absorption 420 0 true
 scoreboard players enable @s tsurv.guide
