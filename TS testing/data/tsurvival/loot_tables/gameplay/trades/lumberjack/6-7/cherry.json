@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:emerald",
+            "name": "minecraft:cherry_log",
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 18
+                "count": 6
               }
             ]
           }
@@ -19,8 +19,8 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:loot_table",
-            "value": "tsurvival:items/nomad_kits/voyager",
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
             "functions": [
               {
                 "function": "minecraft:set_count",

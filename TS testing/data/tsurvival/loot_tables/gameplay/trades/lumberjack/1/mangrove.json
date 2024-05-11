@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:emerald",
+            "name": "minecraft:mangrove_log",
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 1
+                "count": 6
               }
             ]
           }
@@ -20,11 +20,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:bread",
+            "name": "minecraft:emerald",
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 6
+                "count": 1
               }
             ]
           }

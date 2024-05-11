@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:chorus_flower",
+            "name": "minecraft:acacia_log",
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 10
+                "count": 6
               }
             ]
           }

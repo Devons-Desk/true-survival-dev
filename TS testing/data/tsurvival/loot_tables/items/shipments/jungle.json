@@ -1,0 +1,50 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:barrel",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "target": "item_name",
+                "name": [
+                  {
+                    "translate": "test",
+                    "fallback": "Jungle Shipment"
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "mode": "replace_all",
+                "lore": 
+                [
+                  {
+                    "translate": "test",
+                    "fallback": "Break me open!",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:lock": "bruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruhbruh",
+                  "minecraft:container_loot": {
+                    "loot_table": "tsurvival:gameplay/shipments/jungle"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
