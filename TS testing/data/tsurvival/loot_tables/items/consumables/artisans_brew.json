@@ -35,7 +35,7 @@
                 {
                   "minecraft:custom_model_data": 5101006,
                   "minecraft:rarity": "rare",
-                  "max_stack_size": 3,
+                  "max_stack_size": 1,
                   "minecraft:food": 
                     {
                       "nutrition": 8,
@@ -46,6 +46,12 @@
                         {
                           "effect": {
                             "id": "minecraft:fire_resistance",
+                            "duration": 4800
+                          }
+                        },
+                        {
+                          "effect": {
+                            "id": "minecraft:haste",
                             "duration": 4800
                           }
                         }

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 10
+                "count": 18
               }
             ]
           }
@@ -20,7 +20,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "tsurvival:items/consumables/artisans_brew",
+            "value": "tsurvival:items/nomad_kits/voyager",
             "functions": [
               {
                 "function": "minecraft:set_count",

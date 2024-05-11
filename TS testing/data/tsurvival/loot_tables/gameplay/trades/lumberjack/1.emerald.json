@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:emerald",
+            "name": "minecraft:chorus_flower",
             "functions": [
               {
                 "function": "minecraft:set_count",
@@ -19,8 +19,8 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:loot_table",
-            "value": "tsurvival:items/consumables/artisans_brew",
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
             "functions": [
               {
                 "function": "minecraft:set_count",

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 10
+                "count": 1
               }
             ]
           }
@@ -19,12 +19,12 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:loot_table",
-            "value": "tsurvival:items/consumables/artisans_brew",
+            "type": "minecraft:item",
+            "name": "minecraft:bread",
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 1
+                "count": 6
               }
             ]
           }
