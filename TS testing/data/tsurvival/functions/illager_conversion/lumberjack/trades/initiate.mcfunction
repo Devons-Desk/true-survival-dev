@@ -1,5 +1,5 @@
 say init
-data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],CustomNameVisible:0b,Offers:{Recipes:[]},PersistenceRequired:1b,Tags:["tsurv.lumberjack","global.ignore","tsurv.trader","smithed.entity"],CustomName:'{"fallback":"Lumberjack","translate":"test"}',VillagerData:{profession:"minecraft:weaponsmith",type:"minecraft:savanna"}}
+data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],CustomNameVisible:0b,PersistenceRequired:1b,Tags:["tsurv.lumberjack","global.ignore","tsurv.trader","smithed.entity"],CustomName:'{"fallback":"Lumberjack","translate":"test"}',VillagerData:{profession:"minecraft:weaponsmith",type:"minecraft:savanna",level:99}}
 
 
 #data modify entity @s Offers.Recipes set value []
@@ -52,10 +52,12 @@ execute if biome ~ ~ ~ #tsurvival:lumberjack/dark_oak run loot replace entity @s
 execute if biome ~ ~ ~ #tsurvival:lumberjack/jungle run loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/lumberjack/7/jungle
 execute if biome ~ ~ ~ #tsurvival:lumberjack/mangrove run loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/lumberjack/7/mangrove
 execute if biome ~ ~ ~ #tsurvival:lumberjack/spruce run loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/lumberjack/7/spruce
+item replace entity @s armor.head with minecraft:diamond 3
 function tsurvival:crafter/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 1b
 
 
 
-#item replace entity @s weapon.mainhand with air
+item replace entity @s weapon.mainhand with air
 item replace entity @s weapon.offhand with air
+item replace entity @s armor.head with air
