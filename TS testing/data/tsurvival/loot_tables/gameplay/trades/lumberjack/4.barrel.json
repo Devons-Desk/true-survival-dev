@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:acacia_log",
+            "name": "minecraft:emerald",
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 6
+                "count": 7
               }
             ]
           }
@@ -20,7 +20,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:emerald",
+            "name": "minecraft:barrel",
             "functions": [
               {
                 "function": "minecraft:set_count",

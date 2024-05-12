@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:mangrove_log",
+            "name": "minecraft:emerald",
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 6
+                "count": 64
               }
             ]
           }
@@ -19,8 +19,8 @@
         "rolls": 1,
         "entries": [
           {
-            "type": "minecraft:item",
-            "name": "minecraft:emerald",
+            "type": "minecraft:loot_table",
+            "value": "tsurvival:items/shipments/acacia",
             "functions": [
               {
                 "function": "minecraft:set_count",

@@ -28,6 +28,7 @@ scoreboard objectives add tsurv.dragonfruit dummy
 scoreboard objectives add tsurv.deaths deathCount
 scoreboard objectives add tsurv.trap.raycast dummy
 scoreboard objectives add tsurv.coinflip dummy
+scoreboard objectives add tsurv.lumberjack.trades dummy
 
 ###TEAMS###
 team add Dragon

@@ -27,3 +27,4 @@
 #declare objective tsurv.deaths
 #declare objective tsurv.trap.raycast
 #declare objective tsurv.coinflip
+#declare objective tsurv.lumberjack.trades

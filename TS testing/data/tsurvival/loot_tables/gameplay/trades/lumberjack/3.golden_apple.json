@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:cherry_log",
+            "name": "minecraft:golden_apple",
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 6
+                "count": 1
               }
             ]
           }
@@ -24,7 +24,7 @@
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 1
+                "count": 2
               }
             ]
           }

@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:oak_log",
+            "name": "minecraft:emerald",
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 6
+                "count": 12
               }
             ]
           }
@@ -20,11 +20,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:emerald",
+            "name": "minecraft:note_block",
             "functions": [
               {
                 "function": "minecraft:set_count",
-                "count": 1
+                "count": 2
               }
             ]
           }
