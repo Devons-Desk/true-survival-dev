@@ -1,11 +1,7 @@
 {
     "replace": false,
     "values": [
-        "minecraft:bamboo_jungle",
-        "minecraft:dark_forest",
         "minecraft:forest",
-        "minecraft:jungle",
-        "minecraft:sparse_jungle",
         "minecraft:plains",
         "minecraft:river",
         "minecraft:savanna",

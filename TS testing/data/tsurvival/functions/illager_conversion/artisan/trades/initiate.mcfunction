@@ -42,4 +42,4 @@ data modify entity @s Offers.Recipes[-1].maxUses set value 1b
 
 item replace entity @s weapon.mainhand with air
 item replace entity @s weapon.offhand with air
-item replace entity @s armor.head with glass[custom_model_data=5101032] 1
+item replace entity @s armor.head with minecraft:feather[custom_model_data=0]

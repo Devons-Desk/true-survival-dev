@@ -1,0 +1,103 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:loot_table",
+                "value": "tsurvival:gameplay/trades/lumberjack/7/acacia",
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biomes": "#tsurvival:lumberjack/acacia"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "tsurvival:gameplay/trades/lumberjack/7/birch",
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biomes": "#tsurvival:lumberjack/birch"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "tsurvival:gameplay/trades/lumberjack/7/cherry",
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biomes": "#tsurvival:lumberjack/cherry"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "tsurvival:gameplay/trades/lumberjack/7/dark_oak",
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biomes": "#tsurvival:lumberjack/dark_oak"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "tsurvival:gameplay/trades/lumberjack/7/jungle",
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biomes": "#tsurvival:lumberjack/jungle"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "tsurvival:gameplay/trades/lumberjack/7/mangrove",
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biomes": "#tsurvival:lumberjack/mangrove"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "tsurvival:gameplay/trades/lumberjack/7/spruce",
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "biomes": "#tsurvival:lumberjack/spruce"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:loot_table",
+                "value": "tsurvival:gameplay/trades/lumberjack/7/oak"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

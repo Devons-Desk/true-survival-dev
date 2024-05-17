@@ -32,8 +32,7 @@ function tsurvival:nomads/spelunker/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 2b
 
 #pickaxe
-execute if entity @s[tag=tsurv.spelunker.fortune] run loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/6-1.pickaxe
-execute if entity @s[tag=tsurv.spelunker.touch] run loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/6-2.pickaxe
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/spelunker/6/root
 item replace entity @s armor.head with minecraft:iron_ingot 3
 function tsurvival:nomads/spelunker/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 1b

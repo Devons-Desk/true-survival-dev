@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/lumberjack/1/acacia"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/lumberjack/1/birch"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/lumberjack/1/cherry"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/lumberjack/1/dark_oak"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/lumberjack/1/jungle"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/lumberjack/1/mangrove"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/lumberjack/1/oak"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/lumberjack/1/spruce"
+        }
+      ]
+    }
+  ]
+}

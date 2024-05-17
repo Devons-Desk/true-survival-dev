@@ -1,0 +1,18 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "tsurvival:gameplay/trades/spelunker/6/fortune"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "tsurvival:gameplay/trades/spelunker/6/touch"
+                }
+            ]
+
+        }
+    ]
+}
