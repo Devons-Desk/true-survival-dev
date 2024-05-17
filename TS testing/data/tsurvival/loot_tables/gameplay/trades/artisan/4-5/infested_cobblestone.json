@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "tsurvival:items/materials/artisan_scrap",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:infested_cobblestone",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

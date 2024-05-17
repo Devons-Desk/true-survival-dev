@@ -1,41 +1,42 @@
-data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],CustomNameVisible:0b,PersistenceRequired:1b,Tags:["tsurv.artisan","global.ignore","tsurv.trader","smithed.entity"],CustomName:'{"fallback":"Artisan","translate":"test"}'}
+data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],CustomNameVisible:0b,PersistenceRequired:1b,Tags:["tsurv.artisan","global.ignore","tsurv.trader","smithed.entity"],CustomName:'{"fallback":"Artisan","translate":"test"}',VillagerData:{profession:"minecraft:cartographer",type:"minecraft:savanna",level:99}}
 
 
 data modify entity @s Offers.Recipes set value []
 ##Trades
-#emerald
-loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/voyager/1.emerald
+#artisan scrap 1
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/artisan/1.artisan_scrap
 function tsurvival:crafter/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 6b
 
-#campfire
-loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/voyager/2.campfire
+#artisan scrap 2
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/artisan/2.artisan_scrap
 function tsurvival:crafter/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 3b
 
-#bread
-loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/voyager/3.bread
+#bundle
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/artisan/3.bundle
 function tsurvival:crafter/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 4b
 
-#ladder
-loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/voyager/4.ender_chest
+#infested 1
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/artisan/4-5/root
+loot replace entity @s armor.head loot tsurvival:items/materials/silverfish_egg
 function tsurvival:crafter/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 1b
 
-#salve
-loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/voyager/5.salve
+#infested 2
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/artisan/4-5/root
+loot replace entity @s armor.head loot tsurvival:items/materials/silverfish_egg
 function tsurvival:crafter/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 2b
 
-#boots
-loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/voyager/6.boots
-item replace entity @s armor.head with minecraft:iron_ingot 4
+#pot
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/artisan/6.pot
 function tsurvival:crafter/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 1b
 
-#kit
-loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/voyager/7.kit
+#touch
+loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/artisan/7.touch
 item replace entity @s armor.head with minecraft:diamond 3
 function tsurvival:crafter/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 1b

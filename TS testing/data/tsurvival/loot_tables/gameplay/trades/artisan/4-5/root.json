@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/artisan/4-5/infested_chiseled_stone_bricks"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/artisan/4-5/infested_cobblestone"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/artisan/4-5/infested_cracked_stone_bricks"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/artisan/4-5/infested_deepslate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/artisan/4-5/infested_mossy_stone_bricks"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/artisan/4-5/infested_stone_bricks"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/trades/artisan/4-5/infested_stone"
+        }
+      ]
+    }
+  ]
+}
