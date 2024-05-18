@@ -1,19 +1,53 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:structure_block",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Gold Boot\",\"italic\":false,\"color\":\"white\"}',Lore:['{\"text\":\"There\\'s always a bigger boot.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"-npash\",\"color\":\"dark_green\",\"italic\":true}']},CustomModelData:5101114,tsurv.trophy:1b}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "translate": "test",
+                  "fallback": "Gold Boot"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "test",
+                  "fallback": "There's always a bigger boot.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "- npash",
+                  "color": "dark_green"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 5101114,
+                "minecraft:rarity": "common"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tsurv.trophy:1b,tsurv.trophy.common:1b,tsurv.gold_boot:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

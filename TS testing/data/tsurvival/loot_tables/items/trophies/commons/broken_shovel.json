@@ -1,19 +1,59 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:structure_block",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Broken Shovel\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Riches come to those who\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"sing in the mines.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Iran Junction\",\"color\":\"dark_green\"}']},CustomModelData:5101109,tsurv.trophy:1b}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "translate": "test",
+                  "fallback": "Broken Shovel"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "test",
+                  "fallback": "Riches come to those",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "who sing in the mines.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "- Iran Junction",
+                  "color": "dark_green"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 5101109,
+                "minecraft:rarity": "common"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tsurv.trophy:1b,tsurv.trophy.common:1b,tsurv.broken_shovel:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/trophies/commons/gold_boot",
+          "value": "tsurvival:items/trophies/commons/gold_boot",
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -17,7 +17,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/trophies/commons/foxtail",
+          "value": "tsurvival:items/trophies/commons/foxtail",
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -29,23 +29,23 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/trophies/commons/old_boot"
+          "value": "tsurvival:items/trophies/commons/old_boot"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/trophies/commons/broken_shovel"
+          "value": "tsurvival:items/trophies/commons/broken_shovel"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/trophies/commons/dirty_gem"
+          "value": "tsurvival:items/trophies/commons/dirty_gem"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/trophies/commons/cast_iron_pan"
+          "value": "tsurvival:items/trophies/commons/cast_iron_pan"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/trophies/commons/stick_of_destiny"
+          "value": "tsurvival:items/trophies/commons/stick_of_destiny"
         }
       ]
     }

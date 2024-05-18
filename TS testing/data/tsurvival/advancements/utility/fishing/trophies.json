@@ -3,8 +3,21 @@
     "fishingtrophies": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
-        "item": {
-        }
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "#tsurv.trophycontroller"
+              },
+              "score": "tsurv.trophycontroller"
+            },
+            "range": 1
+          }
+        ],
+        "item": {}
       }
     }
   },

@@ -1,19 +1,59 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:structure_block",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Ancient Gear\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"The race of industry\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"has been brought to a crawl.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Galdeveer\",\"color\":\"dark_green\"}']},CustomModelData:5101102,tsurv.trophy:1b}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "translate": "test",
+                  "fallback": "Ancient Gear"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "test",
+                  "fallback": "The race of industry",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "has been brought to a crawl.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "- Galdeveer",
+                  "color": "dark_green"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 5101102,
+                "minecraft:rarity": "epic"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tsurv.trophy:1b,tsurv.trophy.rare:1b,tsurv.ancient_gear:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

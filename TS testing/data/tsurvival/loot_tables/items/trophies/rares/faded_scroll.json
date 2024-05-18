@@ -1,19 +1,61 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:written_book",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Faded Scroll\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Thanks for playing!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"~True Survival~\",\"color\":\"dark_green\"}']},CustomModelData:5101106,tsurv.trophy:1b,title:\"Triumph\",author:\"Devon's Desk\",generation:0,pages:['{\"text\":\"Lords may take by miles. \\\\nKings may take by horizons. \\\\nBut they are no more. \\\\nInches will do just fine.\"}']}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "translate": "test",
+                  "fallback": "Faded Scroll"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "test",
+                  "fallback": "Thanks for playing!",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "~True Survival~",
+                  "color": "dark_green"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tsurv.trophy:1b,tsurv.trophy.rare:1b,tsurv.faded_scroll:1b}"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "custom_model_data": 5101106,
+                "rarity": "epic",
+                "minecraft:written_book_content": {
+                  "title": "Triumph",
+                  "author": "Devon's Desk",
+                  "pages": [
+                    "{\"text\":\"Lords may take by miles.\n\nKings may take by horizons.\n\nBut they are no more.\n\nInches will do just fine.\"}"
+                  ]
+                }
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

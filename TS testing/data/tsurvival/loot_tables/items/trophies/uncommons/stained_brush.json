@@ -1,19 +1,59 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:structure_block",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Stained Brush\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Its bristles cling together,\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"bound by its own history.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- Prime\",\"color\":\"dark_green\"}']},CustomModelData:5101111,tsurv.trophy:1b}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "translate": "test",
+                  "fallback": "Stained Brush"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "test",
+                  "fallback": "Its bristles cling together,",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "bound by its own history.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "- Prime",
+                  "color": "dark_green"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 5101111,
+                "minecraft:rarity": "rare"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tsurv.trophy:1b,tsurv.trophy.uncommon:1b,tsurv.stained_brush:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

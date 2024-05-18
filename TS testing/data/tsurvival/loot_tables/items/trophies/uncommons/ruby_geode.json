@@ -1,19 +1,59 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:structure_block",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Ruby Geode\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"A gem rarer than emerald...\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"A gem lost to time.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- notbadkid\",\"color\":\"dark_green\"}']},CustomModelData:5101101,tsurv.trophy:1b}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "translate": "test",
+                  "fallback": "Ruby Geode"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "test",
+                  "fallback": "A gem rarer than emerald...",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "A gem lost to time.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "- notbadkid",
+                  "color": "dark_green"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 5101101,
+                "minecraft:rarity": "rare"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tsurv.trophy:1b,tsurv.trophy.uncommon:1b,tsurv.ruby_geode:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

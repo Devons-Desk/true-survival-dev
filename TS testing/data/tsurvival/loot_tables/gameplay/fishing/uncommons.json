@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/trophies/uncommons/enderic_eye",
+          "value": "tsurvival:items/trophies/uncommons/enderic_eye",
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -17,7 +17,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/trophies/uncommons/ruby_geode",
+          "value": "tsurvival:items/trophies/uncommons/ruby_geode",
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -34,11 +34,11 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/trophies/uncommons/stained_brush"
+          "value": "tsurvival:items/trophies/uncommons/stained_brush"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "tsurvival:items/trophies/uncommons/certificate_of_skill"
+          "value": "tsurvival:items/trophies/uncommons/certificate_of_skill"
         }
       ]
     }

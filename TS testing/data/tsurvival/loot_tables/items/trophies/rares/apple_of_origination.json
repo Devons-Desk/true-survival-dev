@@ -1,19 +1,65 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:structure_block",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Apple of Origination\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"11\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"18\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"11 \",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- TimeDragon\",\"color\":\"dark_green\"}']},CustomModelData:5101108,tsurv.trophy:1b,Enchantments:[{}]}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "translate": "test",
+                  "fallback": "Apple of Origination"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "test",
+                  "fallback": "11",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "18",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "11",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "- TimeDragon",
+                  "color": "dark_green"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 5101108,
+                "minecraft:rarity": "epic"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tsurv.trophy:1b,tsurv.trophy.rare:1b,tsurv.apple_of_origination:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

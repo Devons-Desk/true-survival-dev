@@ -1,19 +1,65 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:structure_block",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Certificate of Skill\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Congratulations! You are\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"the first player to hit 1000\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"natural deaths per day!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"- BearForceUno\",\"color\":\"dark_green\"}']},CustomModelData:5101105,tsurv.trophy:1b}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "translate": "test",
+                  "fallback": "Certificate of Skill"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "test",
+                  "fallback": "Congratulations! you are",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "the first player to hit 1000",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "natural deaths per day!",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "test",
+                  "fallback": "- BearForceUno",
+                  "color": "dark_green"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 5101105,
+                "minecraft:rarity": "rare"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tsurv.trophy:1b,tsurv.trophy.uncommon:1b,tsurv.certificate_of_skill:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
