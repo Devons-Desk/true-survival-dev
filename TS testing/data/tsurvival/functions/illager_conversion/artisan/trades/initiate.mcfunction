@@ -37,7 +37,7 @@ data modify entity @s Offers.Recipes[-1].maxUses set value 4b
 
 #touch
 loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/artisan/7.touch
-item replace entity @s armor.head with minecraft:diamond 3
+loot replace entity @s armor.head loot tsurvival:gameplay/trades/extra_ingredients/3x_artisan_scrap
 function tsurvival:illager_conversion/artisan/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 3b
 
