@@ -6,17 +6,17 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:poppy",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
               }
             }
-          ],
-          "name": "minecraft:poppy"
+          ]
         }
       ]
     },
@@ -25,22 +25,65 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3.0,
-                "max": 5.0,
-                "type": "minecraft:uniform"
+                "min": 3,
+                "max": 5
               }
             }
-          ],
-          "name": "minecraft:iron_ingot"
+          ]
         }
       ],
       "conditions": [
         {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "$tsurv.ironcontroller"
+            },
+            "score": "tsurv.iron_golem.controller"
+          },
+          "range": 1
+        },
+        {
           "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "$tsurv.ironcontroller"
+            },
+            "score": "tsurv.iron_golem.controller"
+          },
+          "range": 0
         }
       ]
     }

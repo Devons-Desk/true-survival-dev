@@ -1,3 +1,3 @@
 gamerule naturalRegeneration false
 playsound block.beacon.activate player @s
-tellraw @s [{"text":"----------------------------------------------------","color":"gold"},{"text":"\nYou have disabled Natural Regeneration. [Recommended]","color":"gray"},{"text":"\n----------------------------------------------------","color":"gold"}]
+tellraw @s [{"text":"\n----------------------------------------------------","color":"gold"},{"text":"\nYou have disabled TS Natural Regeneration. [Recommended]","color":"gray"},{"text":"\n----------------------------------------------------\n","color":"gold"}]

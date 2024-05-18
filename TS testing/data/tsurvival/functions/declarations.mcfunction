@@ -28,3 +28,4 @@
 #declare objective tsurv.trap.raycast
 #declare objective tsurv.coinflip
 #declare objective tsurv.lumberjack.trades
+#declare objective tsurv.iron_golem.controller

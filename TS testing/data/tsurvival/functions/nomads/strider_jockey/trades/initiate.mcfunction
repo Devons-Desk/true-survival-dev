@@ -20,7 +20,7 @@ loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/jockey/3.b
 function tsurvival:nomads/strider_jockey/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 4b
 
-#ladder
+#poppy
 loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/jockey/4.poppy
 function tsurvival:nomads/strider_jockey/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 3b
@@ -30,7 +30,7 @@ loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/jockey/5.s
 function tsurvival:nomads/strider_jockey/trades/add
 data modify entity @s Offers.Recipes[-1].maxUses set value 2b
 
-#pickaxe
+#stew
 loot replace entity @s weapon.mainhand loot tsurvival:gameplay/trades/jockey/6.stew
 item replace entity @s armor.head with minecraft:crimson_fungus 3
 function tsurvival:nomads/strider_jockey/trades/add

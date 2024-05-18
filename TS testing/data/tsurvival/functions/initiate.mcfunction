@@ -28,6 +28,7 @@ scoreboard objectives add tsurv.dragonfruit dummy
 scoreboard objectives add tsurv.deaths deathCount
 scoreboard objectives add tsurv.trap.raycast dummy
 scoreboard objectives add tsurv.coinflip dummy
+scoreboard objectives add tsurv.iron_golem.controller dummy
 
 ###TEAMS###
 team add Dragon
@@ -43,5 +44,6 @@ team modify Bears friendlyFire false
 scoreboard players set $tsurv.controller_5.3.0 tsurv.controller 1
 scoreboard players set #tsurv.jockeycontroller tsurv.ncounter 0
 scoreboard players set #tsurv.trophycontroller tsurv.trophycontroller 0
+scoreboard players set $tsurv.ironcontroller tsurv.iron_golem.controller 1
 
 #say initiated

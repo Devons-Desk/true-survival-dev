@@ -4,31 +4,42 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
+          "weight": 1,
           "name": "minecraft:written_book",
           "functions": [
             {
-              "function": "set_name",
-              "target": "item_name",
-              "name": 
-              [
-                {
-                  "translate": "test",
-                  "fallback": "The Dev Diary"
-                }
-              ]
+              "function": "set_count",
+              "count": 1
             },
             {
-              "function": "minecraft:set_components",
-              "components": 
-              {
-                  "minecraft:custom_model_data": 5101000,
-                  "minecraft:rarity": "uncommon"
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_model_data": 5101000,
+                "minecraft:custom_data": {
+                  "tsurv.guide": "1b"
+                },
+                "minecraft:written_book_content": {
+                  "title": "",
+                  "author": "Devon's Desk",
+                  "pages": [
+                    "[{\"text\":\"----Premise----\",\"bold\":true},{\"text\":\"\nThis datapack aims to do a few things:\",\"color\":\"dark_red\",\"bold\":false},{\"text\":\"\n1)Emphasize survival.\",\"bold\":false},{\"text\":\"\n2)Fill holes in the vanilla  game.\",\"bold\":false},{\"text\":\"\n3)Improve QOL...\",\"bold\":false},{\"text\":\"\nAll while not disrupting sandbox vanilla gameplay!\",\"bold\":false},{\"text\":\"\nWelcome to\",\"italic\":true},{\"text\":\"\nTRUE SURVIVAL\"},{\"text\":\"\n\nClick for more info.\",\"color\":\"dark_blue\",\"bold\":false,\"italic\":true,\"underlined\":true}]",
+                    "[{\"text\":\"----Config\",\"bold\":true},{\"text\":\"1/2\",\"bold\":false,\"italic\":true},{\"text\":\"----\",\"bold\":true},{\"text\":\"\nNatural Healing\",\"bold\":false,\"underlined\":true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Default = Disabled\"}]}},{\"text\":\"\nEnable:\",\"bold\":false,\"italic\":true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Default = Disabled\"}]}},{\"text\":\"  [✔]\",\"color\":\"green\",\"bold\":false,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click to enable.\"}]},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function tsurvival:guidebook/natural_healing/enable\"}},{\"text\":\"\nDisable:\",\"bold\":false,\"italic\":true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Default = Disabled\"}]}},{\"text\":\" [✖]\",\"color\":\"dark_red\",\"bold\":false,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click to disable.\"}]},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function tsurvival:guidebook/natural_healing/disable\"}},{\"text\":\"\n\nFishing Trophies\",\"bold\":false,\"underlined\":true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Default = Disabled\"}]}},{\"text\":\"\nEnable:\",\"bold\":false,\"italic\":true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Default = Disabled\"}]}},{\"text\":\"  [✔]\",\"color\":\"green\",\"bold\":false,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click to enable.\"}]},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function tsurvival:guidebook/fishing_trophies/enable\"}},{\"text\":\"\nDisable:\",\"bold\":false,\"italic\":true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Default = Disabled\"}]}},{\"text\":\" [✖]\",\"color\":\"dark_red\",\"bold\":false,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click to disable.\"}]},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function tsurvival:guidebook/fishing_trophies/disable\"}},{\"text\":\"\n\nIron Golem Nerf\",\"bold\":false,\"underlined\":true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Default = Enabled\"}]}},{\"text\":\"\nEnable:\",\"bold\":false,\"italic\":true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Default = Enabled\"}]}},{\"text\":\" [✔]\",\"color\":\"green\",\"bold\":false,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click to enable.\"}]},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function tsurvival:guidebook/iron_golem/enable\"}},{\"text\":\"\nDisable:\",\"bold\":false,\"italic\":true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Default = Enabled\"}]}},{\"text\":\" [✖]\",\"color\":\"dark_red\",\"bold\":false,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click to disable.\"}]},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function tsurvival:guidebook/iron_golem/disable\"}},{\"text\":\"\n\n[Op/Cheats required]\",\"color\":\"gray\",\"bold\":false,\"italic\":true}]",
+                    "[{\"text\":\"----Config\",\"bold\":true},{\"text\":\"2/2\",\"bold\":false,\"italic\":true},{\"text\":\"----\",\"bold\":true},{\"text\":\"\nDatapack\",\"bold\":false,\"underlined\":true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Default = Enabled\"}]}},{\"text\":\"\nEnable:\",\"bold\":false,\"italic\":true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Default = Enabled\"}]}},{\"text\":\" [✔]\",\"color\":\"green\",\"bold\":false,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click to enable.\"}]},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function tsurvival:guidebook/installation/install\"}},{\"text\":\"\nDisable:\",\"bold\":false,\"italic\":true,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Default = Enabled\"}]}},{\"text\":\" [✖]\",\"color\":\"dark_red\",\"bold\":false,\"hoverEvent\":{\"action\":\"show_text\",\"value\":[{\"text\":\"Click to disable.\"}]},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function tsurvival:guidebook/installation/uninstall\"}},{\"text\":\"\n\n\n\n\n\n\n\n\n\n[Op/Cheats required]\",\"color\":\"gray\",\"bold\":false,\"italic\":true}]"
+                  ]
+                }
               }
             },
             {
-                "function": "set_custom_data",
-                "tag": "{tsurv.guide:1b}"
+              "function": "set_name",
+              "name": [
+                {
+                  "fallback": "The Dev Diary",
+                  "translate": "test"
+                }
+              ],
+              "target": "item_name"
             }
           ]
         }
