@@ -4,7 +4,7 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "#tsurvival:ts_infested",
+          "type": "#tsurvival:infested",
           "location": {
             "structures": "minecraft:stronghold"
           }

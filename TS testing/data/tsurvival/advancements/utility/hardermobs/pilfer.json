@@ -5,7 +5,7 @@
             "conditions": {
                 "damage": {
                     "source_entity": {
-                        "type": "#tsurvival:tsurv.deepmobs"
+                        "type": "#tsurvival:deepmobs"
                     },
                     "blocked": false
                 },

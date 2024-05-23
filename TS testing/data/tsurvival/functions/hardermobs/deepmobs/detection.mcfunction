@@ -1,5 +1,5 @@
 ###DEEPSPEED###
-execute if entity @s[type=#tsurvival:tsurv.deepmobs,tag=!tsurv.deep] at @s if predicate tsurvival:deep run function tsurvival:hardermobs/deepmobs/zoom
+execute if entity @s[type=#tsurvival:deepmobs,tag=!tsurv.deep] at @s if predicate tsurvival:deep run function tsurvival:hardermobs/deepmobs/zoom
 
 ##DEEPREINFORCEMENT
-execute if entity @s[type=#tsurvival:ts_biters,tag=!tsurv.biter] at @s if predicate tsurvival:deep run function tsurvival:hardermobs/deepmobs/reinforcement 
+execute if entity @s[type=#tsurvival:biters,tag=!tsurv.biter] at @s if predicate tsurvival:deep run function tsurvival:hardermobs/deepmobs/reinforcement 

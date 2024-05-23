@@ -4,7 +4,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                        "type": "#tsurvival:ts_minions",
+                        "type": "#tsurvival:minions",
                         "nbt": "{Tags:[\"tsurv.minion\"]}"
                 }
             }
