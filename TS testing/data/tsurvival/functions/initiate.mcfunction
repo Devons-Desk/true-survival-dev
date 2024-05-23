@@ -29,6 +29,8 @@ scoreboard objectives add tsurv.deaths deathCount
 scoreboard objectives add tsurv.trap.raycast dummy
 scoreboard objectives add tsurv.coinflip dummy
 scoreboard objectives add tsurv.iron_golem.controller dummy
+scoreboard objectives add tsurv.pig_fattening dummy
+scoreboard objectives add tsurv.pig.rng dummy
 
 ###TEAMS###
 team add Dragon

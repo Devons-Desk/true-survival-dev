@@ -13,13 +13,14 @@
               "count": 1
             },
             {
+              "function": "set_custom_data",
+              "tag": "{tsurv.guide:1b}"
+            },
+            {
               "function": "set_components",
               "components": {
                 "minecraft:rarity": "uncommon",
                 "minecraft:custom_model_data": 5101000,
-                "minecraft:custom_data": {
-                  "tsurv.guide": "1b"
-                },
                 "minecraft:written_book_content": {
                   "title": "",
                   "author": "Devon's Desk",

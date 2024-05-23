@@ -29,3 +29,4 @@
 #declare objective tsurv.coinflip
 #declare objective tsurv.lumberjack.trades
 #declare objective tsurv.iron_golem.controller
+#declare objective tsurv.pig_fattening

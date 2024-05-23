@@ -64,7 +64,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "tsurvival:items/materials/heartbeet",
+            "value": "tsurvival:items/consumables/heartbeet",
             "conditions": [
               {
                 "condition": "minecraft:table_bonus",
