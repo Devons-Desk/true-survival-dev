@@ -1,4 +1,4 @@
-say init
+#say init
 data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],CustomNameVisible:0b,PersistenceRequired:1b,Tags:["tsurv.lumberjack","global.ignore","tsurv.trader","smithed.entity"],CustomName:'{"fallback":"Lumberjack","translate":"test"}',VillagerData:{profession:"minecraft:weaponsmith",type:"minecraft:savanna",level:99}}
 
 
