@@ -28,16 +28,15 @@
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "items": "#minecraft:axes",
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantment": "minecraft:fortune"
-                        }
-                      ]
+                  "predicate":{
+                  "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "minecraft:fortune"
                     }
-                  }
+                  ]
+                }
+              }
                 }
               ]
             },
