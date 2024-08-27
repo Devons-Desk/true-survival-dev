@@ -1,7 +1,7 @@
 data merge entity @s {CustomNameVisible:0b,PersistenceRequired:1b,Tags:["tsurv.jockey","global.ignore","tsurv.trader","smithed.entity"],CustomName:'{"fallback":"Jockey","translate":"test"}',active_effects:[{id:"minecraft:fire_resistance",amplifier:0,duration:36000,show_particles:0b}]}
 
 summon strider ~ ~ ~ {Tags:["tsurv.jockey.mount"]}
-ride @s mount @e[type=strider,tag=tsurv.jockey.mount,limit=1,sort=nearest]
+ride @s mount @n[type=strider,tag=tsurv.jockey.mount]
 
 data modify entity @s Offers.Recipes set value []
 ##Trades
