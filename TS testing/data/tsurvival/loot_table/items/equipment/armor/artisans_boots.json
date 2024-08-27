@@ -42,30 +42,18 @@
                 {
                   "modifiers": [
                     {
+                      "id": "minecraft:generic.armor",
                       "type": "minecraft:generic.armor",
-                      "uuid": [
-                        -341798439,
-                        431849399,
-                        -221453012,
-                        -333001137
-                      ],
-                      "name": "generic.armor",
                       "amount": 2,
                       "operation": "add_value",
                       "slot": "feet"
                     },
                     {
+                      "id": "minecraft:generic.safe_fall_distance",
                       "type": "generic.safe_fall_distance",
-                      "name": "generic.safe_fall_distance",
                       "amount": 3,
                       "operation": "add_value",
-                      "slot": "feet",
-                      "uuid": [
-                        -2013014094,
-                        -1957018710,
-                        -2068177078,
-                        22609515
-                      ]
+                      "slot": "feet"
                     }
                   ],
                   "show_in_tooltip": true

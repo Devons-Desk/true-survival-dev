@@ -57,27 +57,15 @@
                 {
                   "modifiers": [
                     {
+                      "id": "minecraft:generic.armor",
                       "type": "minecraft:generic.armor",
-                      "uuid": [
-                        -392405319,
-                        1502168484,
-                        -2141163343,
-                        -611950575
-                      ],
-                      "name": "generic.armor",
                       "amount": 3,
                       "operation": "add_value",
                       "slot": "chest"
                     },
                     {
+                      "id": "minecraft:generic.knockback_resistance",
                       "type": "minecraft:generic.knockback_resistance",
-                      "uuid": [
-                        -1610881736,
-                        1784825882,
-                        -1722184383,
-                        -2109547344
-                      ],
-                      "name": "generic.knockback_resistance",
                       "amount": 0.1,
                       "operation": "add_value",
                       "slot": "chest"
