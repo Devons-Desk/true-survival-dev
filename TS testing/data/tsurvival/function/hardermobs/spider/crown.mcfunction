@@ -1,10 +1,2 @@
-tag @s add tsurv.crowned
-item replace entity @s weapon.mainhand with iron_axe
-data modify entity @s HandDropChances set value [0F,0F]
-attribute @s minecraft:generic.scale base set 1.7
-attribute @s generic.max_health base set 30
-attribute @s generic.knockback_resistance base set 1
-attribute @s generic.armor base set 6
-attribute @s generic.armor_toughness base set 2
-attribute @s generic.movement_speed base set 0.35
+data merge entity @s {Health:30f,Tags:["tsurv.crowned"],HandItems:[{id:"minecraft:iron_axe",count:1},{}],HandDropChances:[0.000F,0.085F],active_effects:[{id:"minecraft:weaving",amplifier:0,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:generic.armor",base:6},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.knockback_resistance",base:1},{id:"minecraft:generic.max_health",base:30},{id:"minecraft:generic.movement_speed",base:0.35},{id:"minecraft:generic.scale",base:1.7}]}
 execute at @s summon minecraft:cave_spider run function tsurvival:hardermobs/spider/heir
