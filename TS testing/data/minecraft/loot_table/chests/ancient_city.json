@@ -152,7 +152,7 @@
             "type": "minecraft:item",
             "functions": [
               {
-                "enchantments": [
+                "options": [
                   "minecraft:swift_sneak"
                 ],
                 "function": "minecraft:enchant_randomly"
