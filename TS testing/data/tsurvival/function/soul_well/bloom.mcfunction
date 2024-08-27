@@ -5,4 +5,4 @@ playsound minecraft:entity.vex.charge player @a[distance=..6] ~ ~ ~ 1 0.8
 particle minecraft:soul ~ ~ ~ 1 1 1 0.0001 20 force @a
 particle minecraft:flash ~ ~ ~ 1 1 1 0.0001 45 force @a
 execute as @e[tag=tsurv.skullsprite,tag=!tsurv.anchored,limit=1] at @s run function tsurvival:soul_well/anchor
-kill @s
+function tsurvival:item_entities/cleanup
