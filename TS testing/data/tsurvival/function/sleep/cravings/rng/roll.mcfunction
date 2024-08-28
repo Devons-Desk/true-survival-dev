@@ -1,4 +1,5 @@
-execute store result score @s tsurv.cravings run loot spawn ~ ~ ~ loot tsurvival:gameplay/cravings
+execute store result score @s tsurv.cravings run random value 1..7
+# loot spawn ~ ~ ~ loot tsurvival:gameplay/cravings
 
 execute if entity @s[scores={tsurv.cravings=1}] run function tsurvival:sleep/cravings/rng/baked
 execute if entity @s[scores={tsurv.cravings=2}] run function tsurvival:sleep/cravings/rng/fruit

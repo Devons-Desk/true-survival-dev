@@ -1,4 +1,4 @@
-summon snowball ~ ~1 ~ {NoGravity:1b,Tags:["tsurv.cravingicon","tsurv.goldicon"],Item:{id:"minecraft:golden_apple",Count:1b,tag:{CustomModelData:5101027}}}
+summon item_display ~ ~1 ~ {billboard:"center",Tags:["tsurv.cravingicon","tsurv.goldicon"],item:{id:"minecraft:golden_apple",count:1,components:{"minecraft:custom_model_data":5101027}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.8f,0.8f,0.8f]}}
 tag @s add tsurv.cravingg
 tag @s remove tsurv.cravingf
 tag @s remove tsurv.cravingb
@@ -6,4 +6,3 @@ tag @s remove tsurv.cravingl
 tag @s remove tsurv.cravingp
 tag @s remove tsurv.cravingt
 tag @s remove tsurv.cravingv
-kill @e[type=item,nbt={Item:{id:"minecraft:stone_button",Count:1b,tag:{tsurv.gold:1b}}}]

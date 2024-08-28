@@ -1,4 +1,4 @@
-summon snowball ~ ~1 ~ {NoGravity:1b,Tags:["tsurv.cravingicon","tsurv.veggieicon"],Item:{id:"minecraft:carrot",Count:1b,tag:{CustomModelData:5101014}}}
+summon item_display ~ ~1 ~ {billboard:"center",Tags:["tsurv.cravingicon","tsurv.veggieicon"],item:{id:"minecraft:carrot",count:1,components:{"minecraft:custom_model_data":5101014}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.8f,0.8f,0.8f]}}
 tag @s add tsurv.cravingv
 tag @s remove tsurv.cravingf
 tag @s remove tsurv.cravingl
@@ -6,4 +6,3 @@ tag @s remove tsurv.cravingp
 tag @s remove tsurv.cravingt
 tag @s remove tsurv.cravingb
 tag @s remove tsurv.cravingg
-kill @e[type=item,nbt={Item:{id:"minecraft:stone_button",Count:1b,tag:{tsurv.veggie:1b}}}]
