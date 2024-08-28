@@ -1,0 +1,33 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients":  [
+        {
+            "item": "minecraft:kelp"
+        },
+        {
+            "item": "minecraft:kelp"
+        },
+        {
+            "item": "minecraft:honey_bottle"
+        }
+    ],
+    "result": {
+      "id": "minecraft:beetroot_soup",
+      "components": {
+        "minecraft:custom_name": "{\"translate\":\"test\",\"fallback\":\"Healing Salve\",\"italic\":false}",
+        "minecraft:lore":["{\"translate\":\"test\",\"fallback\":\"Cures most wounds.\",\"italic\":true,\"color\":gray}"],
+        "minecraft:custom_data": {"tsurv.salve":1},
+        "minecraft:custom_model_data": 5101001,
+        "minecraft:max_stack_size": 1,
+        "minecraft:rarity": "rare",
+        "minecraft:food":
+          {
+            "saturation": 0,
+            "nutrition": 0,
+            "can_always_eat": true,
+            "eat_seconds": 0.865
+          }
+       }
+    }
+  }
+  
