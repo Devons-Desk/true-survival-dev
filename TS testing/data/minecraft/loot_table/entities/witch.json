@@ -80,8 +80,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0.0,
-                "max": 2.0,
+                "min": 4.0,
+                "max": 8.0,
                 "type": "minecraft:uniform"
               }
             },

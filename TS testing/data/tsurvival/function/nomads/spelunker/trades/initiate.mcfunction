@@ -1,4 +1,4 @@
-data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],CustomNameVisible:0b,DespawnDelay:12000,PersistenceRequired:1b,Tags:["tsurv.spelunker","global.ignore","tsurv.trader","smithed.entity"],CustomName:'{"fallback":"Spelunker","translate":"test"}',active_effects:[{id:"minecraft:slow_falling",amplifier:0,duration:600,show_particles:1b}]}
+data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],CustomNameVisible:0b,DespawnDelay:12000,PersistenceRequired:1b,Tags:["tsurv.spelunker","global.ignore","tsurv.trader","smithed.entity","tsurv.nomad"],CustomName:'{"fallback":"Spelunker","translate":"test"}',active_effects:[{id:"minecraft:slow_falling",amplifier:0,duration:600,show_particles:1b}]}
 
 execute store result score @s tsurv.coinflip run random value 1..2
 execute if score @s tsurv.coinflip matches 1 run tag @s add tsurv.spelunker.fortune

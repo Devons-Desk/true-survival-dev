@@ -1,4 +1,4 @@
-data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],CustomNameVisible:0b,DespawnDelay:3600,PersistenceRequired:1b,Tags:["tsurv.voyager","global.ignore","tsurv.trader","smithed.entity"],CustomName:'{"fallback":"Voyager","translate":"test"}',active_effects:[{id:"minecraft:slow_falling",amplifier:0,duration:600,show_particles:1b}]}
+data merge entity @s {ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],CustomNameVisible:0b,DespawnDelay:3600,PersistenceRequired:1b,Tags:["tsurv.voyager","global.ignore","tsurv.trader","smithed.entity","tsurv.nomad"],CustomName:'{"fallback":"Voyager","translate":"test"}',active_effects:[{id:"minecraft:slow_falling",amplifier:0,duration:600,show_particles:1b}]}
 
 
 data modify entity @s Offers.Recipes set value []
