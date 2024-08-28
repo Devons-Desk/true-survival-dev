@@ -1,0 +1,2 @@
+#setblock ~ ~ ~ torch
+kill @s

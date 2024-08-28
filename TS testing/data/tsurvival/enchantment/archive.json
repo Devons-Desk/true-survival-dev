@@ -1,0 +1,37 @@
+{
+    "description": {
+        "translate": "test",
+        "fallback": "Archive"
+    },
+    "exclusive_set": "minecraft:looting",
+    "supported_items": "#minecraft:enchantable/sword",
+    "weight": 2,
+    "max_level": 3,
+    "min_cost": {
+      "base": 15,
+      "per_level_above_first": 9
+    },
+    "max_cost": {
+      "base": 65,
+      "per_level_above_first": 9
+    },
+    "anvil_cost": 4,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:mob_experience": [
+        {
+          "effect": {
+            "type": "minecraft:add",
+            "value": {
+              "type": "minecraft:linear",
+              "base": 3,
+              "per_level_above_first": 4
+            }
+          }
+        }
+      ]
+    }
+  }
+  
