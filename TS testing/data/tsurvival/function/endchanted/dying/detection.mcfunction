@@ -1,0 +1,1 @@
+execute if score @s tsurv.deaths matches 1.. run function tsurvival:endchanted/reset

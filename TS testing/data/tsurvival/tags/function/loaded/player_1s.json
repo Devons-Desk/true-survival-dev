@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "tsurvival:guidebook/trigger/detection"
+        "tsurvival:guidebook/trigger/detection",
+        "tsurvival:endchanted/dying/detection"
     ]
 }

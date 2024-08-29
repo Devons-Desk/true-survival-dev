@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "tsurvival:endchanted/totem"
+        "function": "tsurvival:endchanted/dying/totem"
     }
 }
