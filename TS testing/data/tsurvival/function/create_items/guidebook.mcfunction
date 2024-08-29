@@ -1,1 +1,0 @@
-loot give @s loot tsurvival:items/custom/guidebook
