@@ -1,40 +1,39 @@
 {
     "display": {
-        "title": {
-            "text": "Experienced lumberjack.",
-            "color": "aqua",
-            "italic": false
-        },
-        "description": {
-            "text": "Enchant an axe with fortune."
-        },
-        "icon": {
-            "id": "minecraft:iron_axe"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true
+      "icon": {
+        "id": "minecraft:iron_axe"
+      },
+      "title": {
+        "text": "Experienced lumberjack.",
+        "color": "aqua",
+        "italic": false
+      },
+      "description": {
+        "text": "Enchant an axe with fortune."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
     },
     "criteria": {
-        "nomaditems": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "tag": "tsurvival:axes",
-                        "enchantments": [
-                            {
-                                "enchantment": "minecraft:fortune",
-                                "levels": {
-                                    "min": 1,
-                                    "max": 3
-                                }
-                            }
-                        ]
-                    }
+      "nomaditems": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "#tsurvival:axes",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:fortune"
+                  }
                 ]
+              }
             }
+          ]
         }
+      }
     },
     "parent": "tsurvival:progression/start"
-}
+  }
+  

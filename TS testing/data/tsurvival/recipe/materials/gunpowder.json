@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:charcoal"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        },
+        {
+            "item": "minecraft:pointed_dripstone"
+        },
+        {
+            "item": "minecraft:pointed_dripstone"
+        }
+        ],
+    "result": {
+        "id": "minecraft:gunpowder",
+        "count": 2
+    }
+}
