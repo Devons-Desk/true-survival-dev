@@ -1,105 +1,33 @@
 {
     "display": {
-        "title": {
-            "text": "Take back the night!",
-            "color": "red",
-            "italic": false
-        },
-        "description": {
-            "text": "Upgrade your lights."
-        },
-        "icon": {
-            "id": "minecraft:jack_o_lantern"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+      "icon": {
+        "id": "minecraft:jack_o_lantern"
+      },
+      "title": {
+        "text": "Take back the night!",
+        "color": "red",
+        "italic": false
+      },
+      "description": {
+        "text": "Upgrade your lights."
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
     },
     "criteria": {
-        "jackolantern": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:jack_o_lantern"
-                        ]
-                    }
-                ]
+      "glowstone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "#tsurvival:upgraded_lights"
             }
-        },
-		"candles": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "tag": "minecraft:candles"
-                    }
-                ]
-            }
-        },
-        "glowstone": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:glowstone"]
-                    }
-                ]
-            }
-        },
-        "sealantern": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:sea_lantern"]
-                    }
-                ]
-            }
-        },
-        "lantern": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:lantern"]
-                    }
-                ]
-            }
-        },
-        "seapickle": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:sea_pickle"]
-                    }
-                ]
-            }
-        },
-        "soultorch": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:soul_torch"]
-                    }
-                ]
-            }
+          ]
         }
+      }
     },
-	"requirements": [
-        [
-            "soultorch",
-            "seapickle",
-            "lantern",
-            "glowstone",
-			"sealantern",
-			"jackolantern",
-			"candles"
-        ]
-    ],
     "parent": "tsurvival:progression/survival/rem_sleep"
-}
+  }
+  

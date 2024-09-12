@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:candles",
+        "minecraft:ochre_froglight",
+        "minecraft:verdant_froglight",
+        "minecraft:pearlescent_froglight",
+        "minecraft:glowstone",
+        "minecraft:lantern",
+        "minecraft:sea_lantern",
+        "minecraft:jack_o_lantern"
+    ]
+}
