@@ -104,6 +104,16 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "value": "candid:random_candid_enchant"
+        }
+      ]
     }
   ]
 }
