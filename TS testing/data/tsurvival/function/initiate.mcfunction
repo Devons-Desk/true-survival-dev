@@ -42,7 +42,7 @@ team add Bears
 team modify Bears friendlyFire false
 
 ###CONTROLLERS###
-scoreboard players set $tsurv.controller_6.1.0 tsurv.controller 1
+scoreboard players set $tsurv.controller_6.1.1 tsurv.controller 1
 scoreboard players set #tsurv.jockeycontroller tsurv.ncounter 0
 scoreboard players set #tsurv.trophycontroller tsurv.trophycontroller 0
 scoreboard players set $tsurv.ironcontroller tsurv.iron_golem.controller 1

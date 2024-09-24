@@ -1,9 +1,9 @@
 {
     "display": {
-        "title": "[True Survival Ver 6.1.0]",
+        "title": "[True Survival Ver 6.1.1]",
         "description": "True Survival installed. Visit the Readme file for more information!",
         "icon": {
-            "id": "campfire"
+            "id": "minecraft:campfire"
         },
         "announce_to_chat": false,
         "show_toast": false
