@@ -1,25 +1,23 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:item_frame",
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:entity_data": {
-                    "id": "minecraft:item_frame",
-                    "Tags":["example"]
-                  }
-                }
-              }
-            ]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "minecraft:tnt"
           }
-        ]
-      }
-    ]
-  }
-  
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

@@ -3,7 +3,7 @@
   "entity": "this",
   "predicate": {
     "type_specific": {
-      "type": "player"
+      "type": "minecraft:player"
     },
     "equipment": {
       "feet": {
@@ -17,7 +17,7 @@
         ]
       },
       "chest": {
-        "tag": "tsurvival:armors/leather_chestplates"
+        "items": "#tsurvival:armors/leather_chestplates"
       },
       "head": {
         "items": [

@@ -42,14 +42,14 @@
                 {
                   "modifiers": [
                     {
-                      "id": "minecraft:generic.armor",
+                      "id": "tsurvival:artisans_boots.armor",
                       "type": "minecraft:generic.armor",
                       "amount": 2,
                       "operation": "add_value",
                       "slot": "feet"
                     },
                     {
-                      "id": "minecraft:generic.safe_fall_distance",
+                      "id": "tsurvival:artisans_boots.safe_fall_distance",
                       "type": "generic.safe_fall_distance",
                       "amount": 3,
                       "operation": "add_value",
