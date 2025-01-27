@@ -6,16 +6,11 @@
 		"ST "
     ],
     "key": {
-        "S": {
-            "item": "minecraft:string"
-        },
-        "T": {
-            "item": "minecraft:stick"
-        },
-        "B": {
-            "item": "minecraft:dropper"
-        }
-	},
+        "S": "minecraft:string",
+        "T": "minecraft:stick",
+        "B": "minecraft:dropper"
+        
+    },
     "result": {
 		"id": "minecraft:dispenser",
 		"count": 1

@@ -5,9 +5,8 @@
 		"BB"
     ],
     "key": {
-        "B": {
-            "item": "minecraft:sweet_berries"
-        }
+        "B": "minecraft:sweet_berries"
+        
 	},
     "result": {
 		"id": "minecraft:sugar",

@@ -1,9 +1,8 @@
 {
         "type": "crafting_shapeless",
         "ingredients": [
-            {
-                "item": "minecraft:chain"
-            }
+            "minecraft:chain"
+            
 			],
         "result": {
             "id": "minecraft:iron_nugget",

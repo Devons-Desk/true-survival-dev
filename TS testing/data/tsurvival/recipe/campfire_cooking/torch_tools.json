@@ -1,8 +1,8 @@
 {
   "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "tag": "tsurvival:wooden_tools"
-  },
+  "ingredient": 
+        "#tsurvival:wooden_tools",
+    
   "result": 
     {
       "id": "minecraft:torch"

@@ -6,12 +6,9 @@
 		"SSS"
     ],
     "key": {
-        "S": {
-            "item": "minecraft:spider_eye"
-        },
-        "B": {
-            "item": "minecraft:water_bucket"
-        }
+        "S": "minecraft:spider_eye",
+        "B": "minecraft:water_bucket"
+
 	},
     "result": {
 		"id": "minecraft:slime_ball",

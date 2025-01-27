@@ -1,8 +1,8 @@
 {
   "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "minecraft:sandstone"
-  },
+  "ingredient": 
+    "minecraft:sandstone",
+    
   "result": 
     {
       "id": "minecraft:smooth_sandstone"

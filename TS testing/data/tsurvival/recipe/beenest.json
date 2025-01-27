@@ -6,12 +6,9 @@
 		"CCC"
     ],
     "key": {
-        "C": {
-            "item": "minecraft:honeycomb"
-        },
-        "B": {
-            "item": "minecraft:beehive"
-        }
+        "C": "minecraft:honeycomb" ,
+        "B": "minecraft:beehive"
+        
 	},
     "result": {
 		"id": "minecraft:bee_nest",

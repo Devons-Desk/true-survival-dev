@@ -1,8 +1,8 @@
 ﻿{
  "type": "minecraft:smelting",
-    "ingredient": {
-        "item": "minecraft:sweet_berries"
-    },
+    "ingredient": 
+        "minecraft:sweet_berries"
+    ,
     "result": 
     {
       "id": "minecraft:red_dye"

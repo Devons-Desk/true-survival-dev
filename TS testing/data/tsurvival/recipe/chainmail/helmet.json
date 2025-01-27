@@ -5,9 +5,9 @@
 		"I I"
     ],
     "key": {
-        "I": {
-            "item": "minecraft:chain"
-        }
+        "I": 
+            "minecraft:chain"
+        
 	},
     "result": {
 		"id": "minecraft:chainmail_helmet",

@@ -6,12 +6,9 @@
 		"AAA"
     ],
     "key": {
-        "G": {
-            "item": "minecraft:glow_ink_sac"
-        },
-        "A": {
-            "item": "minecraft:arrow"
-        }
+        "G": "minecraft:glow_ink_sac",
+        "A": "minecraft:arrow"
+
 	},
     "result": {
 		"id": "minecraft:spectral_arrow",

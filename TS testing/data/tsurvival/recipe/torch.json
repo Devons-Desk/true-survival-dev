@@ -1,15 +1,11 @@
 {
     "type": "crafting_shapeless",
     "ingredients":  [
-        {
-            "item": "minecraft:blaze_powder"
-        },
-        {
-            "item": "minecraft:stick"
-        },
-        {
-            "tag": "minecraft:coals"
-        }
+        
+            "minecraft:blaze_powder",
+            "minecraft:stick",
+            "#tsurvival:coals"
+        
     ],
     "result": {
 		"id": "minecraft:torch",

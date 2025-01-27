@@ -1,15 +1,10 @@
 {
     "type": "crafting_shapeless",
     "ingredients":  [
-        {
-            "item": "minecraft:kelp"
-        },
-        {
-            "item": "minecraft:kelp"
-        },
-        {
-            "item": "minecraft:honey_bottle"
-        }
+            "minecraft:kelp",       
+            "minecraft:kelp",      
+            "minecraft:honey_bottle"
+        
     ],
     "result": {
       "id": "minecraft:beetroot_soup",

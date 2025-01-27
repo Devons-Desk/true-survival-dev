@@ -1,8 +1,8 @@
 {
   "type": "minecraft:blasting",
-  "ingredient": {
-    "tag": "tsurvival:blackstone_smeltable"
-  },
+  "ingredient": 
+    "#tsurvival:blackstone_smeltable",
+
   "result": 
     {
       "id": "minecraft:blackstone"

@@ -1,9 +1,8 @@
 {
   "type": "minecraft:smoking",
-  "ingredient": {
-    "tag": "minecraft:saplings"
-  },
-  "result": "minecraft:dead_bush",
+      "ingredient": 
+          "#minecraft:saplings",
+  "result":     { "id" : "minecraft:dead_bush" },
   "experience": 0.35,
   "cookingtime": 100
 }

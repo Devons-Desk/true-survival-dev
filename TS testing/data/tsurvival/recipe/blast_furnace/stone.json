@@ -1,8 +1,8 @@
 {
   "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "minecraft:cobblestone"
-  },
+  "ingredient": 
+    "minecraft:cobblestone",
+    
   "result": 
     {
       "id": "minecraft:stone"

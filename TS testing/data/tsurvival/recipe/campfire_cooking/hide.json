@@ -1,8 +1,8 @@
 {
   "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "item": "minecraft:rotten_flesh"
-  },
+  "ingredient": 
+    "minecraft:rotten_flesh",
+
   "result": {
     "id": "minecraft:rabbit_hide",
     "components": {

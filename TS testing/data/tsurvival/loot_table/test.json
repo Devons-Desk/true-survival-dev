@@ -5,18 +5,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond"
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "colors": [
+                    14817304
+                  ]
+                }
+              }
+            }
+          ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "direct_attacker",
-          "predicate": {
-            "type": "minecraft:tnt"
-          }
-        }
-      ]
+      "conditions": []
     }
   ],
   "functions": []

@@ -1,12 +1,12 @@
 {
-        "type": "crafting_shapeless",
-        "ingredients": [
-            {
-                "tag": "tsurvival:coals"
-            }
-			],
-        "result": {
-            "id": "minecraft:black_dye",
-            "count": 1
-        }
-    }
+    "type": "crafting_shapeless",
+    "ingredients":  [
+
+            "#tsurvival:coals"
+        
+    ],
+    "result": {
+		"id": "minecraft:black_dye",
+		"count": 1
+	}
+}

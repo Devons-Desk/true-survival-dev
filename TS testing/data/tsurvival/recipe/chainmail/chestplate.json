@@ -6,9 +6,9 @@
 		"III"
     ],
     "key": {
-        "I": {
-            "item": "minecraft:chain"
-        }
+        "I": 
+            "minecraft:chain"
+        
 	},
     "result": {
 		"id": "minecraft:chainmail_chestplate",
