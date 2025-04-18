@@ -43,14 +43,14 @@
                   "modifiers": [
                     {
                       "id": "tsurvival:artisans_boots.armor",
-                      "type": "minecraft:generic.armor",
+                      "type": "minecraft:armor",
                       "amount": 2,
                       "operation": "add_value",
                       "slot": "feet"
                     },
                     {
                       "id": "tsurvival:artisans_boots.safe_fall_distance",
-                      "type": "generic.safe_fall_distance",
+                      "type": "safe_fall_distance",
                       "amount": 3,
                       "operation": "add_value",
                       "slot": "feet"

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
+          "name": "minecraft:structure_block",
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -32,7 +32,6 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 5101011,
                 "minecraft:rarity": "uncommon",
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:food": {
@@ -68,7 +67,11 @@
                       }
                     }
                   ]
-                }
+                },           
+                "minecraft:custom_model_data": {
+                  "floats": [5101011]
+                },
+                "minecraft:item_model": "minecraft:enchanted_golden_apple"
               }
             },
             {

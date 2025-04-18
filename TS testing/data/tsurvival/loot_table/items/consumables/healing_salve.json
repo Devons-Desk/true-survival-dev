@@ -5,13 +5,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:beetroot_soup",
+          "name": "minecraft:structure_block",
           "functions": [
             {
               "function": "set_name",
               "target": "item_name",
-              "name": 
-              [
+              "name": [
                 {
                   "translate": "test",
                   "fallback": "Healing Salve"
@@ -21,8 +20,7 @@
             {
               "function": "set_lore",
               "mode": "replace_all",
-              "lore": 
-              [
+              "lore": [
                 {
                   "translate": "test",
                   "fallback": "Cures most wounds.",
@@ -33,22 +31,48 @@
             },
             {
               "function": "minecraft:set_components",
-              "components": 
-              {
-                  "minecraft:custom_model_data": 5101001,
-                  "minecraft:rarity": "rare",
-                  "minecraft:food":
+              "components": {
+                "minecraft:rarity": "rare",
+                "!minecraft:food":{},
+                "!minecraft:use_remainder":{},
+                "minecraft:consumable": {
+                  "consume_seconds": 0.865,
+                  "animation": "brush",
+                  "sound": "minecraft:block.honey_block.slide",
+                  "has_consume_particles": true,
+                  "on_consume_effects": [
                     {
-                      "saturation": 0,
-                      "nutrition": 0,
-                      "can_always_eat": true,
-                      "eat_seconds": 0.865
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:instant_health",
+                          "amplifier": 0,
+                          "duration": 1,
+                          "show_particles": false,
+                          "show_icon": false
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:remove_effects",
+                      "effects": [
+                        "minecraft:poison",
+                        "minecraft:wither",
+                        "minecraft:blindness"
+                      ]
                     }
+                  ]
+                },
+                "minecraft:max_stack_size": 3,              
+                "minecraft:custom_model_data": {
+                  "floats": [5101001]
+                },
+                "minecraft:item_model": "minecraft:beetroot_soup"
               }
             },
             {
-                "function": "set_custom_data",
-                "tag": "{tsurv.salve:1b}"
+              "function": "set_custom_data",
+              "tag": "{tsurv.salve:1b}"
             }
           ]
         }

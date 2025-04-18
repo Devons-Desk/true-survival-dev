@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:amethyst_shard",
+          "name": "minecraft:structure_block",
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -38,8 +38,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 5101009,
-                "minecraft:rarity": "common"
+                "minecraft:rarity": "common",
+                "minecraft:item_model": "minecraft:amethyst_shard",              
+                "minecraft:custom_model_data": {
+                  "floats": [5101009]
+                }
               }
             },
             {

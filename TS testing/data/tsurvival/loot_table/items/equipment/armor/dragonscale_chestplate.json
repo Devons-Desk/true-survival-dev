@@ -58,14 +58,14 @@
                   "modifiers": [
                     {
                       "id": "tsurvival:dragonscale_chestplate.armor",
-                      "type": "minecraft:generic.armor",
+                      "type": "minecraft:armor",
                       "amount": 3,
                       "operation": "add_value",
                       "slot": "chest"
                     },
                     {
                       "id": "tsurvival:dragonscale_chestplate.knockback_resistance",
-                      "type": "minecraft:generic.knockback_resistance",
+                      "type": "minecraft:knockback_resistance",
                       "amount": 0.1,
                       "operation": "add_value",
                       "slot": "chest"

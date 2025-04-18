@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:name_tag",
+          "name": "minecraft:structure_block",
           "functions": [
             {
               "function": "set_name",
@@ -36,8 +36,19 @@
               "function": "minecraft:set_components",
               "components": 
               {
-                  "minecraft:custom_model_data": 5101035,
-                  "minecraft:rarity": "rare"
+                  "minecraft:rarity": "rare",
+                  "equippable": {
+                    "slot": "saddle",
+                    "equip_on_interact":true,
+                    "allowed_entities": [
+                      "minecraft:piglin",
+                      "minecraft:piglin_brute"
+                    ]
+                  },              
+                  "minecraft:custom_model_data": {
+                    "floats": [5101035]
+                  },
+                  "minecraft:item_model": "minecraft:name_tag"                  
               }
             },
             {

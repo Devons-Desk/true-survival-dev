@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spider_eye",
+          "name": "minecraft:structure_block",
           "functions": [
             {
               "function": "set_name",
@@ -35,14 +35,17 @@
               "function": "minecraft:set_components",
               "components": 
               {
-                  "minecraft:custom_model_data": 5101010,
                   "minecraft:rarity": "common",
                   "minecraft:food": 
                     {
                       "nutrition":2,
                       "saturation":3.2,
                       "eat_seconds": 1.61
-                    }
+                    },
+                  "minecraft:item_model": "minecraft:spider_eye",
+                  "minecraft:custom_model_data": {
+                    "floats": [5101010]
+                  }
               }
             },
             {

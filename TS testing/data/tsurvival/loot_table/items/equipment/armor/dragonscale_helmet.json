@@ -58,14 +58,14 @@
                   "modifiers": [
                     {
                       "id": "tsurvival:dragonscale_helmet.armor",
-                      "type": "minecraft:generic.armor",
+                      "type": "minecraft:armor",
                       "amount": 1,
                       "operation": "add_value",
                       "slot": "head"
                     },
                     {
                       "id": "tsurvival:dragonscale_helmet.knockback_resistance",
-                      "type": "minecraft:generic.knockback_resistance",
+                      "type": "minecraft:knockback_resistance",
                       "amount": 0.1,
                       "operation": "add_value",
                       "slot": "head"

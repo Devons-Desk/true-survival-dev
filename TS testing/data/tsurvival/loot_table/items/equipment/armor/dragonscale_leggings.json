@@ -58,14 +58,14 @@
                   "modifiers": [
                     {
                       "id": "tsurvival:dragonscale_leggings.armor",
-                      "type": "minecraft:generic.armor",
+                      "type": "minecraft:armor",
                       "amount": 2,
                       "operation": "add_value",
                       "slot": "legs"
                     },
                     {
                       "id": "tsurvival:dragonscale_leggings.knockback_resistance",
-                      "type": "minecraft:generic.knockback_resistance",
+                      "type": "minecraft:knockback_resistance",
                       "amount": 0.1,
                       "operation": "add_value",
                       "slot": "legs"

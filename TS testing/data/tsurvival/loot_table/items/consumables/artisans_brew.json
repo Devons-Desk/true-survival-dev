@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:suspicious_stew",
+            "name": "minecraft:structure_block",
             "functions": [
               {
                 "function": "minecraft:set_name",
@@ -33,30 +33,11 @@
                 "function": "minecraft:set_components",
                 "components":
                 {
-                  "minecraft:custom_model_data": 5101006,
                   "minecraft:rarity": "rare",
-                  "max_stack_size": 1,
-                  "minecraft:food": 
-                    {
-                      "nutrition": 8,
-                      "saturation": 13.2,
-                      "can_always_eat": true,
-                      "eat_seconds": 1.61,
-                      "effects": [
-                        {
-                          "effect": {
-                            "id": "minecraft:fire_resistance",
-                            "duration": 4800
-                          }
-                        },
-                        {
-                          "effect": {
-                            "id": "minecraft:haste",
-                            "duration": 4800
-                          }
-                        }
-                      ]
-                    }
+                  "minecraft:item_model": "minecraft:suspicious_stew",
+                  "minecraft:custom_model_data": {
+                    "floats": [5101006]
+                  }
                 }
               },
               {

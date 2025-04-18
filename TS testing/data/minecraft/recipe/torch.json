@@ -1,15 +1,9 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-            {
-                "tag": "tsurvival:kindling"
-            },
-			{
-				"tag": "minecraft:coals"
-			},
-			{
-				"item": "minecraft:stick"
-			}
+                "#tsurvival:coals",
+                "#tsurvival:kindling",
+                "minecraft:stick"
 			],
         "result": {
             "id": "minecraft:torch",

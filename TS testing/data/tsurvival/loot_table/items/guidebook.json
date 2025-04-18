@@ -20,7 +20,6 @@
               "function": "set_components",
               "components": {
                 "minecraft:rarity": "uncommon",
-                "minecraft:custom_model_data": 5101000,
                 "minecraft:written_book_content": {
                   "title": "",
                   "author": "Devon's Desk",
