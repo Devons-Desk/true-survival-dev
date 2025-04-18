@@ -12,7 +12,7 @@
               "target": "item_name",
               "name": {
                 "translate": "test",
-                "fallback": "Unlit Soul Campfire"
+                "fallback": "Soul Campfire"
               }
             },
             {

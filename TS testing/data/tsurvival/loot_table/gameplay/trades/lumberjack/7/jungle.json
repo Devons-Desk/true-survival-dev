@@ -20,7 +20,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "tsurvival:items/shipments/jungle",
+          "value": "tsurvival:items/blocks/shipments/jungle",
           "functions": [
             {
               "function": "minecraft:set_count",

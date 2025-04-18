@@ -20,7 +20,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "tsurvival:items/shipments/oak",
+          "value": "tsurvival:items/blocks/shipments/oak",
           "functions": [
             {
               "function": "minecraft:set_count",

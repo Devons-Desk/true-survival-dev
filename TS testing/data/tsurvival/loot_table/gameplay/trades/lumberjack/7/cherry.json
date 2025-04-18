@@ -20,7 +20,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "tsurvival:items/shipments/cherry",
+          "value": "tsurvival:items/blocks/shipments/cherry",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -20,7 +20,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "tsurvival:items/shipments/mangrove",
+          "value": "tsurvival:items/blocks/shipments/mangrove",
           "functions": [
             {
               "function": "minecraft:set_count",

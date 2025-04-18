@@ -20,7 +20,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "tsurvival:items/nomad_kits/jockey",
+            "value": "tsurvival:items/blocks/nomad_kits/jockey",
             "functions": [
               {
                 "function": "minecraft:set_count",

@@ -14,6 +14,7 @@ execute if data storage minecraft:tsurvival.item_entity_detection Item{id:"minec
 execute if data storage minecraft:tsurvival.item_entity_detection Item{id:"minecraft:spruce_log"} run tag @s add tsurv.item_entity.firewood
 execute if data storage minecraft:tsurvival.item_entity_detection Item{id:"minecraft:mangrove_log"} run tag @s add tsurv.item_entity.firewood
 execute if data storage minecraft:tsurvival.item_entity_detection Item{id:"minecraft:cherry_log"} run tag @s add tsurv.item_entity.firewood
+execute if data storage minecraft:tsurvival.item_entity_detection Item{id:"minecraft:pale_oak_log"} run tag @s add tsurv.item_entity.firewood
 
 ##NETHER FIREWOOD##
 execute if data storage minecraft:tsurvival.item_entity_detection Item{id:"minecraft:crimson_stem"} run tag @s add tsurv.item_entity.soul_firewood

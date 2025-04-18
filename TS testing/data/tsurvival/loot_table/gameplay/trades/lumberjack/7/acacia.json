@@ -20,7 +20,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "value": "tsurvival:items/shipments/acacia",
+            "value": "tsurvival:items/blocks/shipments/acacia",
             "functions": [
               {
                 "function": "minecraft:set_count",
