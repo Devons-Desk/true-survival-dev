@@ -42,7 +42,6 @@
             {
               "function": "set_components",
               "components": {
-                "custom_model_data": 5101106,
                 "rarity": "epic",
                 "minecraft:written_book_content": {
                   "title": "Triumph",
@@ -50,6 +49,10 @@
                   "pages": [
                     "{\"text\":\"Lords may take by miles.\n\nKings may take by horizons.\n\nBut they are no more.\n\nInches will do just fine.\"}"
                   ]
+                },
+                "minecraft:item_model": "minecraft:suspicious_stew",
+                "minecraft:custom_model_data": {
+                  "floats": [5101006]
                 }
               }
             }

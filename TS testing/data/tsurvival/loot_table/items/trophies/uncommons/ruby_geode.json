@@ -43,8 +43,11 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 5101101,
-                "minecraft:rarity": "rare"
+                "minecraft:rarity": "rare",
+                "minecraft:item_model": "minecraft:suspicious_stew",
+                "minecraft:custom_model_data": {
+                  "floats": [5101006]
+                }
               }
             },
             {
