@@ -5,9 +5,13 @@
     "equipment": {
       "offhand": {
         "items": [
-          "minecraft:name_tag"
+          "minecraft:repeating_command_block"
         ],
-        "nbt": "{tsurv.gcharm:1b}"
+        "components": {
+          "minecraft:custom_data": {
+            "tsurv.gcharm": 1
+          }
+        }
       }
     }
   }

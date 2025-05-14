@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:diamond_pickaxe",
+  "addition": "minecraft:diamond",
+  "result": {
+    "id": "minecraft:diamond_pickaxe",
+    "components": {
+      "minecraft:max_damage": 1717,
+      "minecraft:lore": [
+        {
+          "text": "Crafted: +10% Durability",
+          "color": "gray"
+        }
+      ]
+    }
+  }
+}

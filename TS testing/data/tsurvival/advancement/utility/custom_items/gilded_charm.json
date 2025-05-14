@@ -4,7 +4,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": "minecraft:name_tag",
+          "items": "minecraft:repeating_command_block",
             "predicates": {
                 "minecraft:custom_data": "{tsurv.gcharm:1b}"                  
             }

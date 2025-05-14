@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:name_tag"
+    "minecraft:repeating_command_block"
   ]
 }

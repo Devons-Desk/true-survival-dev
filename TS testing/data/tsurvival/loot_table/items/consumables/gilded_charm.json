@@ -5,13 +5,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:structure_block",
+          "name": "minecraft:repeating_command_block",
           "functions": [
             {
               "function": "set_name",
               "target": "custom_name",
-              "name": 
-              [
+              "name": [
                 {
                   "translate": "test",
                   "fallback": "Gilded Charm",
@@ -22,8 +21,7 @@
             {
               "function": "set_lore",
               "mode": "replace_all",
-              "lore": 
-              [
+              "lore": [
                 {
                   "translate": "test",
                   "fallback": "The providence of swine.",
@@ -34,26 +32,29 @@
             },
             {
               "function": "minecraft:set_components",
-              "components": 
-              {
-                  "minecraft:rarity": "rare",
-                  "equippable": {
-                    "slot": "saddle",
-                    "equip_on_interact":true,
-                    "allowed_entities": [
-                      "minecraft:piglin",
-                      "minecraft:piglin_brute"
-                    ]
-                  },              
-                  "minecraft:custom_model_data": {
-                    "floats": [5101035]
-                  },
-                  "minecraft:item_model": "minecraft:name_tag"                  
+              "components": {
+                "minecraft:rarity": "rare",
+                "equippable": {
+                  "slot": "saddle",
+                  "dispensable": false,
+                  "swappable": false,
+                  "equip_on_interact": true,
+                  "allowed_entities": [
+                    "minecraft:piglin",
+                    "minecraft:piglin_brute"
+                  ]
+                },
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    5101035
+                  ]
+                },
+                "minecraft:item_model": "minecraft:name_tag"
               }
             },
             {
-                "function": "set_custom_data",
-                "tag": "{tsurv.gcharm:1b}"
+              "function": "set_custom_data",
+              "tag": "{tsurv.gcharm:1b}"
             }
           ]
         }

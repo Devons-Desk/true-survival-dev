@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "saddle": {
+        "items": "minecraft:structure_block"
+      }
+    }
+  }
+}
