@@ -1,0 +1,4 @@
+schedule function tsurvival:nomads/detection 300s replace
+execute in minecraft:overworld at @a as @e[type=minecraft:bat,distance=30..120,limit=1,sort=random] at @s unless entity @n[type=minecraft:wandering_trader,tag=tsurv.spelunker,distance=..100]
+execute in minecraft:the_end at @a as @e[type=minecraft:enderman,distance=30..120,limit=1,sort=random] at @s unless entity @n[type=minecraft:wandering_trader,tag=tsurv.voyager,distance=..100] 
+execute in minecraft:the_nether at @a as @e[type=#tsurvival:jockey_spawns,distance=30..120,limit=1,sort=random] at @s unless entity @n[type=minecraft:wandering_trader,tag=tsurv.jockey,distance=..100] 

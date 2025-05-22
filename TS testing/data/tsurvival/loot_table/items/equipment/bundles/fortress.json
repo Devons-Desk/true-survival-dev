@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bundle",
+          "name": "minecraft:red_bundle",
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -21,8 +21,10 @@
               "function": "minecraft:set_components",
               "components": 
               {
-                  "minecraft:custom_model_data": 5101021,
-                  "minecraft:rarity": "epic"
+                  "minecraft:rarity": "epic",              
+                  "minecraft:custom_model_data": {
+                    "floats": [5101021]
+                  }
               }
             },
             {
