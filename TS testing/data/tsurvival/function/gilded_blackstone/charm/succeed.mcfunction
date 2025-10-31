@@ -1,4 +1,5 @@
 #data remove entity @s CustomName
+say success
 data modify entity @s[type=piglin] DeathLootTable set value "tsurvival:gameplay/gilded_charms/charmed_piglin"
 data modify entity @s[type=piglin_brute] DeathLootTable set value "tsurvival:gameplay/gilded_charms/charmed_brute"
 data modify entity @s IsImmuneToZombification set value 1b

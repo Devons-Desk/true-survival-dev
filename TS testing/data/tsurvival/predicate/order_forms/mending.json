@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "saddle": {
+        "items": "minecraft:repeating_command_block",
+        "components": {
+          "minecraft:custom_data": "{tsurv.order_form.mending:1b}"
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-advancement revoke @s only tsurvival:utility/custom_items/order_form
+advancement revoke @s only tsurvival:utility/custom_items/gilded_charm
 say used
 execute as @n[type=piglin,predicate=tsurvival:saddle_rc,tag=tsurv.gcharmed,distance=..10] at @s run function tsurvival:gilded_blackstone/charm/failure
 execute as @n[type=piglin,predicate=tsurvival:saddle_rc,tag=!tsurv.gcharmed,distance=..10] at @s run function tsurvival:gilded_blackstone/charm/succeed

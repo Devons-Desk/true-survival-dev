@@ -4,7 +4,7 @@
   "predicate": {
     "equipment": {
       "saddle": {
-        "items": "minecraft:structure_block"
+        "items": "minecraft:repeating_command_block"
       }
     }
   }

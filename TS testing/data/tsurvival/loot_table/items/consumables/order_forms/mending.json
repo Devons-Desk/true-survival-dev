@@ -13,7 +13,7 @@
               "name": [
                 {
                   "translate": "test",
-                  "fallback": "Gilded Charm",
+                  "fallback": "Order Form",
                   "italic": false
                 }
               ]
@@ -24,9 +24,9 @@
               "lore": [
                 {
                   "translate": "test",
-                  "fallback": "The providence of swine.",
+                  "fallback": "Mending",
                   "color": "gray",
-                  "italic": true
+                  "italic": false
                 }
               ]
             },
@@ -40,8 +40,7 @@
                   "swappable": false,
                   "equip_on_interact": true,
                   "allowed_entities": [
-                    "minecraft:piglin",
-                    "minecraft:piglin_brute"
+                    "minecraft:villager"
                   ]
                 },
                 "minecraft:custom_model_data": {
@@ -49,12 +48,14 @@
                     5101035
                   ]
                 },
-                "minecraft:item_model": "minecraft:name_tag"
+                "minecraft:item_model": "minecraft:knowledge_book",
+                "minecraft:max_stack_size": 1,
+                "minecraft:enchantment_glint_override": true
               }
             },
             {
               "function": "set_custom_data",
-              "tag": "{tsurv.gcharm:1b}"
+              "tag": "{tsurv.order_form:1b,tsurv.order_form.mending:1b}"
             }
           ]
         }
