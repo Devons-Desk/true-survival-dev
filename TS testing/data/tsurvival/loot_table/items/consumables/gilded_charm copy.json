@@ -13,7 +13,7 @@
               "name": [
                 {
                   "translate": "test",
-                  "fallback": "Order Form test",
+                  "fallback": "Gilded Charm",
                   "italic": false
                 }
               ]
@@ -40,7 +40,8 @@
                   "swappable": false,
                   "equip_on_interact": true,
                   "allowed_entities": [
-                    "minecraft:villager"
+                    "minecraft:piglin",
+                    "minecraft:piglin_brute"
                   ]
                 },
                 "minecraft:custom_model_data": {
@@ -48,12 +49,12 @@
                     5101035
                   ]
                 },
-                "minecraft:item_model": "minecraft:knowledge_book"
+                "minecraft:item_model": "minecraft:name_tag"
               }
             },
             {
               "function": "set_custom_data",
-              "tag": "{tsurv.order_form:1b}"
+              "tag": "{tsurv.gcharm:1b}"
             }
           ]
         }

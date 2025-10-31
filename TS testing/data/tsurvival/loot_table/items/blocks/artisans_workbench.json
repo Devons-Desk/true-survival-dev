@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Artisan Scrap"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": 
+              [
+                {
+                  "translate": "test",
+                  "fallback": "Premium crafting material.",
+                  "color": "gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": 
+              {
+                  "minecraft:rarity": "common",
+                  "minecraft:item_model": "minecraft:feather",              
+                  "minecraft:custom_model_data": {
+                    "floats": [5101028]
+                  }
+              }
+            },
+            {
+                "function": "set_custom_data",
+                "tag": "{tsurv.scrab:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

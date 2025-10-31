@@ -38,29 +38,13 @@
     },
     {
       "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:emerald"
-          }
-        ],
-        "conditions": [
-          {
-            "condition": "minecraft:killed_by_player"
-          },
-          {
-            "condition": "minecraft:random_chance_with_enchanted_bonus",
-            "enchantment": "minecraft:looting",
-            "unenchanted_chance": 0.09,
-            "enchanted_chance": 
-              {
-                "type": "minecraft:linear",
-                "base": 0.12,
-                "per_level_above_first": 0.03
-              }
-          }
-        ]
-      }
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "tsurvival:gameplay/emerald_drops/tier_2"
+        }
+      ]
+    }
   ],
   "random_sequence": "minecraft:entities/breeze"
 }
