@@ -5,27 +5,25 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:structure_block",
+          "name": "minecraft:item_frame",
           "functions": [
             {
               "function": "set_name",
               "target": "item_name",
-              "name": 
-              [
+              "name": [
                 {
                   "translate": "test",
-                  "fallback": "Artisan Scrap"
+                  "fallback": "Artisan's Workbench'"
                 }
               ]
             },
             {
               "function": "set_lore",
               "mode": "replace_all",
-              "lore": 
-              [
+              "lore": [
                 {
                   "translate": "test",
-                  "fallback": "Premium crafting material.",
+                  "fallback": "Allows crafting artisinal recipes.",
                   "color": "gray",
                   "italic": true
                 }
@@ -33,18 +31,25 @@
             },
             {
               "function": "minecraft:set_components",
-              "components": 
-              {
-                  "minecraft:rarity": "common",
-                  "minecraft:item_model": "minecraft:feather",              
-                  "minecraft:custom_model_data": {
-                    "floats": [5101028]
-                  }
+              "components": {
+                "minecraft:rarity": "common",
+                "minecraft:item_model": "minecraft:crafting_table",
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    5101041
+                  ]
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": [
+                    "tsurv.artisans_workbench.place"
+                  ]
+                }
               }
             },
             {
-                "function": "set_custom_data",
-                "tag": "{tsurv.scrab:1b}"
+              "function": "set_custom_data",
+              "tag": "{tsurv.artisans_workbench:1b}"
             }
           ]
         }

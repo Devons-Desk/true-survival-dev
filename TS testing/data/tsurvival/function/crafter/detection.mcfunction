@@ -1,2 +1,3 @@
-advancement revoke @s only tsurvival:utility/crafter/create_crafter
-execute as @e[type=#tsurvival:frames,distance=..8] at @s if items entity @s container.0 minecraft:written_book[minecraft:custom_data={tsurv.guide:1b}] if block ~ ~-1 ~ minecraft:crafting_table unless entity @e[tag=tsurv.crafter,distance=..1] run function tsurvival:crafter/create_crafter
+advancement revoke @s only tsurvival:utility/crafter/place
+say placed crafter
+execute as @e[type=minecraft:item_frame,distance=..8,tag=tsurv.artisans_workbench.place] at @s unless entity @e[tag=tsurv.crafter,distance=..1] run function tsurvival:crafter/create_crafter
