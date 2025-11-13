@@ -7,7 +7,7 @@
         "items": "minecraft:repeating_command_block",
         "components": {
           "minecraft:custom_data": {
-            "tsurv.order_form.mending": 1
+            "tsurv.order_form.efficiency": 1
           }
         }
       }

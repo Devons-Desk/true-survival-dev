@@ -1,0 +1,22 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "tsurvival:items/consumables/order_forms/mending"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "tsurvival:items/consumables/order_forms/unbreaking"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "tsurvival:items/consumables/order_forms/efficiency"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -10,5 +10,5 @@ tp @s @n[tag=tsurv.order_form.temp,type=minecraft:marker]
 kill @n[tag=tsurv.order_form.temp,type=minecraft:marker,distance=..3]
 
 ##
-item replace entity @p[tag=tsurv.order_form.used] weapon.mainhand with minecraft:air
+item replace entity @p[tag=tsurv.order_form.used,gamemode=survival,distance=..10] weapon.mainhand with minecraft:air
 tag @p[tag=tsurv.order_form.used,distance=..10] remove tsurv.order_form.used

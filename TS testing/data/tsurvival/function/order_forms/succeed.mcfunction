@@ -1,5 +1,5 @@
 say success
-
+execute if items entity @s saddle repeating_command_block run say repeating command block found
 
 function tsurvival:order_forms/branch/detection
 
