@@ -1,7 +1,8 @@
 advancement revoke @s only tsurvival:utility/custom_items/gilded_charm
-say used
-execute as @n[type=piglin,predicate=tsurvival:saddle_rc,tag=tsurv.gcharmed,distance=..10] at @s run function tsurvival:gilded_blackstone/charm/failure
+
 execute as @n[type=piglin,predicate=tsurvival:saddle_rc,tag=!tsurv.gcharmed,distance=..10] at @s run function tsurvival:gilded_blackstone/charm/succeed
+
+execute as @n[type=piglin,predicate=tsurvival:saddle_rc,tag=tsurv.gcharmed,distance=..10] at @s run function tsurvival:gilded_blackstone/charm/failure
 
 
 #tag @s add tsurv.gcharm.raycasting
